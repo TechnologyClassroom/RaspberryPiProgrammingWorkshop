@@ -11,20 +11,20 @@ The Pi is developed by the Raspberry Pi Foundation.  Their goal is ''to advance 
 
 Children buy $60 video games for expensive consoles each year.  What if they purchased a computer with that money instead?  They could take the same HDMI cable out of their video game system and plug it into a Raspberry Pi.
 
-<!-- INSERT DIAGRAM HERE-->
+<img src="https://www.element14.com/community/servlet/JiveServlet/showImage/102-80899-13-252356/Pi3+Breakout+Feb+29+2016.png"/>
 
 Breakdown of various available models of the Raspberry Pi
 
 Release Date | Original Price | Model | GPIO Pins | CPU
 ------| ----- | ----- |-----------|---------
-Feb 2016 | $35 | 3 B | 40 | ARMv8 64bit (quad core)
-Nov 2015 | $5 | Zero | 40 | ARMv6 (single core)
-Feb 2015 | $35 | 2 B | 40 | ARMv7 (quad core)
-Nov 2014 | $20 | 1 A+ | 40 | ARMv6 (single core)
-July 2014 | $25 | 1 B+ | 40 | ARMv6 (single core)
-Apr 2014 | $30 | Compute | 200 | ARMv6 (single core)
-Feb 2012 | $25 | 1 A | 26 | ARMv6 (single core)
-Feb 2012 | $35 | 1 B | 26 | ARMv6 (single core)
+Feb 2016 | $35 | 3 B | 40 | 1.2GHz ARMv8 64bit (quad core)
+Nov 2015 | $5 | Zero | 40 | 1.0GHz ARMv6 (single core)
+Feb 2015 | $35 | 2 B | 40 | 900MHz ARMv7 (quad core)
+Nov 2014 | $20 | 1 A+ | 40 | 700MHz ARMv6 (single core)
+July 2014 | $25 | 1 B+ | 40 | 700MHz ARMv6 (single core)
+Apr 2014 | $30 | Compute | 200 | 700MHz ARMv6 (single core)
+Feb 2012 | $25 | 1 A | 26 | 700MHz ARMv6 (single core)
+Feb 2012 | $35 | 1 B | 26 | 700MHz ARMv6 (single core)
 
 There are other SBCs (Single Board Computers) available.  The Raspberry Pi is not the best, but the Raspberry Pi is one of the cheapest and most popular boards.  Other SBCs include the <a href="http://www.parallella.org/board/">Parallella with 18 core processors</a>, <a href="https://www.olimex.com/Products/OlinuXino/">OLinuXino open source hardware boards</a>, <a href="http://www.lemaker.org/">Banana Pi developed by LeMaker</a>, <a href="http://nextthing.co/">C.H.I.P. the $9 base modular computer</a>, <a href="http://beagleboard.org/">Beagleboards</a>, and <a href="http://cubieboard.org/">Cubieboards</a>.  With anything popular in the open source community, higher numbers of people working on a projects yields more projects, tutorials, and development.  I started with the journey into single board computers with the Raspberry Pi model 1 B.
 

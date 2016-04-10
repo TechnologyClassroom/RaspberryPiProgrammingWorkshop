@@ -22,4 +22,4 @@ sudo apt-get install -y matchbox-keyboard
 sudo apt-get dist-upgrade -y
 
 # Add additional packages
-sudo apt-get install -y git xaos cowsay fortune bb libaa-bin caca-utils aview figlet sl telnet
+sudo apt-get install -y git xaos cowsay fortune bb libaa-bin caca-utils aview figlet sl telnet awesome
