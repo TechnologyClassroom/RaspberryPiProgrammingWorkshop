@@ -22,9 +22,5 @@ sudo apt-get install -y matchbox-keyboard
 sudo apt-get dist-upgrade -y
 
 # Add additional packages
-sudo apt-get install -y git xaos cowsay fortune bb feh libaa-bin caca-utils aview figlet sl telnet awesome xfonts-mona xfonts-terminus xfonts-100dpi xfonts-75dpi xfonts-base
-
-# Enable src repository for Debian Jessie
-sudo echo deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpi >> etc/apt/sources.list
-
+sudo apt-get install -y git xaos cowsay fortune bb feh libaa-bin caca-utils aview figlet sl telnet awesome xfonts-mona xfonts-terminus xfonts-100dpi xfonts-75dpi xfonts-base screenfetch
 
