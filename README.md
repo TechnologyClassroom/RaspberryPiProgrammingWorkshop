@@ -454,6 +454,7 @@ Check out thse resources:
   * <a href="https://github.com/processing/processing/wiki/Raspberry-Pi">Processing Raspberry Pi Wiki</a>
   * <a href="https://processing.org/">Processing home page - includes download links and documentation</a>
   * <a href="http://hello.processing.org/">Online interactive processing tutorial</a>
+  * <a href="http://hello.processing.org/gallery/">Gallery of examples from Hello.Processing</a>
   * <a href="http://cagewebdev.com/index.php/raspberry-pi-running-processing-on-your-raspi/">Installing Processing on the Raspberry Pi</a>
   * <a href="https://github.com/jdf/processing.py#python-mode-for-processing">Configuring Processing with the Python language.</a>
   * <a href="http://www.amazon.com/Make-Getting-Processing-Casey-Reas/dp/144937980X">Make: Getting Started with Processing</a>
