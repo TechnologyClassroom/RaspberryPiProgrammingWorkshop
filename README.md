@@ -332,7 +332,7 @@ Since pygame depends on Python, the correct version of Python would also be inst
 
   * Mac Installation Instructions
 
-Download <a href="https://www.python.org/ftp/python/2.7.11/python-2.7.11-macosx10.6.pkg">Python</a> and <a href="http://pygame.org/ftp/pygame-1.9.1release-python.org-32bit-py2.7-macosx10.3.dmg">pygame</a>.  Install Python and then install pygame.
+Download <a href="https://www.python.org/ftp/python/2.7.10/python-2.7.10-macosx10.5.pkg">Python</a> and <a href="http://pygame.org/ftp/pygame-1.9.1release-python.org-32bit-py2.7-macosx10.3.dmg">pygame</a>.  Install Python and then install pygame.  Note: I am purposefully linking to an older release of Python 2.7.
 
   * Windows Installation Instructions
 
