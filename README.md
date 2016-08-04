@@ -28,11 +28,11 @@ Feb 2012 | $35 | 1 B | 26 | 700MHz ARMv6 (single core)
 
 There are other SBCs (Single Board Computers) available.  The Raspberry Pi is not the best, but the Raspberry Pi is one of the cheapest and most popular boards.  Other SBCs include the <a href="http://www.parallella.org/board/">Parallella with 18 core processors</a>, <a href="https://www.olimex.com/Products/OlinuXino/">OLinuXino open source hardware boards</a>, <a href="http://www.lemaker.org/">Banana Pi developed by LeMaker</a>, <a href="http://nextthing.co/">C.H.I.P. the $9 base modular computer</a>, <a href="http://beagleboard.org/">Beagleboards</a>, and <a href="http://cubieboard.org/">Cubieboards</a>.  With anything popular in the open source community, higher numbers of people working on a projects yields more projects, tutorials, and development.  I started with the journey into single board computers with the Raspberry Pi model 1 B.
 
-<a href="http://michaelbluejay.com/electricity/computers.html">A typical desktop computer without a monitor consumes 200 W 800 mA.  If you were to leave a full computer running all day for a year, you would be using 1752 kilowatt-hours or about $630 on your electric bill.</a>  A 5 W Raspberry Pi running all day for a year would use 43.8 kilowatt-hours or about $15.  This makes a large environmental difference for long-term projects like hosting a web server or opening your garage when your phone comes within range.
+Electricity efficiency: <a href="http://michaelbluejay.com/electricity/computers.html">A typical desktop computer without a monitor consumes 200 W 800 mA.  If you were to leave a full computer running all day for a year, you would be using 1752 kilowatt-hours or about $630 on your electric bill.</a>  A 5 W Raspberry Pi running all day for a year would use 43.8 kilowatt-hours or about $15.  This makes a large environmental difference for long-term projects like hosting a web server or opening your garage when your phone comes within range.
 
 That is the price for the board.  What about all of the extra things you need to make it work?  I made a shopping cart at the Brooklyn New York Micro Center page with everything I would buy for one.
 
-  * $29.99 RS Raspberry Pi 2 Model B
+  * $29.99 RS Raspberry Pi 3 Model B
   *  $7.99 QVS Micro-USB Power Supply for Raspberry Pi B with Built-in 4ft Cable - 2 Amp
   *  $7.99 Inland Pro Wired Optical Mouse and Keyboard Combo
   *  $8.99 Trendnet Mini Wireless N Speed USB Adapter
@@ -44,6 +44,8 @@ That is the price for the board.  What about all of the extra things you need to
   * $77.24 Grand Total
 
 Some of these items are commonly lying around already.  Cheaper prices can be found at other online stores, thrift stores, and garage sales.  Two things that I did not include are a case and a screen to plug the HDMI into.  Legos or a <a href="http://www.thingiverse.com/search?q=raspberry+pi&sa=">3D printer</a> can be used to build a case.  TVs are almost everywhere.
+
+Another ready to go option is <a href="https://www.pi-top.com/">the pi-top for $300 or the pi-topCEED for $150</a> which are Raspberry Pi workstations that include monitors.
 
 IMPORTANT NOTE: Wireless adapters do not always work.  Some brands work very well and others require extra work to use them.  After doing too much of the extra work, I always look up the chipset of compatible wireless cards BEFORE I buy a new one.  Atheros chipsets are nearly always compatible.  The packaging rarely says the name of the chipset so you always have to <a href="https://wikidevi.com/wiki/List_of_Wi-Fi_Device_IDs_in_Linux">look it up</a>.
 
