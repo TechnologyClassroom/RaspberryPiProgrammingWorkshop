@@ -26,7 +26,7 @@ Apr 2014 | $30 | Compute | 200 | 700MHz ARMv6 (single core)
 Feb 2012 | $25 | 1 A | 26 | 700MHz ARMv6 (single core)
 Feb 2012 | $35 | 1 B | 26 | 700MHz ARMv6 (single core)
 
-There are other SBCs (Single Board Computers) available.  The Raspberry Pi is not the best, but the Raspberry Pi is one of the cheapest and most popular boards.  Other SBCs include the <a href="http://www.parallella.org/board/">Parallella with 18 core processors</a>, <a href="https://www.olimex.com/Products/OlinuXino/">OLinuXino open source hardware boards</a>, <a href="http://www.lemaker.org/">Banana Pi developed by LeMaker</a>, <a href="http://nextthing.co/">C.H.I.P. the $9 base modular computer</a>, <a href="http://beagleboard.org/">Beagleboards</a>, and <a href="http://cubieboard.org/">Cubieboards</a>.  With anything popular in the open source community, higher numbers of people working on a projects yields more projects, tutorials, and development.  I started with the journey into single board computers with the Raspberry Pi model 1 B.
+There are other SBCs (Single Board Computers) available.  The Raspberry Pi is not the best, but the Raspberry Pi is one of the cheapest and most popular boards.  Other SBCs include <a href="https://www.crowdsupply.com/eoma68/micro-desktop">OEMA68</a>, <a href="http://www.parallella.org/board/">Parallella with 18 core processors</a>, <a href="https://www.olimex.com/Products/OlinuXino/">OLinuXino</a>, <a href="http://www.lemaker.org/">Banana Pi</a>, <a href="http://nextthing.co/">C.H.I.P. the $9 base modular computer</a>, <a href="http://beagleboard.org/">Beagleboards</a>, and <a href="http://cubieboard.org/">Cubieboards</a>.  With anything popular in the open source community, higher numbers of people working on a projects yields more projects, tutorials, and development.  I started with the journey into single board computers with the Raspberry Pi model 1 B.
 
 Electricity efficiency: <a href="http://michaelbluejay.com/electricity/computers.html">A typical desktop computer without a monitor consumes 200 W 800 mA.  If you were to leave a full computer running all day for a year, you would be using 1752 kilowatt-hours or about $630 on your electric bill.</a>  A 5 W Raspberry Pi running all day for a year would use 43.8 kilowatt-hours or about $15.  This makes a large environmental difference for long-term projects like hosting a web server or opening your garage when your phone comes within range.
 
@@ -108,6 +108,8 @@ I would love to teach everyone to program in a day.  That is not possible.  I ca
 
 I will be using Python for these examples.  Python is an easy-to-read, beginner programming language that can do almost anything with extra libraries.  Libraries expand the functionality of a language by adding more functions, APIs (application program interfaces), and features.
 
+NOTE: While learning, try to debug and follow all errors.  The error should give line numbers.  Check that line, if it leads to another function, check that function.  Google the error if that does not help.  Replace the file with the original if all else fails.
+
 I will be using many terminal commands.  It is dangerous to take the word of a stranger on the Internet when dealing with terminal commands.  GNU/Linux has some built in documentation.  You will need the Internet to find most information and tutorials, but the built-in documentationation helps as a quick reference.  You can use the ''man'' command to look up information about a command.  To find information on using the ''ls'' command, try this in a terminal:
 
     man ls
@@ -124,6 +126,10 @@ Now we can access the interactive help menu with this command:
 
     help()
 
+Quit the interactive help menu with this command:
+
+    quit
+
 Quit interactive Python with this function:
 
     quit()
@@ -136,7 +142,9 @@ You can teach yourself the basics of Python with an interactive website at:
 
 http://www.codecademy.com/tracks/python
 
-I highly recommend the codecademy free resources after this workshop.  Spend at least 15 minutes each day on codecademy when teaching yourself a new programming language. Codecademy is the easiest way to learn the syntax of a programming language.  You can log in to save your progress using Facebook, Google, or make a new account.  That is how I started learning Python.  When I thought I was familiar enough with the Python syntax to make my own programs, I used google, stackoverflow.com, and other websites to make new programs of my own.
+I highly recommend the codecademy free resources after this workshop.  Spend at least 15 minutes each day on codecademy when teaching yourself a new programming language.  Codecademy is the easiest way to learn the syntax of a programming language.  You can log in to save your progress using Facebook, Google, or make a new account.  That is how I started learning Python.  When I thought I was familiar enough with the Python syntax to make my own programs, I used google, stackoverflow.com, and other websites to make new programs of my own.
+
+It is about a 13 hour course, but doing 2-4 hours will be enough to get you familiar with the basics of the language and the syntax.  You can use google-fu and extra modules to script more after a few hours on codecademy.
 
 
 
@@ -364,12 +372,41 @@ More tutorials for pygame can be found at:
 
 www.pygame.org/wiki/tutorials
 
+Beginner:
+Download Al's games from http://inventwithpython.com/makinggames_src.zip
+Unzip them and play a bit. Then, open a file that ends in .py in a text editor or IDLE, change variables, save it, and test it out by playing the game again.
 
+Intermediate:
+Change a game from inventwithpython, http://www.pygame.org/, or https://pyweek.org/ into something that looks completely different from the original with different game mechanics.  Since you're making bigger changes, save your work with a new file name.
+
+A simple example of this is TheGameThatMarioBeat2.py based on code from wormy.py
+https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/TheGameThatMarioBeat2.py
+
+Mastery:
+Build your own game starting with a blank document using python and pygame using the internal documentation for python and pygame and the python and pygame websites.
+
+Fat Math Three is a cool choose-your-own-adventure with a math game mechanic found at:
+https://pyweek.org/e/fat_math_three/
+
+
+# Photo Editing
+
+To add your own images to games, you need to use a photo editor.  GIMP (the GNU Image Manipulation Program) is free and open source and works on the Raspberry Pi 3, GNU/Linux, Mac, and Windows.
+
+The default layout has three windows (tools, image, and layers) and can be confusing to young kids.  On the menu bar, choose Window and "Single-Window Mode" to make it easier to navigate.
+
+Beginner:
+To familiarize yourself with it, take an image from PyGame or Ren'Py and make some changes to it.  Export it into the same format and test the python script to make sure it works.
+
+Intermediate:
+Use a picture from the Internet.  If you are planning on using the image for a public project, make sure you have the right to reuse the image.  Bring the image into GIMP.  In the layers panel, right click on the image layer and choose "Add Alpha Channel" which adds the ability to have a transparent background.  Crop the character, sprite, or object so that everything else is a checkerboard pattern.  Save it as a png file.  Try using this png with python in a pygame activity.  You could also take a photo of yourself with a camera, open the photo with GIMP, crop your body or face so that the background is transparent, save the image, and test with python.
 
 
 # Minecraft: Pi Edition
 
-Minecraft is the best selling game of all time.  Mojang (the original developer of Minecraft) wrote a version specifically for the Raspberry Pi.  They gave it alway for free in hopes of teaching youth programming.  Python and java modules accompany the game.  They are already installed on Raspbian.
+Minecraft is the best selling game of all time.  Mojang (the original developer of Minecraft) wrote a version specifically for the Raspberry Pi.  Mojang gave it alway for free in hopes of teaching youth programming.  Python and java modules accompany the game.  Minecraft: Pi Edition and the python and java modules are already installed on Raspbian.
+
+NOTE: Minecraft: Pi Edition only works for the Raspberry Pi's CPU architecture ARM.  Since the game itself is not open source, it cannot be recompiled for other computers.  To work with Minecraft: Pi Edition on a 32 or 64 bit CPU architecture, you have to emulate a Raspberry Pi with something like QEMU (more on that in the projects section).
 
 Start up Minecraft: Pi Edition.
 
@@ -409,18 +446,23 @@ Open up leafpad to code in a text file, or type ''python'' into the terminal to 
 
 If you typed this into a file, save it as minecrafthack.py and run it with ''python minecrafthack.py''
 
-Something is not right.  We will have to fix it.  We will add more while we are at it.
+Something is not right.  We will have to fix it.  See if you can fix my capital M.
+
+See if you can write your entire name.
+
+There are other projects that can be found elsewhere like the interactive photo booth, giant clock, and more.
 
 <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/minecrafthack.py">minecrafthack.py code</a>
 
 This is only the beginning of what can be done.  Check out these links for more Minecraft projects with the pi.
-  * <a href="http://www.stuffaboutcode.com/p/minecraft.html">An overview about Minecraft Pi programming with links</a>
+* <a href="https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet/">Raspberry Pi webpage about Minecraft: Pi Edition</a>
+* <a href="http://www.stuffaboutcode.com/p/minecraft-api-reference.html">Minecraft Pi api reference</a>  
+* <a href="http://www.stuffaboutcode.com/p/minecraft.html">An overview about Minecraft Pi programming with links</a>
   * <a href="http://www.stuffaboutcode.com/2013/06/programming-minecraft-with-bukkit.html">How to connect Python to regular Minecraft using bukkit server</a>
   * <a href="http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.html">How to connect Python to regular Minecraft using canary server</a>
   * <a href="https://github.com/raspberrypilearning/getting-started-with-minecraft-pi">Getting started with Minecraft: Pi</a>
   * <a href="https://github.com/martinohanlon/minecraft-clock">Working clock project for Minecraft Pi</a>
   * <a href="https://github.com/martinohanlon">Other projects from that programmer/author Martin</a>
-  * <a href="http://www.stuffaboutcode.com/p/minecraft-api-reference.html">Minecraft Pi api reference</a>
   * <a href="http://pi.minecraft.net/">Minecraft: Pi Edition home page - the api has been updated since then</a>
   * <a href="http://www.amazon.com/Adventures-Minecraft-David-Whale/dp/111894691X/">Book - Adventures in Minecraft</a>
   * <a href="http://www.amazon.com/Learn-Program-Minecraft-Transform-Python/dp/1593276702/">Book - Learn to Program with Minecraft: Transform Your World with the Power of Python</a>
@@ -663,6 +705,11 @@ http://www.zdnet.com/article/build-your-own-supercomputer-out-of-raspberry-pi-bo
 <a href="http://www.southampton.ac.uk/mediacentre/features/raspberry_pi_supercomputer.shtml">64 Raspberry Pi Cluster</a>
 
 <a href="http://www.gchq.gov.uk/press_and_media/news_and_features/Pages/GCHQs-Raspberry-Pi-Bramble.aspx">GCHQ's 66 Raspberry Pi Cluster</a>
+
+
+  * Participate with an open source project
+
+Another great way to get more experience is to find a python script on github, make a github account, and fork the project.  To fork a project, you can take someone else's program, make changes, and make it your own; or you can make a change, and submit the change back to the original project.  Even changing a simple grammar mistake is a great first move.
 
 
 
