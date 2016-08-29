@@ -388,6 +388,9 @@ Build your own game starting with a blank document using python and pygame using
 Fat Math Three is a cool choose-your-own-adventure with a math game mechanic found at:
 https://pyweek.org/e/fat_math_three/
 
+Video tutorial series from TheNewBoston
+https://thenewboston.com/videos.php?cat=120
+
 
 # Photo Editing
 
