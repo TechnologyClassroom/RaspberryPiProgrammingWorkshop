@@ -709,6 +709,8 @@ http://www.zdnet.com/article/build-your-own-supercomputer-out-of-raspberry-pi-bo
 
 <a href="http://www.gchq.gov.uk/press_and_media/news_and_features/Pages/GCHQs-Raspberry-Pi-Bramble.aspx">GCHQ's 66 Raspberry Pi Cluster</a>
 
+<a href="http://blog.alexellis.io/pizero-otg-swarm/">Pi Zero OTG Cluster</a>
+
 
   * Participate with an open source project
 
