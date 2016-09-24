@@ -51,10 +51,10 @@ sudo apt-get install -y tightvncserver
 sudo apt-get install -y xtightvncviewer
 # Web browsers
 sudo apt-get install -y firefox-esr
-sudo apt-get install -y lynx
+sudo apt-get install -y lynx # CLI browser
 sudo apt-get install -y midori # Lightweight web browser
 sudo apt-get install -y youtube-dl
-sudo apt-get install -y w3m
+sudo apt-get install -y w3m # CLI browser
 
 # Backup python_games
 cd ~
