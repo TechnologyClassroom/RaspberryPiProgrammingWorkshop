@@ -18,15 +18,19 @@ sudo apt-get install -y python-rpi.gpio
 # Install Processing
 wget https://processing.org/download/install-arm.sh
 sudo sh install-arm.sh
-# sudo aptitude remove libgles1-mesa libgles2-mesa # Uncomment the beginning of this line to enable P3D.
+# sudo aptitude remove libgles1-mesa libgles2-mesa # Uncomment the beginning of this line to enable P3D.  This disables compatibility with other programs such as mplayer.
 
 # Install additional packages
 sudo apt-get install -y awesome # Awesome Window Manager
 sudo apt-get install -y fortune
 sudo apt-get install -y git
+sudo apt-get install -y key-mon # Presentation keyboard and mouse actions
+sudo apt-get install -y libav-tools # avconv
+sudo apt-get install -y screenkey # Presentation keyboard actions
 sudo apt-get install -y matchbox-keyboard # On-screen keyboard for optional touch support
 sudo apt-get install -y synaptic # GUI for apt-get enables scrolling and searching through available programs
 sudo apt-get install -y telnet
+sudo apt-get install -y xdotool # Automate keystrokes and mouse actions through bash scripts
 # Ascii Art
 sudo apt-get install -y aview
 sudo apt-get install -y bb
