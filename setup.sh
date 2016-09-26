@@ -21,16 +21,11 @@ sudo sh install-arm.sh
 # sudo aptitude remove libgles1-mesa libgles2-mesa # Uncomment the beginning of this line to enable P3D.  This disables compatibility with other programs such as mplayer.
 
 # Install additional packages
-sudo apt-get install -y awesome # Awesome Window Manager
 sudo apt-get install -y fortune
 sudo apt-get install -y git
-sudo apt-get install -y key-mon # Presentation keyboard and mouse actions
-sudo apt-get install -y libav-tools # avconv
-sudo apt-get install -y screenkey # Presentation keyboard actions
 sudo apt-get install -y matchbox-keyboard # On-screen keyboard for optional touch support
 sudo apt-get install -y synaptic # GUI for apt-get enables scrolling and searching through available programs
 sudo apt-get install -y telnet
-sudo apt-get install -y xdotool # Automate keystrokes and mouse actions through bash scripts
 # Ascii Art
 sudo apt-get install -y aview
 sudo apt-get install -y bb
@@ -46,10 +41,21 @@ sudo apt-get install -y xfonts-base
 sudo apt-get install -y xfonts-mona
 sudo apt-get install -y xfonts-terminus
 sudo apt-get install -y xaos
+# Automation
+#sudo apt-get install -y ansible
+#sudo apt-get install -y italc-client
+#sudo apt-get install -y italc-master
+#sudo apt-get install -y puppet
+#sudo apt-get install -y puppetmaster
+sudo apt-get install -y xdotool # Automate keystrokes and mouse actions through bash scripts
 # Graphic Design
 sudo apt-get install -y feh
 sudo apt-get install -y gimp
 sudo apt-get install -y imagemagick
+sudo apt-get install -y libav-tools # avconv
+# Presentation aids
+sudo apt-get install -y key-mon # Presentation keyboard and mouse actions
+sudo apt-get install -y screenkey # Presentation keyboard actions
 # VNC
 sudo apt-get install -y tightvncserver
 sudo apt-get install -y xtightvncviewer
@@ -59,6 +65,8 @@ sudo apt-get install -y lynx # CLI browser
 sudo apt-get install -y midori # Lightweight web browser
 sudo apt-get install -y youtube-dl
 sudo apt-get install -y w3m # CLI browser
+# Window Managers
+sudo apt-get install -y awesome # Awesome Window Manager
 
 # Backup python_games
 cd ~
