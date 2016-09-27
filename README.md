@@ -1,9 +1,9 @@
-# [Raspberry Pi Programming Workshop](#RaspberryPiProgrammingWorkshop)
+# [Raspberry Pi Programming Workshop](#raspberrypiprogrammingworkshop)
 
 RPiPW = resources + notes + code samples for a workshop introducing the Raspberry Pi as a beginner's programming environment
 
 
-# The Raspberry Pi
+# [The Raspberry Pi](#the-raspberry-pi)
 
 The Raspberry Pi is a low-cost, low-power single board computer the size of a credit card.  With a low price point and advanced software, it is a great tool to teach youth electronics and programming.
 
@@ -52,7 +52,7 @@ IMPORTANT NOTE: Wireless adapters do not always work.  Some brands work very wel
 
 
 
-# Operating Systems for Raspberry Pi
+# [Operating Systems for the Raspberry Pi](#operating-systems-for-the-raspberry-pi)
 
 There are many different operating systems available for the Raspberry Pi.  My personal favorite is <a href="http://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2">Arch for Arm</a> as it is the fastest operating system for the Pi that I am aware of.  For this tutorial, I will use Raspbian because it contains software to get started, has excellent community support, and most project tutorials use Raspbian as a starting point.
 <br><br>
@@ -63,7 +63,7 @@ Other operating systems to note are <a href="http://fedberry.org/">Fedberry</a>,
 
 
 
-# Installing Raspbian via NOOBS
+# [Installing Raspbian via NOOBS](#installing-raspbian-via-noobs)
 
 The Raspberry Pi usually does not come with an operating system or storage.  You run the operating system from a microSD.  If you have never installed or experimented with GNU/Linux before, use NOOBS.  It was made to be as easy as possible.  If you mess it up, hold shift while you boot and reinstall.
 
@@ -84,7 +84,7 @@ If copying files to a microSD card is too daunting of a task, preinstalled cards
 
 
 
-# Software Repositories
+# [Software Repositories](#software-repositories)
 
 Every GNU/Linux distribution has a set of software that can be installed for free called a repository.  The App Store and Google Play store were based on the concept of a repository.  All of your software can be installed and updated from one central place.  To get a visual glipse of the repository, I like to use a program called ''synaptic''.
 
@@ -102,7 +102,7 @@ Open synaptic, click the update button to get the latest list of programs, and t
 
 
 
-# Introduction to Programming
+# [Introduction to Programming](#introduction-to-programming)
 
 I would love to teach everyone to program in a day.  That is not possible.  I can show you some cool things you can do with programming.  I can tell you how to learn more.  You will have to do more on your own, practice, find a project that you can work on during your spare time, search for solutions, read code and tutorials, communicate with other programmers, ask questions, and have fun making new things.
 
@@ -148,7 +148,7 @@ It is about a 13 hour course, but doing 2-4 hours will be enough to get you fami
 
 
 
-# Hello, world!
+# [Hello, world!](#hello-world)
 
 Hello, world! is traditionally the first program that anyone writes when tackling a new programming language.  It is a simple program that says, "Hello," to the world.
 
@@ -190,7 +190,7 @@ You wrote your first program!  Now, we will get to the good stuff.
 
 
 
-# Infinite Loops
+# [Infinite Loops](#infinite-loops)
 
 I believe that infinite loops are one of the most exciting concepts in computer science.  A ''normal'' programming book will hold out on this information until much later.  I like to give away some spoilers.
 
@@ -235,7 +235,7 @@ Programming may seem like a lot of typing at first, but it allows you to type le
 
 
 
-# GPIO General Purpose Input/Output
+# [GPIO General Purpose Input/Output](#gpio-general-purpose-input-output)
 
 If you have ever used an Arduino, you are already familiar with input/output pins.  These can be programmed and linked to other components to build custom circuits.  The Pi A & B have 26 pins.  The Pi A+, B+, 2 B, Zero, and 3 B have 40 pins.  The Pi Compute Module has 200 pins.
 
@@ -316,7 +316,7 @@ For more information about projects using the Raspberry Pi's GPIO, check out the
 
 
 
-# Python and pygame
+# [Python and pygame](#python-and-pygame)
 
 Raspbian comes bundled with some games written in Python.  I like to use these games as a starting point when teaching kids about programming in Python.  The programs are small enough that you can read them in one sitting, and they are very well commented.  Comments are lines that start with ''#'' and are ignored by the computer.
 
@@ -392,7 +392,7 @@ Video tutorial series from TheNewBoston
 https://thenewboston.com/videos.php?cat=120
 
 
-# Photo Editing
+# [Photo Editing](#photo-editing)
 
 To add your own images to games, you need to use a photo editor.  GIMP (the GNU Image Manipulation Program) is free and open source and works on the Raspberry Pi 3, GNU/Linux, Mac, and Windows.
 
@@ -405,7 +405,7 @@ Intermediate:
 Use a picture from the Internet.  If you are planning on using the image for a public project, make sure you have the right to reuse the image.  Bring the image into GIMP.  In the layers panel, right click on the image layer and choose "Add Alpha Channel" which adds the ability to have a transparent background.  Crop the character, sprite, or object so that everything else is a checkerboard pattern.  Save it as a png file.  Try using this png with python in a pygame activity.  You could also take a photo of yourself with a camera, open the photo with GIMP, crop your body or face so that the background is transparent, save the image, and test with python.
 
 
-# Minecraft: Pi Edition
+# [Minecraft: Pi Edition](#minecraft-pi-edition)
 
 Minecraft is the best selling game of all time.  Mojang (the original developer of Minecraft) wrote a version specifically for the Raspberry Pi.  Mojang gave it alway for free in hopes of teaching youth programming.  Python and java modules accompany the game.  Minecraft: Pi Edition and the python and java modules are already installed on Raspbian.
 
@@ -473,7 +473,7 @@ This is only the beginning of what can be done.  Check out these links for more 
 
 
 
-# Looping GPIO with Minecraft
+# [Looping GPIO with Minecraft](#looping-gpio-with-minecraft)
 
 Programming Python, loops, GPIO, and Minecraft is all cool, but can we combine them?  Yes.  Here are two example scripts:
 
@@ -484,18 +484,20 @@ Programming Python, loops, GPIO, and Minecraft is all cool, but can we combine t
 
 
 
-# Processing
+# [Processing](#processing)
 
-Processing is a programming language about making visuals.  Processing is geared towards making interactive drawings with code.  It works on Android, iOS, GNU/Linux, Mac, and Windows.  Drawings can be generated from mouse movements, music frequencies, GPIO inputs, or web apis.  Processing is one of the easiest languages to learn.  Processing uses java syntax.  You can also use javascript live on webpages through processing.js.  Python syntax can also be used if enabled.
+Processing is a programming language about making visuals.  Processing is geared towards making interactive drawings with code.  It works on Android, iOS, GNU/Linux, Mac, and Windows.  Drawings can be generated from mouse movements, music frequencies, GPIO inputs, or web apis.  Processing is one of the easiest languages to learn.  Processing uses java syntax.  You can also use javascript live on webpages through p5.js.  Python syntax can also be used if enabled.
 
 To install processing on the Raspberry Pi, run these two commands:
 
     wget https://processing.org/download/install-arm.sh
     sudo sh install-arm.sh
 
-There is a bug in the latest versions of Raspbian (at the time of this writing) and this command will fix it:
+If you want to use P3D, this command will fix a bug in the latest versions of Raspbian (at the time of this writing):
 
     sudo aptitude remove libgles1-mesa libgles2-mesa
+
+My processing examples can be found at my <a href="https://github.com/TechnologyClassroom/Processing">Processing github</a>.
 
 Check out thse resources:
   * <a href="https://github.com/processing/processing/wiki/Raspberry-Pi">Processing Raspberry Pi Wiki</a>
@@ -509,20 +511,20 @@ Check out thse resources:
 
 
 
-# Computer Vision: opencv-python and simplecv
+# [Computer Vision: opencv-python and simplecv](#computer-vision-opencv-python-and-simplecv)
 
 I will not demonstrate Computer Vision, but I have to mention it.  ''opencv'' allows you to program the sense of sight.  Analyze photos, video, or live feeds and make decisions based on what you "see."  It is a very powerful module for Python.  ''simplecv'' makes it much easier to write programs.  OpenCV is a framework that works on top of C++ or Python.
 
 For more information:
   * <a href="http://simplecv.org/">simplcv</a>
   * <a href="http://opencv.org/">OpenCV</a>
-  * <a href="http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html>opencv-python tutorials</a>
+  * <a href="http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html">opencv-python tutorials</a>
   * <a href="http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf">FREE Programming Computer Vision with Python</a>
 
 
 
 
-# Projects
+# [Projects](#projects)
 
   * Raspberry Pirate Radio
 
@@ -719,7 +721,7 @@ Another great way to get more experience is to find a python script on github, m
 
 
 
-# Problems and Solutions That Worked For Me
+# [Problems and Solutions That Worked For Me](#problems-and-solutions-that-worked-for-me)
 
 This section is not a comprehensive troubleshooter for a Raspberry Pi, but it gives some examples of the problem solving skills that will be beneficial to your journey into microcomputers.  When I bought my model B, a lot of problems had not been worked out.  Compromises, workarounds, and hacks had to be implemented to accomplish some goals.  Many of these problems have been solved with the new line of Raspberry Pis including the A+, B+, 2 B, Zero, and 3 B.
 
@@ -758,7 +760,7 @@ Desktop computers typically have a coin sized battery attached to the motherboar
 
 
 
-# Raspberry Pi Giveaway
+# [Raspberry Pi Giveaway](#raspberry-pi-giveaway)
 
 I will pick an almost random number using Python.  Everyone gets a number 0 - n.
 
@@ -768,12 +770,12 @@ I will pick an almost random number using Python.  Everyone gets a number 0 - n.
 
 The winner gets a Raspberry Pi!
 
-If you did not win, you can probably buy the one I did this presentation with at cost.
+If you did not win, you can buy the one I did this presentation with at cost.
 
 
 
 
-# Resources
+# [Resources](#resources)
 
 Here are websites and books for everything you ever wanted to know about the Raspberry Pi and Python:
 
@@ -843,5 +845,7 @@ Python Books
 This guide was made with a laptop running GNU/Linux, various Raspberry Pi models, and countless hours of volunteer work and tinkering from open source programmers.
 
 Python is one of the most fun programming languages.  Remember to have fun with it and follow your imagination.
+
+<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#raspberrypiprogrammingworkshop">back to top</a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
