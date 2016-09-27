@@ -29,7 +29,7 @@ RPiPW = resources + notes + code samples for a workshop introducing the Raspberr
 
 
 
-# [The Raspberry Pi](#the-raspberry-pi)
+# [The Raspberry Pi](#the-raspberry-pi) <!-- Separate this section into more sections: buying and connecting -->
 
 The Raspberry Pi is a low-cost, low-power single board computer the size of a credit card.  With a low price point and advanced software, it is a great tool to teach youth electronics and programming.
 
