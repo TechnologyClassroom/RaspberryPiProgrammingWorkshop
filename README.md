@@ -816,8 +816,8 @@ If you did not win, you can buy the one I did this presentation with at cost.
 
 
 # [Resources](#resources)
-
-Here are websites and books for everything you ever wanted to know about the Raspberry Pi and Python:
+<!-- #resources link does not page all the way down -->
+This section contains websites and books for everything you ever wanted to know about the Raspberry Pi, GNU/Linux, Python, Processing, and Computer Vision.
 
 Raspberry Pi Links:
   * http://elinux.org/RPi_Hub
