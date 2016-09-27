@@ -3,6 +3,32 @@
 RPiPW = resources + notes + code samples for a workshop introducing the Raspberry Pi as a beginner's programming environment
 
 
+
+
+# [Table of Contents](#toc)
+
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#the-raspberry-pi">The Raspberry Pi</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#operating-systems-for-the-raspberry-pi">Operating Systems for the Raspberry Pi</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#installing-raspbian-via-noobs">Installing Raspbian via NOOBS</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#software-repositories">Software Repositories</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#introduction-to-programming">Introduction to Programming</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#hello-world">Hello, world!</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#infinite-loops">Infinite Loops</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#gpio-general-purpose-input-output">GPIO: General Purpose Input/Output</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#python-and-pygame">Python and pygame</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#photo-editing">Photo Editing</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#minecraft-pi-edition">Minecraft: Pi Edition</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#looping-gpio-with-minecraft">Looping GPIO with Minecraft</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#processing">Processing</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#computer-vision-opencv-python-and-simplecv">Computer Vision: opencv-python and SimpleCV</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#projects">Projects</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#problems-and-solutions-that-worked-for-me">Problems and Solutions That Worked for Me</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#raspberry-pi-giveaway">Raspberry Pi Giveaway</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources</a>
+
+
+
+
 # [The Raspberry Pi](#the-raspberry-pi)
 
 The Raspberry Pi is a low-cost, low-power single board computer the size of a credit card.  With a low price point and advanced software, it is a great tool to teach youth electronics and programming.
@@ -235,7 +261,7 @@ Programming may seem like a lot of typing at first, but it allows you to type le
 
 
 
-# [GPIO General Purpose Input/Output](#gpio-general-purpose-input-output)
+# [GPIO: General Purpose Input/Output](#gpio-general-purpose-input-output)
 
 If you have ever used an Arduino, you are already familiar with input/output pins.  These can be programmed and linked to other components to build custom circuits.  The Pi A & B have 26 pins.  The Pi A+, B+, 2 B, Zero, and 3 B have 40 pins.  The Pi Compute Module has 200 pins.
 
@@ -721,7 +747,7 @@ Another great way to get more experience is to find a python script on github, m
 
 
 
-# [Problems and Solutions That Worked For Me](#problems-and-solutions-that-worked-for-me)
+# [Problems and Solutions That Worked for Me](#problems-and-solutions-that-worked-for-me)
 
 This section is not a comprehensive troubleshooter for a Raspberry Pi, but it gives some examples of the problem solving skills that will be beneficial to your journey into microcomputers.  When I bought my model B, a lot of problems had not been worked out.  Compromises, workarounds, and hacks had to be implemented to accomplish some goals.  Many of these problems have been solved with the new line of Raspberry Pis including the A+, B+, 2 B, Zero, and 3 B.
 
