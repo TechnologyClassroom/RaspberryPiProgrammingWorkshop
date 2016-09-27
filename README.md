@@ -550,27 +550,16 @@ Draw with squares, ellipses, and triangles.  Shapes have random fill color, stro
 
 The code for my processing examples can be found at my <a href="https://github.com/TechnologyClassroom/Processing">Processing github</a>.
 
-Check out thse resources:
-  * <a href="https://github.com/processing/processing/wiki/Raspberry-Pi">Processing Raspberry Pi Wiki</a>
-  * <a href="https://processing.org/">Processing home page - includes download links and documentation</a>
-  * <a href="http://hello.processing.org/">Online interactive processing tutorial</a>
-  * <a href="http://hello.processing.org/gallery/">Gallery of examples from Hello.Processing</a>
-  * <a href="http://cagewebdev.com/index.php/raspberry-pi-running-processing-on-your-raspi/">Installing Processing on the Raspberry Pi</a>
-  * <a href="https://github.com/jdf/processing.py#python-mode-for-processing">Configuring Processing with the Python language.</a>
-  * <a href="http://www.amazon.com/Make-Getting-Processing-Casey-Reas/dp/144937980X">Make: Getting Started with Processing</a>
+To learn more, check out the <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources section</a>.
 
 
 
 
 # [Computer Vision: opencv-python and simplecv](#computer-vision-opencv-python-and-simplecv)
 
-I will not demonstrate Computer Vision, but I have to mention it.  ''opencv'' allows you to program the sense of sight.  Analyze photos, video, or live feeds and make decisions based on what you "see."  It is a very powerful module for Python.  ''simplecv'' makes it much easier to write programs.  OpenCV is a framework that works on top of C++ or Python.
+I will not demonstrate Computer Vision, but I have to mention it.  ''opencv'' allows you to program the sense of sight.  Analyze photos, video, or live feeds and make decisions based on what you "see."  It is a very powerful module for Python.  ''simplecv'' makes it much easier to write programs.  OpenCV is a framework that works on top of C++, Java or Python.
 
-For more information:
-  * <a href="http://simplecv.org/">simplcv</a>
-  * <a href="http://opencv.org/">OpenCV</a>
-  * <a href="http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html">opencv-python tutorials</a>
-  * <a href="http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf">Free PDF book: Programming Computer Vision with Python</a>
+To learn more, check out the <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources section</a>.
 
 
 
@@ -830,7 +819,7 @@ If you did not win, you can buy the one I did this presentation with at cost.
 
 Here are websites and books for everything you ever wanted to know about the Raspberry Pi and Python:
 
-Raspberry Pi Links
+Raspberry Pi Links:
   * http://elinux.org/RPi_Hub
   * http://www.raspberrypi.org/
   * http://www.reddit.com/r/raspberry_pi/
@@ -850,19 +839,9 @@ Raspberry Pi Links
   * http://www.recantha.co.uk/blog/
   * http://raspifeed.com/
   * https://www.reddit.com/r/picases
+  * <a href="https://www.oreilly.com/ideas/using-your-maker-skills-to-survive-a-zombie-apocalypse">Free Video Presentation: Using Raspberry Pi and Arduino to survive a zombie apocalypse By Simon Monk</a>
 
-Python and Programming Links
-  * http://www.codecademy.com/tracks/python
-  * http://www.learnpython.org
-  * http://www.reddit.com/r/python
-  * http://www.reddit.com/r/learnprogramming
-  * http://www.reddit.com/r/dailyprogrammer
-  * http://www.reddit.com/r/programmingchallenges
-  * http://gutomaia.net/pyNES/
-  * http://inventwithpython.com/index.html
-  * <a href="https://docs.python.org/3/download.html">Python 3 Documentation</a>
-
-Raspberry Pi Books
+Raspberry Pi Books:
   * <a href="https://www.raspberrypi.org/magpi/issues/">MagPi Magazine - Free digital magazines</a>
   * <a href="http://www.amazon.com/Make-Raspberry-Electronic-Projects-Pocket-Sized/dp/1457186128/">Make: Getting Started with Raspberry Pi: Electronic Projects with the Low-Cost Pocket-Sized Computer</a>
   * <a href="http://www.amazon.com/Getting-Started-Raspberry-Pi-Electronic/dp/1457186128/">Make: Getting Started with Raspberry Pi</a>
@@ -876,9 +855,31 @@ Raspberry Pi Books
   * <a href="http://www.amazon.com/Make-Action-Movement-Arduino-Raspberry/dp/1457187795/">Make: Action: Movement, Light, and Sound with Arduino and Raspberry Pi</a>
   * <a href="http://www.amazon.com/Raspberry-Pi-Cookbook-Simon-Monk/dp/1449365221/">Raspberry Pi Cookbook</a>
   * <a href="http://www.amazon.com/Learning-Python-Raspberry-Alex-Bradbury/dp/1118717058/">Learning Python with Raspberry Pi</a>
-  * <a href="http://www.amazon.com/Programming-Raspberry-Pi-Second-Edition/dp/1259587401/">Programming the Raspberry Pi, Second Edition: Getting Started with Python</a>
+  * <a href="http://www.amazon.com/Programming-Raspberry-Pi-Second-Edition/dp/1259587401/">Programming the Raspberry Pi, Second Edition: Getting Started with Python</a> <!-- replace amazon links with DRM-free ebook links -->
+  * <a href="http://shop.oreilly.com/product/0636920031994.do">Make a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors By Wolfram Donat</a>
+  * <a href="http://shop.oreilly.com/product/0636920031901.do">Make: Action - Movement, Light, and Sound with Arduino and Raspberry Pi By Simon Monk</a>
+  * <a href="http://shop.oreilly.com/product/9781119049517.do">Raspberry Pi For Kids For Dummies By Richard Wentk</a>
+  * <a href="http://shop.oreilly.com/product/9781783284696.do">Raspberry Pi Server Essentials
+By Piotr J. Kula</a>
+  * <a href="http://shop.oreilly.com/product/9781785281525.do">Raspberry Pi Projects for Kids, 2nd Edition By Daniel Bates</a>
+  * <a href="http://shop.oreilly.com/product/0636920031253.do">Getting Started With Raspberry Pi, 3rd Edition: An Introduction to the Fastest-Selling Computer in the World By Shawn Wallace, Matt Richardson</a>
+  * <a href="http://shop.oreilly.com/product/9781118464465.do">Raspberry Pi User Guide By Gareth Halfacree, Eben Upton</a>
+  * <a href="http://shop.oreilly.com/product/0636920029083.do">Raspberry Pi Hacks: Tips & Tools for Making Things with the Inexpensive Linux Computer By Ruth Suehle, Tom Callaway</a>
+  * <a href="http://www.oreilly.com/pub/e/2650">Free Video Presentation: Intro to Raspberry Pi: be prepared to be inspired to make awesome things By Ed Snajder</a>
+  * <a href="http://shop.oreilly.com/product/0636920031338.do">Linux for Makers: Understanding the Operating System That Runs Raspberry Pi and Other Maker SBCs By Aaron Newcomb</a> <!-- More at https://ssearch.oreilly.com/?q=raspberry+pi and https://ssearch.oreilly.com/?q=linux -->
 
-Python Books
+Python and Programming Links:
+  * http://www.codecademy.com/tracks/python
+  * http://www.learnpython.org
+  * http://www.reddit.com/r/python
+  * http://www.reddit.com/r/learnprogramming
+  * http://www.reddit.com/r/dailyprogrammer
+  * http://www.reddit.com/r/programmingchallenges
+  * http://gutomaia.net/pyNES/
+  * http://inventwithpython.com/index.html
+  * <a href="https://docs.python.org/3/download.html">Python 3 Documentation</a>
+
+Python Books:
   * <a href="http://straightedgelinux.com/blog/python/html/index.html">FREE Programming Book</a>
   * <a href="http://straightedgelinux.com/blog/python/">FREE Programming Book epub and examples</a>
   * <a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python">List of free Python books online</a>
@@ -887,6 +888,63 @@ Python Books
   * <a href="http://www.amazon.com/Teach-Your-Kids-Code-Parent-Friendly/dp/1593276141/">Teach Your Kids to Code: A Parent-Friendly Guide to Python Programming</a>
   * <a href="http://www.amazon.com/gp/product/1435455002/">Python Programming for the Absolute Beginner</a>
   * <a href="http://www.amazon.com/gp/product/1933988495/">Hello World! Computer Programming for Kids and Other Beginners</a>
+  * <a href="http://shop.oreilly.com/product/9781593277956.do">Invent Your Own Computer Games with Python By Al Sweigart</a>
+  * <a href="http://shop.oreilly.com/product/9781119093107.do">Python For Kids For Dummies By Brendan Scott</a>
+  * <a href="http://shop.oreilly.com/product/9781782162865.do">Instant Pygame for Python Game Development How-to By Ivan Idris</a><!-- more at more at https://ssearch.oreilly.com/?q=python -->
+
+Processing Links:
+  * <a href="https://github.com/processing/processing/wiki/Raspberry-Pi">Processing Raspberry Pi Wiki</a>
+  * <a href="https://processing.org/">Processing home page - includes download links and documentation</a>
+  * <a href="http://hello.processing.org/">Online interactive p5.js tutorial through Processing.org</a>
+  * <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code">Online interactive p5.js tutorial through Khan Academy</a>
+  * <a href="http://hello.processing.org/gallery/">Gallery of examples from Hello.Processing</a>
+  * <a href="http://cagewebdev.com/index.php/raspberry-pi-running-processing-on-your-raspi/">Installing Processing on the Raspberry Pi</a>
+  * <a href="https://github.com/jdf/processing.py#python-mode-for-processing">Configuring Processing with the Python language.</a>
+
+Processing Books and videos for purchase:
+  * <a href="http://shop.oreilly.com/product/0636920031406.do">Make: Getting Started with Processing - A Hands-On Introduction to Making Interactive Graphics By Casey Reas, Ben Fry</a>
+  * <a href="http://shop.oreilly.com/product/0636920031703.do">Make: Getting Started with Processing.py - Making Interactive Graphics with Python's Processing Mode By Allison Parrish, Ben Fry, Casey Reas</a>
+  * <a href="http://shop.oreilly.com/product/0636920032076.do">Make: Getting Started with p5.js - Making Interactive Graphics in JavaScript and Processing By Lauren McCarthy, Casey Reas, Ben Fry</a>
+  * <a href="http://shop.oreilly.com/product/9781593276126.do">The SparkFun Guide to Processing: Create Interactive Art with Code By Derek Runberg</a>
+  * <a href="http://shop.oreilly.com/product/9780123944436.do">Learning Processing, 2nd Edition: A Beginner's Guide to Programming Images, Animation, and Interaction By Daniel Shiffman</a>
+  * <a href="http://shop.oreilly.com/product/9781782166726.do">Processing 2: Creative Coding Hotshot By Nikolaus Gradwohl</a>
+  * <a href="http://shop.oreilly.com/product/9781849517942.do">Processing 2: Creative Programming Cookbook By Jan Vantomme</a>
+  * <a href="http://shop.oreilly.com/product/0636920013310.do">Video: Processing and Arduino in Tandem: Creating Your Own Digital Art Tools By Joseph Gray</a>
+  * <a href="http://shop.oreilly.com/product/0636920018353.do">Video: Processing and Arduino in Tandem: Video Mixer By Joseph Gray</a>
+  * <a href="http://shop.oreilly.com/product/0636920018377.do">Video: Processing and Arduino in Tandem: Audio Visualizer By Joseph Gray</a>
+
+Computer Vision Links:
+  * <a href="http://simplecv.org/">simplcv</a>
+  * <a href="http://opencv.org/">OpenCV</a>
+  * <a href="http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html">opencv-python tutorials</a>
+  * <a href="http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf">Free PDF book: Programming Computer Vision with Python</a>
+  * <a href="http://www.oreilly.com/pub/e/3077">Free Video Presentation: Training Intelligent Camera Systems with Python and OpenCV By Joseph Howse</a>
+  
+Computer Vision Books:
+  * <a href="http://shop.oreilly.com/product/0636920024057.do">Practical Computer Vision with SimpleCV: The Simple Way to Make Technology See By Kurt Demaagd, Anthony Oliver, Nathan Oostendorp, Katherine Scott</a>
+  * <a href="http://shop.oreilly.com/product/9781783287376.do">OpenCV for Secret Agents By Joseph Howse</a>
+  * <a href="http://shop.oreilly.com/product/9781785283840.do">Learning OpenCV 3 Computer Vision with Python, 2nd Edition By Joe Minichino, Joseph Howse</a>
+  * <a href="http://shop.oreilly.com/product/9781782163923.do">OpenCV Computer Vision with Python By Joseph Howse</a>
+  * <a href="http://shop.oreilly.com/product/9781785283932.do">OpenCV with Python By Example By Prateek Joshi</a>
+  * <a href="http://shop.oreilly.com/product/0636920044765.do">Learning OpenCV 3: Computer Vision in C++ with the OpenCV Library By Adrian Kaehler, Gary Bradski</a>
+  * <a href="http://shop.oreilly.com/product/9781783283972.do">OpenCV 3.0 Computer Vision with Java By Daniel Lelis Baggio</a>
+  * <a href="http://shop.oreilly.com/product/9781783287659.do">Learning Image Processing with OpenCV By Gloria Bueno Garcia, Oscar Deniz Suarez, Jose Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia Vallez Enano</a>
+  * <a href="http://shop.oreilly.com/product/9780596516130.do">Learning OpenCV: Computer Vision with the OpenCV Library By Gary Bradski, Adrian Kaehler</a>
+  * <a href="http://shop.oreilly.com/product/9781782168812.do">Instant OpenCV Starter By Jayneil Dalal, Sohil Patel</a>
+  * <a href="http://shop.oreilly.com/product/9781784399757.do">OpenCV 3 Blueprints By Joseph Howse, Steven Puttemans, Quan Hua, Utkarsh Sinha</a>
+  * <a href="http://shop.oreilly.com/product/9781785282690.do">OpenCV with Python Blueprints By Michael Beyeler</a>
+  * <a href="http://shop.oreilly.com/product/9781849513241.do">OpenCV 2 Computer Vision Application Programming Cookbook By Robert Laganiere</a>
+  * <a href="http://shop.oreilly.com/product/9781785280948.do">OpenCV By Example By Prateek Joshi, David Millan Escriva, Vinicius Godoy</a>
+  * <a href="http://shop.oreilly.com/product/9781782161486.do">OpenCV Computer Vision Application Programming Cookbook Second Edition By Robert Laganiere</a>
+  * <a href="http://shop.oreilly.com/product/9781783984244.do">OpenCV Essentials By Oscar Deniz Suarez, Mª del Milagro Fernandez Carrobles, Noelia Vallez Enano, Gloria Bueno Garcia, Ismael Serrano Gracia, Julio Alberto Paton Incertis, Jesus Salido Tercero</a>
+  * <a href="http://shop.oreilly.com/product/110000051.do">OpenCV Computer Vision Application Programming By Sebastian Montabone</a>
+  * <a href="http://shop.oreilly.com/product/9781849517829.do">Mastering OpenCV with Practical Computer Vision Projects By Shervin Emami, Khvedchenia Levgen, Naureen Mahmood, Jason Saragih, Roy Shilkrot, David Millan Escriva, Daniel Lelis Baggio</a>
+  * <a href="http://shop.oreilly.com/product/9781785285387.do">Android Application Programming with OpenCV 3 By Joseph Howse</a>
+  * <a href="http://shop.oreilly.com/product/9781849695206.do">Android Application Programming with OpenCV By Joseph Howse</a>
+  * <a href="http://shop.oreilly.com/product/9781783550593.do">OpenCV Android Programming By Example By Amgad Muhammad</a>
+  * <a href="http://shop.oreilly.com/product/9781783988204.do">Mastering OpenCV Android Application Programming By Salil Kapur, Nisarg Thakkar</a>
+  * <a href="http://shop.oreilly.com/product/9781782163848.do">Instant OpenCV for iOS By Alexander Shishkov, Kirill Kornyakov</a>
+  * <a href="http://shop.oreilly.com/product/9781783552627.do">Arduino Computer Vision Programming By Ozen Ozkaya, Giray Yillikci</a>
 
 
 
