@@ -569,7 +569,7 @@ For more information:
   * <a href="http://simplecv.org/">simplcv</a>
   * <a href="http://opencv.org/">OpenCV</a>
   * <a href="http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html">opencv-python tutorials</a>
-  * <a href="http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf">FREE Programming Computer Vision with Python</a>
+  * <a href="http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf">Free PDF book: Programming Computer Vision with Python</a>
 
 
 
