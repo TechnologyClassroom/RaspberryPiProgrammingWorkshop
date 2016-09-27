@@ -1,4 +1,4 @@
-# Raspberry Pi Programming Workshop (#RaspberryPiProgrammingWorkshop)
+# [Raspberry Pi Programming Workshop](#RaspberryPiProgrammingWorkshop)
 
 RPiPW = resources + notes + code samples for a workshop introducing the Raspberry Pi as a beginner's programming environment
 
