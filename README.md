@@ -816,7 +816,7 @@ If you did not win, you can buy the one I did this presentation with at cost.
 
 
 # [Resources](#resources)
-<!-- #resources link does not page all the way down -->
+<!-- replace amazon links with DRM-free ebook links. More at https://ssearch.oreilly.com/?q=raspberry+pi and https://ssearch.oreilly.com/?q=linux more at more at https://ssearch.oreilly.com/?q=python -->
 This section contains websites and books for everything you ever wanted to know about the Raspberry Pi, GNU/Linux, Python, Processing, and Computer Vision.
 
 Raspberry Pi Links:
@@ -856,7 +856,6 @@ Raspberry Pi Books:
   * <a href="http://www.amazon.com/Raspberry-Pi-Cookbook-Simon-Monk/dp/1449365221/">Raspberry Pi Cookbook</a>
   * <a href="http://www.amazon.com/Learning-Python-Raspberry-Alex-Bradbury/dp/1118717058/">Learning Python with Raspberry Pi</a>
   * <a href="http://www.amazon.com/Programming-Raspberry-Pi-Second-Edition/dp/1259587401/">Programming the Raspberry Pi, Second Edition: Getting Started with Python</a>
-  <!-- replace amazon links with DRM-free ebook links -->
   * <a href="http://shop.oreilly.com/product/0636920031994.do">Make a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors By Wolfram Donat</a>
   * <a href="http://shop.oreilly.com/product/0636920031901.do">Make: Action - Movement, Light, and Sound with Arduino and Raspberry Pi By Simon Monk</a>
   * <a href="http://shop.oreilly.com/product/9781119049517.do">Raspberry Pi For Kids For Dummies By Richard Wentk</a>
@@ -868,7 +867,6 @@ By Piotr J. Kula</a>
   * <a href="http://shop.oreilly.com/product/0636920029083.do">Raspberry Pi Hacks: Tips & Tools for Making Things with the Inexpensive Linux Computer By Ruth Suehle, Tom Callaway</a>
   * <a href="http://www.oreilly.com/pub/e/2650">Free Video Presentation: Intro to Raspberry Pi: be prepared to be inspired to make awesome things By Ed Snajder</a>
   * <a href="http://shop.oreilly.com/product/0636920031338.do">Linux for Makers: Understanding the Operating System That Runs Raspberry Pi and Other Maker SBCs By Aaron Newcomb</a>
-  <!-- More at https://ssearch.oreilly.com/?q=raspberry+pi and https://ssearch.oreilly.com/?q=linux -->
 
 Python and Programming Links:
   * http://www.codecademy.com/tracks/python
@@ -893,7 +891,6 @@ Python Books:
   * <a href="http://shop.oreilly.com/product/9781593277956.do">Invent Your Own Computer Games with Python By Al Sweigart</a>
   * <a href="http://shop.oreilly.com/product/9781119093107.do">Python For Kids For Dummies By Brendan Scott</a>
   * <a href="http://shop.oreilly.com/product/9781782162865.do">Instant Pygame for Python Game Development How-to By Ivan Idris</a>
-  <!-- more at more at https://ssearch.oreilly.com/?q=python -->
 
 Processing Links:
   * <a href="https://github.com/processing/processing/wiki/Raspberry-Pi">Processing Raspberry Pi Wiki</a>
