@@ -842,6 +842,7 @@ Raspberry Pi Links:
   * https://www.raspberrypi.org/resources/make/
   * <a href="http://sonic-pi.net/">Program beats with Sonic Pi</a>
   * <a href="http://sam.aaron.name/2012/11/02/supercollider-on-pi.html">Programming music with Supercollider and Overtone on the Pi</a>
+  * <a href="http://nodered.org/">Node-RED "a visual tool for wiring the Internet of Things"</a>
   * <a href="https://www.oreilly.com/ideas/using-your-maker-skills-to-survive-a-zombie-apocalypse">Free Video Presentation: Using Raspberry Pi and Arduino to survive a zombie apocalypse By Simon Monk</a>
 
 Raspberry Pi Books:
