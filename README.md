@@ -550,7 +550,7 @@ Draw with squares, ellipses, and triangles.  Shapes have random fill color, stro
 
 The code for my processing examples can be found at my <a href="https://github.com/TechnologyClassroom/Processing">Processing github</a>.
 
-To learn more, check out the <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources section</a>.
+To learn more, check out the <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources section</a> and my page of <a href="https://github.com/TechnologyClassroom/Processing/blob/master/ProcessingExamples.md">examples</a>.
 
 
 
