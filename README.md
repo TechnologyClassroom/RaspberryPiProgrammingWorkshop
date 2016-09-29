@@ -839,6 +839,9 @@ Raspberry Pi Links:
   * http://www.recantha.co.uk/blog/
   * http://raspifeed.com/
   * https://www.reddit.com/r/picases
+  * https://www.raspberrypi.org/resources/make/
+  * <a href="http://sonic-pi.net/">Program beats with Sonic Pi</a>
+  * <a href="http://sam.aaron.name/2012/11/02/supercollider-on-pi.html">Programming music with Supercollider and Overtone on the Pi</a>
   * <a href="https://www.oreilly.com/ideas/using-your-maker-skills-to-survive-a-zombie-apocalypse">Free Video Presentation: Using Raspberry Pi and Arduino to survive a zombie apocalypse By Simon Monk</a>
 
 Raspberry Pi Books:
@@ -899,6 +902,8 @@ Processing Links:
   * <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code">Online interactive p5.js tutorial through Khan Academy</a>
   * <a href="http://hello.processing.org/gallery/">Gallery of examples from Hello.Processing</a>
   * <a href="http://cagewebdev.com/index.php/raspberry-pi-running-processing-on-your-raspi/">Installing Processing on the Raspberry Pi</a>
+  * <a href="http://www.openprocessing.org/">OpenProcessing is an online gallery of Processing sketches and code</a>
+  * <a href="https://www.futurelearn.com/courses/creative-coding/">Free MOOC Creative Coding from Future Learn that uses a Processing Curriculum</a>
   * <a href="https://github.com/jdf/processing.py#python-mode-for-processing">Configuring Processing with the Python language.</a>
 
 Processing Books and videos for purchase:
