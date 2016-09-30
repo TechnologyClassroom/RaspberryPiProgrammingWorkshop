@@ -887,6 +887,7 @@ Python Books:
   * <a href="https://www.raspberrypi.org/magpi/issues/essentials-games-vol1/">FREE Make Games with Python MagPi ebook</a>
   * <a href="http://straightedgelinux.com/blog/python/html/index.html">FREE Programming Book</a>
   * <a href="http://straightedgelinux.com/blog/python/">FREE Programming Book epub and examples</a>
+  * <a href="http://www.oreilly.com/programming/free/functional-programming-python.csp?cmp=em-prog-free-na-lgen_safari_20160929">FREE Functional Programming in Python By David Mertz</a>
   * <a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python">List of free Python books online</a>
   * <a href="http://www.briggs.net.nz/snake-wrangling-for-kids.html">FREE Snake Wrangling for Kids</a>
   * <a href="http://www.amazon.com/gp/product/1593274076/">Python for Kids: A Playful Introduction to Programming</a>
