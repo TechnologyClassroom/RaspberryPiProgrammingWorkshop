@@ -882,6 +882,8 @@ Python and Programming Links:
   * http://gutomaia.net/pyNES/
   * http://inventwithpython.com/index.html
   * <a href="https://docs.python.org/3/download.html">Python 3 Documentation</a>
+  * <a href="http://www.oreilly.com/programming/free/">Free programming books from O'Reilly</a>
+  * <a href="http://www.oreilly.com/free/">Free resources from O'Reilly</a>
 
 Python Books:
   * <a href="https://www.raspberrypi.org/magpi/issues/essentials-games-vol1/">FREE Make Games with Python MagPi ebook</a>
