@@ -85,7 +85,7 @@ There are many different operating systems available for the Raspberry Pi.  My p
 <br><br>
 Why GNU/Linux?  GNU/Linux is built on <a href="https://en.wikipedia.org/wiki/Free_and_open_source_software">free and open source software</a> and can be easily downloaded, modified, distributed, and used with few to no restrictions.  This is very beneficial for a programming environment.  GNU/Linux is also used by the most advanced science and technology institutions such as the International Space Station, CERN, US Navy, US DOD, FAA, USPS, Google, Novell, IBM, Cisco, and Amazon.
 <br>
-Other operating systems to note are <a href="http://fedberry.org/">Fedberry</a>, <a href="http://wiki.openwrt.org/toh/raspberry_pi_foundation/raspberry_pi">OpenWRT</a>, <a href="https://www.riscosopen.org/content/downloads/raspberry-pi">RISC OS</a>, <a href="https://osmc.tv/">OSMC</a>, <a href="https://wiki.freebsd.org/FreeBSD/arm/Raspberry%20Pi">FreeBSD</a>, and many more.  You can even make your own operating system for the Raspberry Pi.
+Other operating systems to note are <a href="https://www.pi-top.com/product/pi-top-os">pi-topOS</a>, <a href="http://fedberry.org/">Fedberry</a>, <a href="http://wiki.openwrt.org/toh/raspberry_pi_foundation/raspberry_pi">OpenWRT</a>, <a href="https://www.riscosopen.org/content/downloads/raspberry-pi">RISC OS</a>, <a href="https://osmc.tv/">OSMC</a>, <a href="https://wiki.freebsd.org/FreeBSD/arm/Raspberry%20Pi">FreeBSD</a>, and many more.  You can even make your own operating system for the Raspberry Pi.
 
 
 
