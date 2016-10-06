@@ -873,14 +873,14 @@ By Piotr J. Kula</a>
   * <a href="http://shop.oreilly.com/product/0636920031338.do">Linux for Makers: Understanding the Operating System That Runs Raspberry Pi and Other Maker SBCs By Aaron Newcomb</a>
 
 Python and Programming Links:
-  * http://www.codecademy.com/tracks/python
-  * http://www.learnpython.org
-  * http://www.reddit.com/r/python
-  * http://www.reddit.com/r/learnprogramming
-  * http://www.reddit.com/r/dailyprogrammer
-  * http://www.reddit.com/r/programmingchallenges
-  * http://gutomaia.net/pyNES/
-  * http://inventwithpython.com/index.html
+  * <a href="http://www.codecademy.com/tracks/python">Codecademy's Python track</a>
+  * <a href="http://www.learnpython.org">LearnPython.org</a>
+  * <a href="http://www.reddit.com/r/python">Python Subreddit</a>
+  * <a href="http://www.reddit.com/r/learnprogramming">Learn Programming Subreddit</a>
+  * <a href="http://www.reddit.com/r/dailyprogrammer">Daily Programmer Subreddit</a>
+  * <a href="http://www.reddit.com/r/programmingchallenges">Programming Challenges</a>
+  * <a href="http://gutomaia.net/pyNES/">pyNES allows you to write original Nintendo games in Python</a>
+  * <a href="http://inventwithpython.com/index.html">Invent With Python</a>
   * <a href="https://docs.python.org/3/download.html">Python 3 Documentation</a>
   * <a href="http://www.oreilly.com/programming/free/">Free programming books from O'Reilly</a>
   * <a href="http://www.oreilly.com/free/">Free resources from O'Reilly</a>
@@ -904,6 +904,7 @@ Processing Links:
   * <a href="https://github.com/processing/processing/wiki/Raspberry-Pi">Processing Raspberry Pi Wiki</a>
   * <a href="https://processing.org/">Processing home page - includes download links and documentation</a>
   * <a href="http://hello.processing.org/">Online interactive p5.js tutorial through Processing.org.</a>  If you want more Daniel Sheffman, check out <a href="https://www.youtube.com/user/shiffman/videos">his programming videos on youtube</a>.
+  * <a href="http://www.reddit.com/r/dailyprogrammer">Processing subreddit</a>
   * <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code">Online interactive p5.js tutorial through Khan Academy</a>
   * <a href="http://hello.processing.org/gallery/">Gallery of examples from Hello.Processing</a>
   * <a href="http://cagewebdev.com/index.php/raspberry-pi-running-processing-on-your-raspi/">Installing Processing on the Raspberry Pi</a>
