@@ -637,12 +637,14 @@ To learn more, check out the <a href="https://github.com/TechnologyClassroom/Ras
 
 # [Taking The Raspberry Pi Further](#taking-the-raspberry-pi-further)
 
+Programming on the Raspberry Pi is one of my favorite activities, but I understand that not everyone is as passionate about code as I am.  There are many different directions you can take with the Raspberry Pi that have nothing to do with code.  This section is full of projects, solutions, and resources to use the Raspberry Pi in creative ways.
+
 
 
 
 # [Projects](#projects)
 
-  * Raspberry Pirate Radio
+* Raspberry Pirate Radio
 
 Have you ever wanted to run your own radio station?  You can turn your Raspberry Pi into an FM radio transmitter using one wire and a Python script.
 
@@ -656,7 +658,7 @@ http://lifehacker.com/start-a-pirate-radio-station-with-a-raspberry-pi-and-a-153
 
 http://myhowtosandprojects.blogspot.com/2014/04/raspberry-pi-make-your-own-pirate-radio.html
 
-  * Build a robot
+* Build a robot
 
 If you can power a light with GPIO pins, you can just as easily connect it to a motor.  Add more motors and you have a robot.
 
@@ -664,14 +666,14 @@ http://diyhacking.com/raspberry-pi-robot/
 
 <a href="http://shop.oreilly.com/product/0636920031994.do">Make a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors By Wolfram Donat</a>
 
-  * Create your own web server
+* Create your own web server
 
 What better way to learn web design than creating your own web server?  You can turn a Raspberry Pi into an entire web stack.  ''LAMP'' stacks are very popular among the industry (GNU/Linux + Apache + MySQL + PHP).  I prefer using smaller programs to accomplish nearly the same thing.  I use GNU/Linux + Nginx + SQLite + PHP (LNSP) when using a web stack on the Raspberry Pi.  These can also interact with Python.
 
 https://wiki.archlinux.org/index.php/Nginx
 
 
-  * Universal Translator
+* Universal Translator
 
 This project allows you to convert speech from one spoken language to another.  Record audio of talking, convert the audio to text, translate the text to another language, and have it read back to you in another language.
 
@@ -680,7 +682,7 @@ http://www.daveconroy.com/turn-raspberry-pi-translator-speech-recognition-playba
 https://github.com/dconroy/PiTranslate
 
 
-  * Connect Raspberry Pis to automate your home
+* Connect Raspberry Pis to automate your home
 
 The ''Internet of Things'' (IoT) is a way to connect everything together through the Internet.  Purchasing IoT devices and appliances can be COSTLY unless you do it yourself.  A single board computer and a little bit of Python knowledge can start you on the path to creating your own IoT devices.  Slap a Raspberry Pi onto a garage door, program it to listen for your phone to connect to the network, and you have an automated garage door.  There are unlimited possibilities now with single board computers.
 
@@ -688,7 +690,7 @@ http://www.informationweek.com/software/enterprise-applications/10-raspberry-pi-
 
 https://www.raspberrypi.org/blog/tag/internet-of-things/
 
-  * Build your own camera
+* Build your own camera
 
 The Raspberry Pi foundation has designed two camera modules that can be easily connected to the Raspberry Pi.  They are the camera and the infrared modules.
 
@@ -698,13 +700,13 @@ https://www.raspberrypi.org/products/pi-noir-camera/
 
 https://www.raspberrypi.org/help/camera-module-setup/
 
-  * Emulating a Raspberry Pi on your Computer with QEMU and Windows
+* Emulating a Raspberry Pi on your Computer with QEMU and Windows
 
 http://www.pcsteps.com/1199-raspberry-pi-emulation-for-windows-qemu/
 
 I confirm that it works and covers all pitfalls.  It feels very slow to use because it is limited by 256mb of allocated RAM.  The advantage of emulating the Pi on a computer is that the img file can be modified directly.  A custom img with updated software and all of your programs can then be copied to your SD card.
 
-  * Build a Retro Game system
+* Build a Retro Game system
 
 The RetroPie project aims to turn a Raspberry Pi into a game system.  It includes an interface called emulationstation and can emulate many of the game consoles from 1977 to 1998.
 
@@ -734,13 +736,13 @@ A popular alternative to this project is to build a RetroPie into a handheld cas
 
 <a href="https://www.youtube.com/watch?v=5npkz0xY1fo">Micro Arcade Cabinet</a>
 
-  * Build your own ''cloud'' server
+* Build your own ''cloud'' server
 
 The term cloud has been confusing the majority of computer users since its creation.  It simply means you are putting your private data on someone else's server.  Since you cannot verify that their interests are in your best interest, the majority of cloud based services cannot be trusted.  You could build your own cloud!  I will suggest Freedom Box.  It acts as a cloud and more.
 
 https://freedomboxfoundation.org/
 
-  * Talk with all of your friends at once
+* Talk with all of your friends at once
 
 You can run a server on your Raspberry Pi called mumble that will allow your friends to all connect and talk to each other at once.
 
@@ -754,7 +756,7 @@ http://www.makeuseof.com/tag/8-interesting-diy-raspberry-pi-case-ideas/
 
 http://www.thingiverse.com/search?q=raspberry+pi&sa=
 
-  * Try a program out in space
+* Try a program out in space
 
 The AstroPi project put some Raspberry Pi computers on the International Space Station.  You can build a duplicated device using a 3D printer, a Raspberry Pi, and a Sense Hat.  There are programming competitions regularly that you can enter.  Your Python experiment can be carried out in space.  The Raspberry Pis in space even have their own twitter accounts that you can browse.
 
@@ -768,60 +770,60 @@ https://twitter.com/astro_pi_vis
 
 https://vimeo.com/157627149
 
-  * Control your stereo over wifi
+* Control your stereo over wifi
 
 How cool would it be to use your phone to control the stereo?  You can do that with the Raspberry Pi.  Put all of your music on a storage device.  Connect your music collection to your Pi.  Install and configure mpd (Music Player Daemon) on your Pi.  Connect your Pi to the stereo.  Connect your phone to your Pi through an MPD app such as MPoD or MPDroid.
 
 http://elinux.org/Rpi_Music_Player_Daemon
 
 
-  * Build a media center
+* Build a media center
 
 Kodi is a powerful media center that can be installed on your Raspberry Pi.  You can view your video files from a hard drive or stream files from the web.  I have had the most success with OSMC which can be installed directly from NOOBS with an Internet connection.
 
 <a href="https://osmc.tv/">OSMC</a>
 
 
-  * Build your own tablet
+* Build your own tablet
 
 The Raspberry Pi has released a 7 inch touch screen.  Connect the cables to the Pi, add power, and you have a tablet.
 
 https://www.raspberrypi.org/products/raspberry-pi-touch-display/
 
-  * Virtual Network Computing (VNC)
+* Virtual Network Computing (VNC)
 
 VNC can be used with nearly all computer systems including GNU/Linux, iOS, Mac, and Windows.  It is a way to share control of a computer across a network or the Internet.  Today, it is most commonly used for tech support from remote sites.  VNC software can be installed with these commands:
 
 ```
-    sudo apt-get install tightvncserver xtightvncviewer
+sudo apt-get install tightvncserver xtightvncviewer
 ```
 
 A VNC server can be started with this command:
 
 ```
-    vncserver :1 -geometry 1920x1080 -depth 24
+vncserver :1 -geometry 1920x1080 -depth 24
 ```
 
 Other computers or phones on your network can connect to your Raspberry Pi with the proper credentials using your local IP address.  IPv4 addresses are four sets of numbers separated by periods.  An example of an IP address is 192.168.1.58.  Your local IP address can be found using the command:
 
 ```
-    ifconfig | grep inet
+ifconfig | grep inet
 ```
 
 https://www.raspberrypi.org/documentation/remote-access/vnc/
 
 
-  * Build a surveillance system
+* Build a surveillance system
 
 Build your own motion detection cameras and have them email you when someone walks near your car.  Create a camera that emails you a picture of your desk every hour.  The possibilities are endless.
 
 
-  * What should I wear today?
+* What should I wear today?
 
 Create a system to check the temperature and humidity outside.  Based on that information, the Raspberry Pi could email you what you should wear to stay warm throughout the year.
 
 
-  * Create interactive installation art
+* Create interactive installation art
 
 Many artists have included Raspberry Pis into their work.  One of the most tranquil of such projects is called ''Lichen Ohms Seriatim'' located in Cambridge, United Kingdom.  Participants carry around a Raspberry Pi with a screen, bluetooth adapter, headphones, and a battery in a clear plastic container.   The sounds change as they approach bluetooth beacons referred to as ''lichens.''  This creates an immersive audio/video experience.
 
@@ -830,9 +832,9 @@ https://www.raspberrypi.org/blog/lichen-beacons/
 http://www.ludions.com/projects/lichens/
 
 
-  * Build a supercomputer
+* Build a supercomputer
 
-You can create a <a href="https://en.wikipedia.org/wiki/Beowulf_cluster">beowulf</a> by connecting a bunch of computers together using network cables, GNU/Linux, and software to make them act as one.
+You can create a <a href="https://en.wikipedia.org/wiki/Beowulf_cluster">beowulf system</a> by connecting a bunch of computers together using network cables, GNU/Linux, and software to make them act as one.
 
 http://www.zdnet.com/article/build-your-own-supercomputer-out-of-raspberry-pi-boards/
 
@@ -845,7 +847,7 @@ http://www.zdnet.com/article/build-your-own-supercomputer-out-of-raspberry-pi-bo
 <a href="http://blog.alexellis.io/pizero-otg-swarm/">Pi Zero OTG Cluster</a>
 
 
-  * Participate with an open source project
+* Participate with an open source project
 
 Another great way to get more experience is to find a python script on github, make a github account, and fork the project.  To fork a project, you can take someone else's program, make changes, and make it your own; or you can make a change, and submit the change back to the original project.  Even changing a simple grammar mistake is a great first move.
 
@@ -856,42 +858,44 @@ Another great way to get more experience is to find a python script on github, m
 
 This section is not a comprehensive troubleshooter for a Raspberry Pi, but it gives some examples of the problem solving skills that will be beneficial to your journey into microcomputers.  When I bought my model B, a lot of problems had not been worked out.  Compromises, workarounds, and hacks had to be implemented to accomplish some goals.  Many of these problems have been solved with the new line of Raspberry Pis including the A+, B+, 2 B, Zero, and 3 B.
 
-  * Low resolution video
+* Low resolution video
 
 This happens with kids ofen.  The quick solution is to reboot.  Click on the menu in the top left > Logout > Reboot.
 
 This happens when you first plug in the Raspberry Pi with the power before the HDMI.  If you change the order of operations to HDMI and then power, the boot process will automatically identify the video source and give provide optimal resolution.
 
-  * Peripheral power / Powered USB Hub
+* Peripheral power / Powered USB Hub
 
 The B has two USB ports.  I need to plug in a keyboard, a mouse, and a wifi adapter.  I could plug in the keyboard and mouse at the same time and use it perfectly with a wired ethernet connection.  I could unplug the keyboard, plug in the wifi, search for networks.  To enter in a password, I would have to unplug the mouse, plug the keyboard in, type the password, and then plug in the mouse.  Just after I got a valid IP address, the wifi adpater would lose power.  It would start up again, connect, and lose power.  This loop would continue until I unplugged it.  I ordered a powered USB hub off amazon.  Once that arrived, I could plug in a keyboard, mouse, wifi adapter, and two storage devices.  The best part about the powered USB hub is that you can power the Raspberry Pi with a MicroUSB to USB cable.  The drawback after this is that I was using much more power then before.  I was very surprised when I tried the B+ with four USB slots.  On the B+, I plugged in keyboard, mouse, and wifi directly in and it worked perfectly.
 
 
-  * Corrupted SD Cards
+* Corrupted SD Cards
 
 The operating system traditionally uses either a SD card or a microSD card.  The firmware of the first production run ruined many SD cards.  The firmware can be updated and it eventually got better.  I had been running various GNU/Linux operating systems off of 16GB flash drives for many years at this point.  After corrupting the same SD card many times, I gave up on the SD card.  I had to use it to boot from, but I did not have to run the system off of it.  Default Raspbian has two partitions in its .img file.  One is a boot and the other is the root.  I modified the boot configuration to boot from /dev/sdb2 instead of /dev/sda2.  I then used dd to copy the Raspbian img to a flash drive.  That one still works.
 
 
-  * Audio pops
+* Audio pops
 
 One of the projects I made turned my Raspberry Pi model B into an mp3 player for my hi-fi stereo.  I could control it with my iPhone over the network.  Everything talked perfectly together.  The only problem I had was that there would be a loud pop between each track.  Not only is this annoying, but it could damage my speakers.  The problem was well known on the Internet and by the developers.  The problem was that the power would turn off when not in use and then turn back on.  The power could not be left on using ALSA the default audio interface on Raspbian.  I solved this problem by installing PulseAudio.  I configured pulse to remain always on.  This solved my problem.  The Raspberry Pi B+ and 2 B fixed this problem.
 
 
-  * No HDMI Video Output
+* No HDMI Video Output
 
 I did a programming workshop using my model B.  I introduced what we were doing on a TV with the Pi.  Later that day, I took it back out and I could not get any output from the HDMI.  After troubleshooting a few things, it went back in the bag.  I later give it to my tech team to try to solve the problem.  They researched ways to troubleshoot the HDMI, they took off the case, and got it to work.  This was reproducible.  That official case has since been replaced with legos.
 
 
-  * Wireless Drivers
+* Wireless Drivers
 
 Wireless adapters do not always work.  This is because the hardware manufacturer has closed source, proprietary drivers.  Some brands work very well and others require extra work to use them.  After doing too much of the extra work, I always look up the chipset of compatible wireless cards BEFORE I buy a new one.  Atheros chipsets are nearly always compatible.  The packaging rarely says the name of the chipset so you always have to <a href="https://wikidevi.com/wiki/List_of_Wi-Fi_Device_IDs_in_Linux">look it up</a>.
 
 
-  * No hardware clock
+* No hardware clock
 
 Desktop computers typically have a coin sized battery attached to the motherboard to keep the clock running on the BIOS.  When the Rapsberry Pi gets turned off, it loses track of time.  When connected to the Internet, this should not matter as it will get the correct time from a server.  For offline projects, you must keep this in mind if your program uses specified times.  As a work around, I boot up the system, set the time manually, reboot, and then the clock is correct.  An example of this code is:
 
-    sudo date -s "14 APR 2053 15:34:00"
+```
+sudo date -s "14 APR 2053 15:34:00"
+```
 
 
 
