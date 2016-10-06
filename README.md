@@ -911,6 +911,7 @@ Processing Links:
   * <a href="http://www.openprocessing.org/">OpenProcessing is an online gallery of Processing sketches and code</a>
   * <a href="https://www.futurelearn.com/courses/creative-coding/">Free MOOC Creative Coding from Future Learn that uses a Processing Curriculum</a>
   * <a href="https://github.com/jdf/processing.py#python-mode-for-processing">Configuring Processing with the Python language.</a>
+  * <a href="https://vimeo.com/processingfoundation/videos">Processing Foundation's Vimeo Channel</a>
 
 Processing Books and videos for purchase:
   * <a href="http://shop.oreilly.com/product/0636920031406.do">Make: Getting Started with Processing - A Hands-On Introduction to Making Interactive Graphics By Casey Reas, Ben Fry</a>
