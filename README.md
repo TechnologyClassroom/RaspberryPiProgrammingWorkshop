@@ -7,25 +7,26 @@ RPiPW = resources + notes + code samples for a workshop introducing the Raspberr
 
 # [Table of Contents](#toc)
 
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#the-raspberry-pi">The Raspberry Pi</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#purchasing-a-raspberry-pi">Purchasing a Raspberry Pi</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#operating-systems-for-the-raspberry-pi">Operating Systems for the Raspberry Pi</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#installing-raspbian-via-noobs">Installing Raspbian via NOOBS</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#software-repositories">Software Repositories</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#introduction-to-programming">Introduction to Programming</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#hello-world">Hello, world!</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#infinite-loops">Infinite Loops</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#gpio-general-purpose-input-output">GPIO: General Purpose Input/Output</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#python-and-pygame">Python and pygame</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#photo-editing">Photo Editing</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#minecraft-pi-edition">Minecraft: Pi Edition</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#looping-gpio-with-minecraft">Looping GPIO with Minecraft</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#processing">Processing</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#computer-vision-opencv-python-and-simplecv">Computer Vision: opencv-python and SimpleCV</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#projects">Projects</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#problems-and-solutions-that-worked-for-me">Problems and Solutions That Worked for Me</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#raspberry-pi-giveaway">Raspberry Pi Giveaway</a>
-  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources</a>
+* <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#the-raspberry-pi">The Raspberry Pi</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#purchasing-a-raspberry-pi">Purchasing a Raspberry Pi</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#operating-systems-for-the-raspberry-pi">Operating Systems for the Raspberry Pi</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#installing-raspbian-via-noobs">Installing Raspbian via NOOBS</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#software-repositories">Software Repositories</a>
+* <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#introduction-to-programming">Introduction to Programming</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#hello-world">Hello, world!</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#infinite-loops">Infinite Loops</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#gpio-general-purpose-input-output">GPIO: General Purpose Input/Output</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#python-and-pygame">Python and pygame</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#photo-editing">Photo Editing</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#minecraft-pi-edition">Minecraft: Pi Edition</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#looping-gpio-with-minecraft">Looping GPIO with Minecraft</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#processing">Processing</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#computer-vision-opencv-python-and-simplecv">Computer Vision: opencv-python and SimpleCV</a>
+* <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#taking-the-raspberry-pi-further">Taking The Raspberry Pi Further</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#projects">Projects</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#problems-and-solutions-that-worked-for-me">Problems and Solutions That Worked for Me</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#raspberry-pi-giveaway">Raspberry Pi Giveaway</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources</a>
 
 
 
@@ -140,6 +141,8 @@ Open synaptic, click the update button to get the latest list of programs, and t
 
 I would love to teach everyone to program in a day.  That is not possible.  I can show you some cool things you can do with programming.  I can tell you how to learn more.  You will have to do more on your own, practice, find a project that you can work on during your spare time, search for solutions, read code and tutorials, communicate with other programmers, ask questions, and have fun making new things.
 
+Why should you use the Raspberry Pi for programming?  I see lots of web developers use these shiny, expensive laptops.  They design engaging interactive websites.  They put them out on the Internet and then the result does not work for the majority of computers.  They write it off and say, "Oh, well.  It works for me."  That attitude does not change the situation they face.  Many people cannot use their website.  Had they developed on a low spec Raspberry Pi, the result should work on any computer or phone.
+
 I will be using Python for these examples.  Python is an easy-to-read, beginner programming language that can do almost anything with extra libraries.  Libraries expand the functionality of a language by adding more functions, APIs (application program interfaces), and features.
 
 NOTE: While learning, try to debug and follow all errors.  The error should give line numbers.  Check that line, if it leads to another function, check that function.  Google the error if that does not help.  Replace the file with the original if all else fails.
@@ -153,12 +156,14 @@ man ls
 You can also read the manual for the manual with this command:
 
 ```
-    man man
+man man
 ```
 
 Python has even more built in documentation than its man page.  Open the interactive Python prompt with this command:
 
-    python
+```
+python
+```
 
 Now we can access the interactive help menu with this command:
 
@@ -549,14 +554,14 @@ This is only the beginning of what can be done.  Check out these links for more 
 * <a href="https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet/">Raspberry Pi webpage about Minecraft: Pi Edition</a>
 * <a href="http://www.stuffaboutcode.com/p/minecraft-api-reference.html">Minecraft Pi api reference</a>  
 * <a href="http://www.stuffaboutcode.com/p/minecraft.html">An overview about Minecraft Pi programming with links</a>
-  * <a href="http://www.stuffaboutcode.com/2013/06/programming-minecraft-with-bukkit.html">How to connect Python to regular Minecraft using bukkit server</a>
-  * <a href="http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.html">How to connect Python to regular Minecraft using canary server</a>
-  * <a href="https://github.com/raspberrypilearning/getting-started-with-minecraft-pi">Getting started with Minecraft: Pi</a>
-  * <a href="https://github.com/martinohanlon/minecraft-clock">Working clock project for Minecraft Pi</a>
-  * <a href="https://github.com/martinohanlon">Other projects from that programmer/author Martin</a>
-  * <a href="http://pi.minecraft.net/">Minecraft: Pi Edition home page - the api has been updated since then</a>
-  * <a href="http://www.amazon.com/Adventures-Minecraft-David-Whale/dp/111894691X/">Book - Adventures in Minecraft</a>
-  * <a href="http://www.amazon.com/Learn-Program-Minecraft-Transform-Python/dp/1593276702/">Book - Learn to Program with Minecraft: Transform Your World with the Power of Python</a>
+* <a href="http://www.stuffaboutcode.com/2013/06/programming-minecraft-with-bukkit.html">How to connect Python to regular Minecraft using bukkit server</a>
+* <a href="http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.html">How to connect Python to regular Minecraft using canary server</a>
+* <a href="https://github.com/raspberrypilearning/getting-started-with-minecraft-pi">Getting started with Minecraft: Pi</a>
+* <a href="https://github.com/martinohanlon/minecraft-clock">Working clock project for Minecraft Pi</a>
+* <a href="https://github.com/martinohanlon">Other projects from that programmer/author Martin</a>
+* <a href="http://pi.minecraft.net/">Minecraft: Pi Edition home page - the api has been updated since then</a>
+* <a href="http://www.amazon.com/Adventures-Minecraft-David-Whale/dp/111894691X/">Book - Adventures in Minecraft</a>
+* <a href="http://www.amazon.com/Learn-Program-Minecraft-Transform-Python/dp/1593276702/">Book - Learn to Program with Minecraft: Transform Your World with the Power of Python</a>
 
 
 
@@ -626,6 +631,11 @@ To learn more, check out the <a href="https://github.com/TechnologyClassroom/Ras
 I will not demonstrate Computer Vision, but I have to mention it.  ''opencv'' allows you to program the sense of sight.  Analyze photos, video, or live feeds and make decisions based on what you "see."  It is a very powerful module for Python.  ''simplecv'' makes it much easier to write programs.  OpenCV is a framework that works on top of C++, Java or Python.
 
 To learn more, check out the <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources section</a>.
+
+
+
+
+# [Taking The Raspberry Pi Further](#taking-the-raspberry-pi-further)
 
 
 
