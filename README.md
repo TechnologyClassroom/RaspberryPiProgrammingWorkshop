@@ -588,9 +588,11 @@ http://myhowtosandprojects.blogspot.com/2014/04/raspberry-pi-make-your-own-pirat
 
   * Build a robot
 
-If you can power a light with GPIO pins, you can just as easily connect it to a motor.  Add more motors, and you have a robot.
+If you can power a light with GPIO pins, you can just as easily connect it to a motor.  Add more motors and you have a robot.
 
 http://diyhacking.com/raspberry-pi-robot/
+
+<a href="http://shop.oreilly.com/product/0636920031994.do">Make a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors By Wolfram Donat</a>
 
   * Create your own web server
 
@@ -638,14 +640,21 @@ The RetroPie project aims to turn a Raspberry Pi into a game system.  It include
 
 To install RetroPie on top of default Raspbian run these commands:
 
+```
     sudo apt-get update
+    
     git clone git://github.com/petrockblog/RetroPie-Setup
+    
     cd RetroPie-Setup
+    
     sudo ./retropie_setup.sh
+```
 
 The games will need to be copied into the appropriate folder before the console will appear in the menu.  Logout to the terminal and run this command:
 
+```
     emulationstation
+```
 
 A popular alternative to this project is to build a RetroPie into a handheld case using 3D printed cases and a tiny screen.
 
@@ -713,15 +722,21 @@ https://www.raspberrypi.org/products/raspberry-pi-touch-display/
 
 VNC can be used with nearly all computer systems including GNU/Linux, iOS, Mac, and Windows.  It is a way to share control of a computer across a network or the Internet.  Today, it is most commonly used for tech support from remote sites.  VNC software can be installed with these commands:
 
+```
     sudo apt-get install tightvncserver xtightvncviewer
+```
 
 A VNC server can be started with this command:
 
+```
     vncserver :1 -geometry 1920x1080 -depth 24
+```
 
 Other computers or phones on your network can connect to your Raspberry Pi with the proper credentials using your local IP address.  IPv4 addresses are four sets of numbers separated by periods.  An example of an IP address is 192.168.1.58.  Your local IP address can be found using the command:
 
+```
     ifconfig | grep inet
+```
 
 https://www.raspberrypi.org/documentation/remote-access/vnc/
 
@@ -771,6 +786,11 @@ Another great way to get more experience is to find a python script on github, m
 
 This section is not a comprehensive troubleshooter for a Raspberry Pi, but it gives some examples of the problem solving skills that will be beneficial to your journey into microcomputers.  When I bought my model B, a lot of problems had not been worked out.  Compromises, workarounds, and hacks had to be implemented to accomplish some goals.  Many of these problems have been solved with the new line of Raspberry Pis including the A+, B+, 2 B, Zero, and 3 B.
 
+  * Low resolution video
+
+This happens with kids ofen.  The quick solution is to reboot.  Click on the menu in the top left > Logout > Reboot.
+
+This happens when you first plug in the Raspberry Pi with the power before the HDMI.  If you change the order of operations to HDMI and then power, the boot process will automatically identify the video source and give provide optimal resolution.
 
   * Peripheral power / Powered USB Hub
 
