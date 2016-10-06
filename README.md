@@ -902,7 +902,7 @@ sudo date -s "14 APR 2053 15:34:00"
 
 # [Raspberry Pi Giveaway](#raspberry-pi-giveaway)
 
-I will pick an almost random number using Python.  Everyone gets a number 0 - n.
+We will pick an almost random number using Python.  Everyone gets a number 0 - n.
 
 ```
 from random import randint
@@ -918,32 +918,54 @@ If you did not win, you can buy the one I did this presentation with at cost.
 
 
 
+# [Encode QR Code](#qr-code-generation)
+
+We can encode a QR code offline on the Raspberry Pi using qrencode.
+
+To install qrencode on the pi run this command:
+
+```
+sudo apt-get update && sudo apt-get install -y qrencode
+```
+
+We will encode a QR code of this website to a PNG and then display the QR code with these two commands:
+
+```
+qrencode -o qrcode.png 'https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop'
+
+feh -F qrcode.png 
+```
+
+For more ideas on using qrencode, check out this <a href="http://www.linux-magazine.com/Online/Features/Generating-QR-Codes-in-Linux">Linux Magazine link</a>.
+
+
+
 
 # [Resources](#resources)
 <!-- replace amazon links with DRM-free ebook links. More at https://ssearch.oreilly.com/?q=raspberry+pi and https://ssearch.oreilly.com/?q=linux more at more at https://ssearch.oreilly.com/?q=python -->
 This section contains websites and books for everything you ever wanted to know about the Raspberry Pi, GNU/Linux, Python, Processing, and Computer Vision.
 
 Raspberry Pi Links:
-  * http://elinux.org/RPi_Hub
-  * http://www.raspberrypi.org/
-  * http://www.reddit.com/r/raspberry_pi/
-  * http://makezine.com/category/technology/raspberry-pi/?post_type=projects
-  * http://raspberrypi.stackexchange.com/
-  * http://www.instructables.com/tag/type-id/category-technology/channel-raspberry-pi/
-  * http://www.instructables.com/tag/type-id/?sort=none&q=raspberry+pi
-  * http://www.instructables.com/contest/RaspberryPi/
-  * http://raspi.tv
-  * http://www.raspberrypi-spy.co.uk
-  * http://lifehacker.com/tag/raspberry-pi
-  * http://hackaday.com/tag/raspberry-pi/
-  * http://news.google.com/news?gl=us&pz=1&ned=us&hl=en&q=raspberry+pi
-  * http://www.youtube.com/user/RaspberryPiBeginners/videos
-  * http://www.youtube.com/playlist?list=PLI2skf6QZ_a3aAhRn1g_lknX-NHgmp14X
-  * http://www.youtube.com/user/raspberrypiliz/videos
-  * http://www.recantha.co.uk/blog/
-  * http://raspifeed.com/
-  * https://www.reddit.com/r/picases
-  * https://www.raspberrypi.org/resources/make/
+  * <a href="http://elinux.org/RPi_Hub">RPi Hub on eLinux</a>
+  * <a href="http://www.raspberrypi.org/">Official Raspberry Pi website</a>
+  * <a href="http://www.reddit.com/r/raspberry_pi/">Raspberry Pi Subreddit</a>
+  * <a href="http://makezine.com/category/technology/raspberry-pi/?post_type=projects">Raspberry Pi projects from Make Magazine</a>
+  * <a href="http://raspberrypi.stackexchange.com/">Ask questions on RPi Stack Exchange</a>
+  * <a href="http://www.instructables.com/tag/type-id/category-technology/channel-raspberry-pi/">RPi channel on Instructables</a>
+  * <a href="http://www.instructables.com/tag/type-id/?sort=none&q=raspberry+pi">RPi tags on Instructables</a>
+  * <a href="http://www.instructables.com/contest/RaspberryPi/">RPi contest on Instructables</a>
+  * <a href="http://raspi.tv">RasPi.TV blog</a>
+  * <a href="http://www.raspberrypi-spy.co.uk">Raspberry Pi Spy</a>
+  * <a href="http://lifehacker.com/tag/raspberry-pi">RPi tags on LifeHacker</a>
+  * <a href="http://hackaday.com/tag/raspberry-pi/">RPi tags on Hackaday</a>
+  * <a href="http://news.google.com/news?gl=us&pz=1&ned=us&hl=en&q=raspberry+pi">Raspberry Pi news on Google News</a>
+  * <a href="http://www.youtube.com/user/RaspberryPiBeginners/videos">RPi Beginner channel on Youtube</a>
+  * <a href="http://www.youtube.com/playlist?list=PLI2skf6QZ_a3aAhRn1g_lknX-NHgmp14X">RPi playlist on Youtube</a>
+  * <a href="http://www.youtube.com/user/raspberrypiliz/videos">RaspberryPiliz channel on Youtube</a>
+  * <a href="http://www.recantha.co.uk/blog/">Raspberry Pi Pod Podcast</a>
+  * <a href="http://raspifeed.com/">RasPiFeed</a>
+  * <a href="https://www.reddit.com/r/picases">Pi Cases Subreddit</a>
+  * <a href="https://www.raspberrypi.org/resources/make/">Projects from Raspberry Pi.org</a>
   * <a href="http://sonic-pi.net/">Program beats with Sonic Pi</a>
   * <a href="http://sam.aaron.name/2012/11/02/supercollider-on-pi.html">Programming music with Supercollider and Overtone on the Pi</a>
   * <a href="http://nodered.org/">Node-RED "a visual tool for wiring the Internet of Things"</a>
