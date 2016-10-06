@@ -903,7 +903,7 @@ Python Books:
 Processing Links:
   * <a href="https://github.com/processing/processing/wiki/Raspberry-Pi">Processing Raspberry Pi Wiki</a>
   * <a href="https://processing.org/">Processing home page - includes download links and documentation</a>
-  * <a href="http://hello.processing.org/">Online interactive p5.js tutorial through Processing.org.</a>  If you want more Daniel Sheffman, check out <a href="https://www.youtube.com/user/shiffman/videos">his programming videos on youtube</a>.
+  * <a href="http://hello.processing.org/">Online interactive p5.js tutorial through Processing.org.</a>  If you want more Daniel Sheffman, check out <a href="https://www.youtube.com/user/shiffman/videos">his programming videos on youtube</a> and <a href="https://vimeo.com/channels/learningp5js">his extensive p5.js vimeo playlist</a>.
   * <a href="http://www.reddit.com/r/dailyprogrammer">Processing subreddit</a>
   * <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code">Online interactive p5.js tutorial through Khan Academy</a>
   * <a href="http://hello.processing.org/gallery/">Gallery of examples from Hello.Processing</a>
@@ -911,7 +911,6 @@ Processing Links:
   * <a href="http://www.openprocessing.org/">OpenProcessing is an online gallery of Processing sketches and code</a>
   * <a href="https://www.futurelearn.com/courses/creative-coding/">Free MOOC Creative Coding from Future Learn that uses a Processing Curriculum</a>
   * <a href="https://github.com/jdf/processing.py#python-mode-for-processing">Configuring Processing with the Python language.</a>
-  * <a href="https://vimeo.com/processingfoundation/videos">Processing Foundation's Vimeo Channel</a>
 
 Processing Books and videos for purchase:
   * <a href="http://shop.oreilly.com/product/0636920031406.do">Make: Getting Started with Processing - A Hands-On Introduction to Making Interactive Graphics By Casey Reas, Ben Fry</a>
