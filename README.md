@@ -124,8 +124,9 @@ Every GNU/Linux distribution has a set of software that can be installed for fre
 IMPORTANT: To open a terminal in Raspbian, click on the black rectangle in the upper left of the screen.<br>
 To install synaptic, run this command in a terminal:
 
-    sudo apt-get install -y synaptic
-
+```
+sudo apt-get install -y synaptic
+```
 	
 Relevant XKCD:<br>
  <a href="https://xkcd.com/149/"><img src="https://imgs.xkcd.com/comics/sandwich.png"/></a>
@@ -145,11 +146,15 @@ NOTE: While learning, try to debug and follow all errors.  The error should give
 
 I will be using many terminal commands.  It is dangerous to take the word of a stranger on the Internet when dealing with terminal commands.  GNU/Linux has some built in documentation.  You will need the Internet to find most information and tutorials, but the built-in documentationation helps as a quick reference.  You can use the ''man'' command to look up information about a command.  To find information on using the ''ls'' command, try this in a terminal:
 
-    man ls
+```
+man ls
+```
 
 You can also read the manual for the manual with this command:
 
+```
     man man
+```
 
 Python has even more built in documentation than its man page.  Open the interactive Python prompt with this command:
 
@@ -157,15 +162,21 @@ Python has even more built in documentation than its man page.  Open the interac
 
 Now we can access the interactive help menu with this command:
 
-    help()
+```
+help()
+```
 
 Quit the interactive help menu with this command:
 
-    quit
+```
+quit
+```
 
 Quit interactive Python with this function:
 
-    quit()
+```
+quit()
+```
 
 You can teach yourself the basics of using the command line with an interactive website at:
 
@@ -192,29 +203,41 @@ NOTICE:  This comic is dated and uses the old way to use print.  Older versions 
 
 In a terminal, type this command:
 
-    python
+```
+python
+```
 
 The cursor will now follow three greater than symbols >>>.  Type this command and we will be on our way:
 
-    print("Hello, world!")
+```
+print("Hello, world!")
+```
 
 If you read ''Hello, world!'' back from the computer, you succeeded.  Pat yourself on the back and feel good about writing your first line of Python code.  Quit interactive Python with this function:
 
-    quit()
+```
+quit()
+```
 
 We will do this same exercise in a different way.  Open up a text editor from the terminal using the following command line.  Leafpad and nano come installed with Raspbian.  Nano is a terminal application so we will use that.  We will also create a new file and give it a filename as we open it.
 
-    nano hello.py
+```
+nano hello.py
+```
 
 Write out the print function again.
 
-    print("Hello, world!")
+```
+print("Hello, world!")
+```
 
 Exit by holding CTRL and pressing X.  It asks if you want to save changes.  Press Y and enter. You have now saved your program as a text file.
 
 We will call this new text file into Python with this quick command:
 
-    python hello.py
+```
+python hello.py
+```
 
 You wrote your first program!  Now, we will get to the good stuff.
 
@@ -229,37 +252,49 @@ I believe that infinite loops are one of the most exciting concepts in computer 
 
 We can copy our hello.py file from earlier to a new file with this command:
 
-    cp hello.py helloloop.py
+```
+cp hello.py helloloop.py
+```
 
 We can open the new file with nano using this command:
 
-    nano helloloop.py
+```
+nano helloloop.py
+```
 
 Now, add a new line to the beginning of the file that reads:
 
-    while True:
+```
+while True:
+```
 
 Put a tab in front of our earlier work so that the file looks like this:
 
-    while True:
-		print("Hello, world!")
+```
+while True:
+	print("Hello, world!")
+```
 
 Exit by holding CTRL and pressing X.  It asks if you want to save changes.  Press Y and enter. You have now saved your program as a text file.
 
 When we run this file, it will not stop printing ''Hello, world!'' until we force the program to close.  To close the program, hold CTRL and press C.  You could also close the terminal window, but we will need it again in a second.  Run the new program with this command:
 
-    python helloloop.py
+```
+python helloloop.py
+```
 
 Remember to close it by holding CTRL and pressing C once you have had enough!  That was your first loop!  Loops are great for when you want to repeat something without having to start it each time.  Our loop is much easier to write than the alternative:
 
-    print("Hello, world!")
-    print("Hello, world!")
-    print("Hello, world!")
-    print("Hello, world!")
-    print("Hello, world!")
-    print("Hello, world!")
-    print("Hello, world!")
-    print("Hello, world!")
+```
+print("Hello, world!")
+print("Hello, world!")
+print("Hello, world!")
+print("Hello, world!")
+print("Hello, world!")
+print("Hello, world!")
+print("Hello, world!")
+print("Hello, world!")
+```
 
 Programming may seem like a lot of typing at first, but it allows you to type less in the long run.
 
@@ -285,51 +320,65 @@ We will light up the bulb using two methods:  once with Python and once with bas
 
 Setup the modules you will need by running the following on the command line.  Modules for Python expand the functionality of the programming language.  Some modules are associated with Python by default and many others are available to download.  All of your modules can be listed with the Python function ''help('modules')'' from within interactive Python.  In this example, we will use the RPIO module, which connects Python with the pins of the Pi, and the time module, which allows Python to track the passage of time.
 
-    sudo apt-get update
-    sudo apt-get install -y python-dev python-rpi.gpio
+```
+sudo apt-get update
+
+sudo apt-get install -y python-dev python-rpi.gpio
+```
 
 We will write a Python script using nano again.  We will call the file LED7.
 
-    nano LED7.py
+```
+nano LED7.py
+```
 
 Once RPIO is installed, this module can be pulled into any Python script with ``import`` as shown here.
 
-    import RPi.GPIO as GPIO
-    import time
-    
-    # Choose which GPIO pin to use
-    led = 7
-    
-    # set up GPIO as output
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setup(led, GPIO.OUT)
-    
-    # set pin GPIO7 to be "on," turning on the light
-    GPIO.output(led, 1)
-    
-    # delays for 1 second, keeping the light on briefly
-    time.sleep(1)
-    
-    # set pin GPIO7 to be "off," turning off the light
-    GPIO.output(led, 0)
-    
-    # delays for 1 second, keeping the light off briefly
-    time.sleep(1)
+```
+import RPi.GPIO as GPIO
+import time
+
+# Choose which GPIO pin to use
+led = 7
+
+# set up GPIO as output
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(led, GPIO.OUT)
+
+# set pin GPIO7 to be "on," turning on the light
+GPIO.output(led, 1)
+
+# delays for 1 second, keeping the light on briefly
+time.sleep(1)
+
+# set pin GPIO7 to be "off," turning off the light
+GPIO.output(led, 0)
+
+# delays for 1 second, keeping the light off briefly
+time.sleep(1)
+```
 
 Exit by holding CTRL and pressing X.  It asks if you want to save changes.  Press Y and enter. You have now saved your program as a text file.
 
 Since Python is controlling hardware with this script, it will need root privileges.  Use this command to run the script:
 
-    sudo python3 LED7.py
+```
+sudo python3 LED7.py
+```
 
 The light should turn on and off.
 
 Another way to approach this is to use bash.  Bash is the default shell for the command line.  This is possible because everything in the system is treated like a file, including hardware (like the pins) or other devices.  This usage of bash is more complex than the RPIO method in pythod, but it is also very precise. We will not focus on the code here, just be aware that it can be done if students want to manipulate any of the hardware from the command line.
 
-    sudo echo "7" > /sys/class/gpio/export
-    sudo echo "out" > /sys/class/gpio/gpio7/direction
-    sudo echo "1" > /sys/class/gpio/gpio7/value
-    sudo echo "0" > /sys/class/gpio/gpio7/value
+```
+sudo echo "7" > /sys/class/gpio/export
+
+sudo echo "out" > /sys/class/gpio/gpio7/direction
+
+sudo echo "1" > /sys/class/gpio/gpio7/value
+
+sudo echo "0" > /sys/class/gpio/gpio7/value
+```
 
 Echo is a self-explanatory command.  It repeats back what you give it.  The greater than symbol ''>'' sends the output of the previous command to overwrite a file.  In this case, the file is actually hardware instead of a document.  This is a unique aspect to Unix and GNU/Linux.
 
@@ -363,11 +412,15 @@ I would suggest downloading Python version 2.7 to maximize compatibility with py
 
 Python is probably already installed on your GNU/Linux system.  You can check that Python 2.7 is installed by running this command:
 
-    python -V
+```
+python -V
+```
 
 Pygame is installed by default on Raspbian.  If you are on a debian based system, you can install pygame with this command:
 
-    sudo apt-get update && sudo apt-get install -y python-pygame
+```
+sudo apt-get update && sudo apt-get install -y python-pygame
+```
 
 Since pygame depends on Python, the correct version of Python would also be installed with this command.
 
@@ -452,33 +505,35 @@ Create a world and start to play.  Notice the three cartesian coordinates in the
 
 Open up leafpad to code in a text file, or type ''python'' into the terminal to code in an interactive Python shell, and we will write a program for Minecraft.
 
-    # import the modules
-    from mcpi import block
-    from mcpi import minecraft
-    
-    # First make a connection between Python and the game
-    mc = minecraft.Minecraft.create()
-    
-    # mc is a object we can call to control the world.  Let's say, ''Hello!''
-    mc.postToChat("Hello, Minecraft World!")
-    
-    # Now add a block.  You could read the coordinates in the top left, and choose numbers near those.
-    mc.setBlock(-7, 10,0 , block.STONE)
-    
-    # Try to spell a word in the sky.  It is very easy with copy and paste.
-    mc.setBlock(-7, 9, 0, block.STONE)
-    mc.setBlock(-7, 8, 0, block.STONE)
-    mc.setBlock(-7, 7, 0, block.STONE)
-    mc.setBlock(-7, 6, 0, block.STONE)
-    mc.setBlock(-7, 9, 1, block.STONE)
-    mc.setBlock(-7, 10, 2, block.STONE)
-    mc.setBlock(-7, 9, 3, block.STONE)
-    mc.setBlock(-7, 10, 4 , block.STONE)
-    mc.setBlock(-7, 9, 4, block.STONE)
-    mc.setBlock(-7, 8, 4, block.STONE)
-    mc.setBlock(-7, 7, 4, block.STONE)
-    mc.setBlock(-7, 6, 4, block.STONE)
-    # I spelled the letter M.  Try to write your name and impress your friends.
+```
+# import the modules
+from mcpi import block
+from mcpi import minecraft
+
+# First make a connection between Python and the game
+mc = minecraft.Minecraft.create()
+
+# mc is a object we can call to control the world.  Let's say, ''Hello!''
+mc.postToChat("Hello, Minecraft World!")
+
+# Now add a block.  You could read the coordinates in the top left, and choose numbers near those.
+mc.setBlock(-7, 10,0 , block.STONE)
+
+# Try to spell a word in the sky.  It is very easy with copy and paste.
+mc.setBlock(-7, 9, 0, block.STONE)
+mc.setBlock(-7, 8, 0, block.STONE)
+mc.setBlock(-7, 7, 0, block.STONE)
+mc.setBlock(-7, 6, 0, block.STONE)
+mc.setBlock(-7, 9, 1, block.STONE)
+mc.setBlock(-7, 10, 2, block.STONE)
+mc.setBlock(-7, 9, 3, block.STONE)
+mc.setBlock(-7, 10, 4 , block.STONE)
+mc.setBlock(-7, 9, 4, block.STONE)
+mc.setBlock(-7, 8, 4, block.STONE)
+mc.setBlock(-7, 7, 4, block.STONE)
+mc.setBlock(-7, 6, 4, block.STONE)
+# I spelled the letter M.  Try to write your name and impress your friends.
+```
 
 If you typed this into a file, save it as minecrafthack.py and run it with ''python minecrafthack.py''
 
@@ -525,12 +580,17 @@ Processing is a programming language about making visual art.  Processing is gea
 
 To install processing on the Raspberry Pi, run these two commands:
 
-    wget https://processing.org/download/install-arm.sh
-    sudo sh install-arm.sh
+```
+wget https://processing.org/download/install-arm.sh
+
+sudo sh install-arm.sh
+```
 
 If you want to use P3D, this command will fix a bug in the latest versions of Raspbian (at the time of this writing):
 
-    sudo aptitude remove libgles1-mesa libgles2-mesa
+```
+sudo aptitude remove libgles1-mesa libgles2-mesa
+```
 
 These are scripts I have made or modified using Processing:
 
@@ -641,19 +701,19 @@ The RetroPie project aims to turn a Raspberry Pi into a game system.  It include
 To install RetroPie on top of default Raspbian run these commands:
 
 ```
-    sudo apt-get update
+sudo apt-get update
     
-    git clone git://github.com/petrockblog/RetroPie-Setup
+git clone git://github.com/petrockblog/RetroPie-Setup
     
-    cd RetroPie-Setup
+cd RetroPie-Setup
     
-    sudo ./retropie_setup.sh
+sudo ./retropie_setup.sh
 ```
 
 The games will need to be copied into the appropriate folder before the console will appear in the menu.  Logout to the terminal and run this command:
 
 ```
-    emulationstation
+emulationstation
 ```
 
 A popular alternative to this project is to build a RetroPie into a handheld case using 3D printed cases and a tiny screen.
@@ -830,9 +890,13 @@ Desktop computers typically have a coin sized battery attached to the motherboar
 
 I will pick an almost random number using Python.  Everyone gets a number 0 - n.
 
-    from random import randint
-    n = 30 # 31 participants because 0 is a number.
-    print(randint(0,n))
+```
+from random import randint
+
+n = 30 # 31 participants because 0 is a number.
+
+print(randint(0,n))
+```
 
 The winner gets a Raspberry Pi!
 
