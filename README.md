@@ -948,6 +948,7 @@ Raspberry Pi Links:
   * <a href="http://sam.aaron.name/2012/11/02/supercollider-on-pi.html">Programming music with Supercollider and Overtone on the Pi</a>
   * <a href="http://nodered.org/">Node-RED "a visual tool for wiring the Internet of Things"</a>
   * <a href="https://www.oreilly.com/ideas/using-your-maker-skills-to-survive-a-zombie-apocalypse">Free Video Presentation: Using Raspberry Pi and Arduino to survive a zombie apocalypse By Simon Monk</a>
+  * <a href="http://www.wolfram.com/raspberry-pi/">Wolfram cloud based programming language and Mathematica have free versions included on Raspbian.</a>  For more information, see the <a href="http://reference.wolfram.com/language/">wolfram reference.</a>
 
 Raspberry Pi Books:
   * <a href="https://www.raspberrypi.org/magpi/issues/">MagPi Magazine - Free digital magazines</a>
