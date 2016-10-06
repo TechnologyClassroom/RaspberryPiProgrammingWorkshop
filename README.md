@@ -903,7 +903,7 @@ Python Books:
 Processing Links:
   * <a href="https://github.com/processing/processing/wiki/Raspberry-Pi">Processing Raspberry Pi Wiki</a>
   * <a href="https://processing.org/">Processing home page - includes download links and documentation</a>
-  * <a href="http://hello.processing.org/">Online interactive p5.js tutorial through Processing.org</a>
+  * <a href="http://hello.processing.org/">Online interactive p5.js tutorial through Processing.org.</a>  If you want more Daniel Sheffman, check out <a href="https://www.youtube.com/user/shiffman/videos">his programming videos on youtube</a>.
   * <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code">Online interactive p5.js tutorial through Khan Academy</a>
   * <a href="http://hello.processing.org/gallery/">Gallery of examples from Hello.Processing</a>
   * <a href="http://cagewebdev.com/index.php/raspberry-pi-running-processing-on-your-raspi/">Installing Processing on the Raspberry Pi</a>
