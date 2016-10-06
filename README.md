@@ -8,6 +8,7 @@ RPiPW = resources + notes + code samples for a workshop introducing the Raspberr
 # [Table of Contents](#toc)
 
   * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#the-raspberry-pi">The Raspberry Pi</a>
+  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#purchasing-a-raspberry-pi">Purchasing a Raspberry Pi</a>
   * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#operating-systems-for-the-raspberry-pi">Operating Systems for the Raspberry Pi</a>
   * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#installing-raspbian-via-noobs">Installing Raspbian via NOOBS</a>
   * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#software-repositories">Software Repositories</a>
@@ -57,7 +58,12 @@ There are other SBCs (Single Board Computers) available.  The Raspberry Pi is no
 
 Electricity efficiency: <a href="http://michaelbluejay.com/electricity/computers.html">A typical desktop computer without a monitor consumes 200 W 800 mA.  If you were to leave a full computer running all day for a year, you would be using 1752 kilowatt-hours or about $630 on your electric bill.</a>  A 5 W Raspberry Pi running all day for a year would use 43.8 kilowatt-hours or about $15.  This makes a large environmental difference for long-term projects like hosting a web server or opening your garage when your phone comes within range.
 
-That is the price for the board.  What about all of the extra things you need to make it work?  I made a shopping cart at the Brooklyn New York Micro Center page with everything I would buy for one.
+
+
+
+# [Purchasing a Raspberry Pi](#purchasing-a-raspberry-pi)
+
+What about all of the extra things you need to make it work?  I made a shopping cart at the Brooklyn New York Micro Center page with everything I would buy for one.
 
   * $29.99 RS Raspberry Pi 3 Model B
   *  $7.99 QVS Micro-USB Power Supply for Raspberry Pi B with Built-in 4ft Cable - 2 Amp
@@ -65,7 +71,7 @@ That is the price for the board.  What about all of the extra things you need to
   *  $8.99 Trendnet Mini Wireless N Speed USB Adapter
   *  $5.99 Micro Center 16GB micro SDHC Class 10 Flash Media Card
   *  $9.99 Inland 6 ft. HDMI Male to HDMI Male Cable
-
+  
   * $70.94 Subtotal
   *  $6.30 Tax
   * $77.24 Grand Total
