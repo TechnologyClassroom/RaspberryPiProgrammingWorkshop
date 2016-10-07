@@ -246,7 +246,7 @@ python hello.py
 
 You wrote your first program!  Now, we will get to the good stuff.
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/hello.py">hello.py code</a>
+<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/hello.py">hello.py code</a>
 
 
 
@@ -303,7 +303,7 @@ print("Hello, world!")
 
 Programming may seem like a lot of typing at first, but it allows you to type less in the long run.
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/helloloop.py">helloloop.py code</a>
+<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/helloloop.py">helloloop.py code</a>
 
 
 
@@ -389,9 +389,9 @@ Echo is a self-explanatory command.  It repeats back what you give it.  The grea
 
 If you replace the LED with a motor, the same code can control a robot!
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/LED7.py">LED7.py code</a>
+<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/GPIOscripts/LED7.py">LED7.py code</a>
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/LED7withbash.sh">LED7withbash.sh code</a>
+<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/GPIOscripts/LED7withbash.sh">LED7withbash.sh code</a>
 
 For more information about projects using the Raspberry Pi's GPIO, check out these links:
   * https://www.raspberrypi.org/learning/python-quick-reaction-game/worksheet/
@@ -461,7 +461,7 @@ Intermediate:
 Change a game from inventwithpython, http://www.pygame.org/, or https://pyweek.org/ into something that looks completely different from the original with different game mechanics.  Since you're making bigger changes, save your work with a new file name.
 
 A simple example of this is TheGameThatMarioBeat2.py based on code from wormy.py
-https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/TheGameThatMarioBeat2.py
+<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/TheGameThatMarioBeat2.py">The Game That Mario Beat 2</a>
 
 Mastery:
 Build your own game starting with a blank document using python and pygame using the internal documentation for python and pygame and the python and pygame websites.
@@ -538,7 +538,7 @@ See if you can write your entire name.
 
 There are other projects that can be found elsewhere like the interactive photo booth, giant clock, and more.
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/minecrafthack.py">minecrafthack.py code</a>
+<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/minecrafthack.py">minecrafthack.py code</a>
 
 This is only the beginning of what can be done.  Check out these links for more Minecraft projects with the pi.
 * <a href="https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet/">Raspberry Pi webpage about Minecraft: Pi Edition</a>
@@ -560,9 +560,9 @@ This is only the beginning of what can be done.  Check out these links for more 
 
 Programming Python, loops, GPIO, and Minecraft is all cool, but can we combine them?  Yes.  Here are two example scripts:
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/minecraftlight.py">minecraftlight.py code</a>
+<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/minecraftlight.py">minecraftlight.py code</a>
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/minecraftlightloop.py">minecraftlightloop.py code</a>
+<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/minecraftlightloop.py">minecraftlightloop.py code</a>
 
 
 
