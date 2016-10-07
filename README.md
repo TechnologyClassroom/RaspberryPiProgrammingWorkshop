@@ -613,6 +613,8 @@ The code for my processing examples can be found at my <a href="https://github.c
 
 To learn more, check out the <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources section</a> and my page of <a href="https://github.com/TechnologyClassroom/Processing/blob/master/ProcessingExamples.md">examples</a>.
 
+Note: Java is licensed under the <a href="http://www.oracle.com/technetwork/java/javase/terms/license/index.html">Oracle Binary Code License</a> which differs from many of the other licenses discussed around the Raspberry Pi.
+
 
 
 
