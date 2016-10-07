@@ -55,6 +55,7 @@ sudo apt-get install -y imagemagick
 sudo apt-get install -y libav-tools # avconv
 # Presentation aids
 sudo apt-get install -y key-mon # Presentation keyboard and mouse actions
+sudo apt-get install -y qrencode # QR Code Encoder
 sudo apt-get install -y screenkey # Presentation keyboard actions
 # VNC
 sudo apt-get install -y tightvncserver
