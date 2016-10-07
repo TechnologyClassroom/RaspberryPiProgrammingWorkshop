@@ -447,21 +447,11 @@ http://inventwithpython.com/makinggames_src.zip
 
 <br>
 
-These games written with pygame originated from the Invent with Python website:
+These games written with pygame originated from the <a href="http://inventwithpython.com">Invent with Python website.</a>  You can get a <a href="http://inventwithpython.com/makinggames.pdf">free book that accompanies the games.</a>
 
-http://inventwithpython.com
+There are hundreds of free games that you can modify from <a href="www.pygame.org">the pygame webpage.</a>
 
-You can get a free book that accompanies the games from:
-
-http://inventwithpython.com/makinggames.pdf
-
-There are hundreds of free games that you can modify from pygame's webpage:
-
-www.pygame.org
-
-More tutorials for pygame can be found at:
-
-www.pygame.org/wiki/tutorials
+Check out the <a href="www.pygame.org/wiki/tutorials">pygame tutorials</a> for more information.
 
 Beginner:
 Download Al's games from http://inventwithpython.com/makinggames_src.zip
@@ -476,16 +466,16 @@ https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/maste
 Mastery:
 Build your own game starting with a blank document using python and pygame using the internal documentation for python and pygame and the python and pygame websites.
 
-Fat Math Three is a cool choose-your-own-adventure with a math game mechanic found at:
-https://pyweek.org/e/fat_math_three/
+* <a href="https://pyweek.org/e/fat_math_three/">Fat Math Three</a> is a well made, choose-your-own-adventure with a math game mechanic made for PyWeek.
+* <a href="http://www.emhsoft.com/singularity/">Endgame: Singularity</a> is a simulation game in written with python, pygame, and numpy that explores the perspective of an AI.  <a href="https://github.com/singularity/singularity">Source code</a> is on github.
+* <a href="https://thenewboston.com/videos.php?cat=120">Video tutorial series from TheNewBoston</a>
 
-Video tutorial series from TheNewBoston
-https://thenewboston.com/videos.php?cat=120
+
 
 
 # [Photo Editing](#photo-editing)
 
-To add your own images to games, you need to use a photo editor.  GIMP (the GNU Image Manipulation Program) is free and open source and works on the Raspberry Pi 3, GNU/Linux, Mac, and Windows.
+To add your own images to games, you need to use a photo editor.  <a href="https://www.gimp.org/">GIMP (the GNU Image Manipulation Program)</a> is free and open source and works on the Raspberry Pi 3, GNU/Linux, Mac, and Windows.
 
 The default layout has three windows (tools, image, and layers) and can be confusing to young kids.  On the menu bar, choose Window and "Single-Window Mode" to make it easier to navigate.
 
@@ -504,7 +494,7 @@ NOTE: Minecraft: Pi Edition only works for the Raspberry Pi's CPU architecture A
 
 Start up Minecraft: Pi Edition.
 
-NOTE: Do not make the game full-screen.  Children tend to do this first thing.  It will not work optimally, and it is not meant to be full-screen.  It is meant to take up some of the screen while you code next to it.
+NOTE: Do not make the game full-screen.  Children tend to do this first thing.  The mouse will not work optimally, and it is not meant to be full-screen.  It is meant to take up some of the screen while you code next to it.
 
 Create a world and start to play.  Notice the three cartesian coordinates in the top left corner of the screen.  These coordinates give numbers to the x, y, and z axis of the game world.
 
@@ -694,15 +684,15 @@ https://www.raspberrypi.org/blog/tag/internet-of-things/
 
 The Raspberry Pi foundation has designed two camera modules that can be easily connected to the Raspberry Pi.  They are the camera and the infrared modules.
 
-https://www.raspberrypi.org/products/camera-module/
+<a href="https://www.raspberrypi.org/products/camera-module/">RPi Camera Module</a>
 
-https://www.raspberrypi.org/products/pi-noir-camera/
+<a href="https://www.raspberrypi.org/products/pi-noir-camera/">RPi Infrared Camera Module</a>
 
-https://www.raspberrypi.org/help/camera-module-setup/
+<a href="https://www.raspberrypi.org/help/camera-module-setup/">RPi Camera help</a>
 
 * Emulating a Raspberry Pi on your Computer with QEMU and Windows
 
-http://www.pcsteps.com/1199-raspberry-pi-emulation-for-windows-qemu/
+<a href="http://www.pcsteps.com/1199-raspberry-pi-emulation-for-windows-qemu/">Emulating a Raspberry Pi on your Computer with QEMU and Windows</a>
 
 I confirm that it works and covers all pitfalls.  It feels very slow to use because it is limited by 256mb of allocated RAM.  The advantage of emulating the Pi on a computer is that the img file can be modified directly.  A custom img with updated software and all of your programs can then be copied to your SD card.
 
@@ -740,21 +730,21 @@ A popular alternative to this project is to build a RetroPie into a handheld cas
 
 The term cloud has been confusing the majority of computer users since its creation.  It simply means you are putting your private data on someone else's server.  Since you cannot verify that their interests are in your best interest, the majority of cloud based services cannot be trusted.  You could build your own cloud!  I will suggest Freedom Box.  It acts as a cloud and more.
 
-https://freedomboxfoundation.org/
+<a href="https://freedomboxfoundation.org/">FreedomBox Foundation</a>
 
 * Talk with all of your friends at once
 
 You can run a server on your Raspberry Pi called mumble that will allow your friends to all connect and talk to each other at once.
 
-https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=8615
+<a href="https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=8615">Mumble Server forum post</a>
 
   * Design your own case
 
 If you have access to a 3D printer or some spare legos, you can make your own cases.  You can use any 3D modeling software to design your own 3D shapes to protect your Raspberry Pi.  Here are some examples of cases that others have made:
 
-http://www.makeuseof.com/tag/8-interesting-diy-raspberry-pi-case-ideas/
+<a href="http://www.makeuseof.com/tag/8-interesting-diy-raspberry-pi-case-ideas/">8 Interesting DIY RPi Case Ideas</a>
 
-http://www.thingiverse.com/search?q=raspberry+pi&sa=
+<a href="http://www.thingiverse.com/search?q=raspberry+pi&sa=">Thingiverse 3D models Raspberry Pi Results</a>
 
 * Try a program out in space
 
