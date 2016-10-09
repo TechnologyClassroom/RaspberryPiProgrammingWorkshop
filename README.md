@@ -64,24 +64,21 @@ Electricity efficiency: <a href="http://michaelbluejay.com/electricity/computers
 
 # [Purchasing a Raspberry Pi](#purchasing-a-raspberry-pi)
 
-What about all of the extra things you need to make it work?  I made a shopping cart at the Brooklyn New York Micro Center page with everything I would buy for one.
+What about all of the extra things you need to make it work?  I made a shopping cart at the Cambridge, MA Micro Center page with everything I would buy for one.
 
   * $29.99 RS Raspberry Pi 3 Model B
-  *  $7.99 QVS Micro-USB Power Supply for Raspberry Pi B with Built-in 4ft Cable - 2 Amp
-  *  $7.99 Inland Pro Wired Optical Mouse and Keyboard Combo
-  *  $8.99 Trendnet Mini Wireless N Speed USB Adapter
+  *  $8.99 Micro-USB Power Supply 5 volt 2.5 amp
+  *  $3.99 Inland Wired Optical Mouse
+  *  $3.99 Inland Wired Keyboard
   *  $5.99 Micro Center 16GB micro SDHC Class 10 Flash Media Card
-  *  $9.99 Inland 6 ft. HDMI Male to HDMI Male Cable
   
-  * $70.94 Subtotal
-  *  $6.30 Tax
-  * $77.24 Grand Total
+  * $52.95 Subtotal
+  *  $4.50 Tax
+  * $57.45 Grand Total
 
-Some of these items are commonly lying around already.  Cheaper prices can be found at other online stores, thrift stores, and garage sales.  Two things that I did not include are a case and a screen to plug the HDMI into.  Legos or a <a href="http://www.thingiverse.com/search?q=raspberry+pi&sa=">3D printer</a> can be used to build a case.  TVs are almost everywhere.
+Some of these items are commonly lying around already.  Cheaper prices can be found at other online stores, thrift stores, and garage sales.  Three things that I did not include are a case, and HDMI cable, and a screen with HDMI or DVI.  Optionally, Legos or a <a href="http://www.thingiverse.com/search?q=raspberry+pi&sa=">3D printer</a> can be used to build a case.  TVs are almost everywhere.
 
 Another ready to go option is <a href="https://www.pi-top.com/">the pi-top for $300 or the pi-topCEED for $150</a> which are Raspberry Pi workstations that include monitors.
-
-IMPORTANT NOTE: Wireless adapters do not always work.  Some brands work very well and others require extra work to use them.  After doing too much of the extra work, I always look up the chipset of compatible wireless cards BEFORE I buy a new one.  Atheros chipsets are nearly always compatible.  The packaging rarely says the name of the chipset so you always have to <a href="https://wikidevi.com/wiki/List_of_Wi-Fi_Device_IDs_in_Linux">look it up</a>.
 
 
 
@@ -855,6 +852,10 @@ This section is not a comprehensive troubleshooter for a Raspberry Pi, but it gi
 This happens with kids ofen.  The quick solution is to reboot.  Click on the menu in the top left > Logout > Reboot.
 
 This happens when you first plug in the Raspberry Pi with the power before the HDMI.  If you change the order of operations to HDMI and then power, the boot process will automatically identify the video source and give provide optimal resolution.
+
+* Wireless adapters
+
+Wireless adapters do not always work.  Some brands work very well and others require extra work to use them.  After doing too much of the extra work, I always look up the chipset of compatible wireless cards BEFORE I buy a new one.  Atheros chipsets are nearly always compatible.  The packaging rarely says the name of the chipset so you always have to <a href="https://wikidevi.com/wiki/List_of_Wi-Fi_Device_IDs_in_Linux">look it up</a>.
 
 * Peripheral power / Powered USB Hub
 
