@@ -1054,6 +1054,7 @@ Computer Vision Links:
   * <a href="http://www.oreilly.com/pub/e/3077">Free Video Presentation: Training Intelligent Camera Systems with Python and OpenCV By Joseph Howse</a>
   
 Computer Vision Books:
+  * <a href="https://leanpub.com/InstantRPiCV">Pay-What-You-Want Instant Raspberry Pi Computer Vision By Ashwin Pajankar</a>
   * <a href="http://shop.oreilly.com/product/0636920024057.do">Practical Computer Vision with SimpleCV: The Simple Way to Make Technology See By Kurt Demaagd, Anthony Oliver, Nathan Oostendorp, Katherine Scott</a>
   * <a href="http://shop.oreilly.com/product/9781783287376.do">OpenCV for Secret Agents By Joseph Howse</a>
   * <a href="http://shop.oreilly.com/product/9781785283840.do">Learning OpenCV 3 Computer Vision with Python, 2nd Edition By Joe Minichino, Joseph Howse</a>
