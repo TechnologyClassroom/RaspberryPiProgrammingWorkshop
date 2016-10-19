@@ -991,6 +991,7 @@ By Piotr J. Kula</a>
   * <a href="http://shop.oreilly.com/product/0636920029083.do">Raspberry Pi Hacks: Tips & Tools for Making Things with the Inexpensive Linux Computer By Ruth Suehle, Tom Callaway</a>
   * <a href="http://www.oreilly.com/pub/e/2650">Free Video Presentation: Intro to Raspberry Pi: be prepared to be inspired to make awesome things By Ed Snajder</a>
   * <a href="http://shop.oreilly.com/product/0636920031338.do">Linux for Makers: Understanding the Operating System That Runs Raspberry Pi and Other Maker SBCs By Aaron Newcomb</a>
+  * <a href="https://leanpub.com/RPiMRE">Pay-What-You-Want RPi: Measure, Record, Explore By Malcolm Maclean</a>
 
 Python and Programming Links:
   * <a href="http://www.codecademy.com/tracks/python">Codecademy's Python track</a>
