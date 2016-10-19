@@ -1041,6 +1041,7 @@ Processing Books and videos for purchase:
   * <a href="http://shop.oreilly.com/product/9780123944436.do">Learning Processing, 2nd Edition: A Beginner's Guide to Programming Images, Animation, and Interaction By Daniel Shiffman</a>
   * <a href="http://shop.oreilly.com/product/9781782166726.do">Processing 2: Creative Coding Hotshot By Nikolaus Gradwohl</a>
   * <a href="http://shop.oreilly.com/product/9781849517942.do">Processing 2: Creative Programming Cookbook By Jan Vantomme</a>
+  * <a href="http://natureofcode.com/book/">Free Nature of Code By Daniel Shiffman</a>
   * <a href="http://shop.oreilly.com/product/0636920013310.do">Video: Processing and Arduino in Tandem: Creating Your Own Digital Art Tools By Joseph Gray</a>
   * <a href="http://shop.oreilly.com/product/0636920018353.do">Video: Processing and Arduino in Tandem: Video Mixer By Joseph Gray</a>
   * <a href="http://shop.oreilly.com/product/0636920018377.do">Video: Processing and Arduino in Tandem: Audio Visualizer By Joseph Gray</a>
