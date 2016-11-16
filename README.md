@@ -2,7 +2,7 @@
 
 RPiPW = resources + notes + code samples for a workshop introducing the Raspberry Pi as a beginner's programming environment
 
-
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>Copyright © Michael McMahon 2015-2016.  Except where otherwise specified, the text on <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/">Raspberry Pi Programming Workshop</a> by Michael McMahon is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)</a>.
 
 
 # [Table of Contents](#toc)
@@ -1091,4 +1091,4 @@ Python is one of the most fun programming languages.  Remember to have fun with 
 
 <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#raspberrypiprogrammingworkshop">back to top</a>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br>Copyright © Michael McMahon 2015-2016.  Except where otherwise specified, the text on <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/">Raspberry Pi Programming Workshop</a> by Michael McMahon is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)</a>.
