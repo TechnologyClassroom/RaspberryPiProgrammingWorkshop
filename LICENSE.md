@@ -1,13 +1,15 @@
-License: Creative Commons Attribution 4.0 International<br>
-Human Readable License: http://creativecommons.org/licenses/by/4.0/<br>
-Complete Legal Terms: http://creativecommons.org/licenses/by/4.0/legalcode<br>
+Copyright © Michael McMahon 2015-2016.  Except where otherwise specified, the text on <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/">Raspberry Pi Programming Workshop</a> by Michael McMahon is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)</a>.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International<br>
+Human Readable License: https://creativecommons.org/licenses/by-sa/4.0/<br>
+Complete Legal Terms: https://creativecommons.org/licenses/by-sa/4.0/legalcode<br>
 Formatting: https://github.com/jmatsushita/Creative-Commons-4.0-Markdown/blob/master/licenses/by-sa.markdown<br>
 
 ## creative commons
 
 # Attribution-ShareAlike 4.0 International
 
-Official translations of this license are available <a href="https://creativecommons.org/licenses/by/4.0/legalcode#languages">in other languages</a>.
+Official translations of this license are available <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode#languages">in other languages</a>.
 
 Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
 
