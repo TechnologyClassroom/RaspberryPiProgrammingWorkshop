@@ -1,10 +1,7 @@
-License: Creative Commons Attribution 4.0 International
-
-Human Readable License: http://creativecommons.org/licenses/by/4.0/
-
-Complete Legal Terms: http://creativecommons.org/licenses/by/4.0/legalcode
-
-Formatting: https://github.com/jmatsushita/Creative-Commons-4.0-Markdown/blob/master/licenses/by-sa.markdown
+License: Creative Commons Attribution 4.0 International<br>
+Human Readable License: http://creativecommons.org/licenses/by/4.0/<br>
+Complete Legal Terms: http://creativecommons.org/licenses/by/4.0/legalcode<br>
+Formatting: https://github.com/jmatsushita/Creative-Commons-4.0-Markdown/blob/master/licenses/by-sa.markdown<br>
 
 ## creative commons
 
