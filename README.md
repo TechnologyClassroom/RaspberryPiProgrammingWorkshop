@@ -967,6 +967,7 @@ Raspberry Pi Links:
 
 Raspberry Pi Books:
   * <a href="https://www.raspberrypi.org/magpi/issues/">MagPi Magazine - Free digital magazines</a>
+  * <a href="http://www.raspberry-pi-geek.com/">Raspberry Pi Geek Magazine</a>
   * <a href="http://www.amazon.com/Make-Raspberry-Electronic-Projects-Pocket-Sized/dp/1457186128/">Make: Getting Started with Raspberry Pi: Electronic Projects with the Low-Cost Pocket-Sized Computer</a>
   * <a href="http://www.amazon.com/Getting-Started-Raspberry-Pi-Electronic/dp/1457186128/">Make: Getting Started with Raspberry Pi</a>
   * <a href="http://www.amazon.com/Make-Raspberry-Pi-Controlled-Robot-Building/dp/1457186039">Make: a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors</a>
