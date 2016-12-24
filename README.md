@@ -891,6 +891,23 @@ sudo date -s "14 APR 2053 15:34:00"
 ```
 
 
+* Language defaults
+
+When installing from NOOBS and even if the language is correctly set at the bottom, sometimes the language and keyboard is still incorrect with Raspbian.  There is a GUI tool that can help configure this at the Raspberry Pi menu > Preferences > Raspberry Pi Configuration > Localisation.  I use Set Locale, Set Timezone, and Set Keyboard in that menu.
+
+To check localization settings, open a terminal and run this command:
+
+```
+locale
+```
+
+If settings are not correct, you can run this command (my preferences are English United States UTF-8):
+
+```
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+```
+
+
 
 
 # [Raspberry Pi Giveaway](#raspberry-pi-giveaway)
