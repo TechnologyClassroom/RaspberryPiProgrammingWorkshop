@@ -15,7 +15,7 @@ RPiPW = resources + notes + code samples for a workshop introducing the Raspberr
 * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#introduction-to-programming">Introduction to Programming</a>
  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#hello-world">Hello, world!</a>
  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#infinite-loops">Infinite Loops</a>
- * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#gpio-general-purpose-input-output">GPIO: General Purpose Input/Output</a>
+ * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#gpio">GPIO: General Purpose Input/Output</a>
  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#python-and-pygame">Python and pygame</a>
  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#photo-editing">Photo Editing</a>
  * <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#minecraft-pi-edition">Minecraft: Pi Edition</a>
@@ -305,7 +305,7 @@ Programming may seem like a lot of typing at first, but it allows you to type le
 
 
 
-# [GPIO: General Purpose Input/Output](#gpio-general-purpose-input-output)
+# [GPIO: General Purpose Input/Output](#gpio)
 
 If you have ever used an Arduino, you are already familiar with input/output pins.  These can be programmed and linked to other components to build custom circuits.  The Pi A & B have 26 pins.  The Pi A+, B+, 2 B, Zero, and 3 B have 40 pins.  The Pi Compute Module has 200 pins.
 
