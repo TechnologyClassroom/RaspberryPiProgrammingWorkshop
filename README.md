@@ -763,6 +763,51 @@ https://vimeo.com/157627149
 
 How cool would it be to use your phone to control the stereo?  You can do that with the Raspberry Pi.  Put all of your music on a storage device.  Connect your music collection to your Pi.  Install and configure mpd (Music Player Daemon) on your Pi.  Connect your Pi to the stereo.  Connect your phone to your Pi through an MPD app such as MPoD or MPDroid.
 
+```
+# Update software repositories, remove unnecessary software, and install mpd.
+
+sudo apt-get update
+
+sudo apt-get remove -y pulseaudio wolfram-engine wolframscript scratch # Removing pulseaudio fixes the volume control problem.  Removing wolfram and scratch speeds up upgrade time.
+
+sudo apt-get upgrade -y
+
+sudo apt-get install -y mpd mpc
+
+# Change ownership of mpd folders to user mpd and group audio.
+
+sudo chown mpd:audio -R /var/lib/mpd
+
+sudo chown mpd:audio -R /var/log/mpd
+
+# Change the settings for mpd.
+
+sudo nano /etc/mpd.conf
+
+# Add a drive formatted with ext4 containing music files.
+
+# Symlink the music drive to the mpd directory.
+
+sudo ln -s /mnt/music1/Audio /var/lib/mpd/music/
+
+# Change the ownership properties of the mounted drive.
+
+sudo chown mpd:audio -R /mnt/music1
+
+# Restart mpd
+
+sudo service mpd restart
+
+# Update mpd database
+
+mpc update --wait
+
+# Check the progress of the database or look for errors.
+
+tail -n 30 /var/log/mpd/mpd.log
+
+```
+
 http://elinux.org/Rpi_Music_Player_Daemon
 
 
