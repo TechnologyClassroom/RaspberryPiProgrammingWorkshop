@@ -662,6 +662,85 @@ What better way to learn web design than creating your own web server?  You can 
 https://wiki.archlinux.org/index.php/Nginx
 
 
+* Create your own Baby Monitor
+
+Most of the "smart" baby monitors on the market are always on devices connected to the Internet that you do not control.  I built my own with <a href="https://github.com/iizukanao/picam">PiCam</a>.  It can record to a file or stream on your local area network (LAN).
+
+```
+# If you have not enabled camera, enable it with raspi-config then reboot
+sudo raspi-config
+
+# Install dependencies
+sudo apt-get update
+sudo apt-get install -y libharfbuzz0b
+sudo apt-get install -y libfontconfig1
+
+# Create directories and symbolic links
+cat > make_dirs.sh <<'EOF'
+DEST_DIR=~/picam
+SHM_DIR=/run/shm
+mkdir -p $SHM_DIR/rec
+mkdir -p $SHM_DIR/hooks
+mkdir -p $SHM_DIR/state
+mkdir -p $DEST_DIR/archive
+ln -sfn $DEST_DIR/archive $SHM_DIR/rec/archive
+ln -sfn $SHM_DIR/rec $DEST_DIR/rec
+ln -sfn $SHM_DIR/hooks $DEST_DIR/hooks
+ln -sfn $SHM_DIR/state $DEST_DIR/state
+EOF
+chmod +x make_dirs.sh
+./make_dirs.sh
+
+# Optionally, increase microphone volume with alsamixer
+#alsamixer
+
+# Install picam binary
+wget https://github.com/iizukanao/picam/releases/download/v1.4.6/picam-1.4.6-binary.tar.xz
+tar xvf picam-1.4.6-binary.tar.xz
+cp picam-1.4.6-binary/picam ~/picam/
+
+# Run picam
+#cd ~/picam
+#./picam --alsadev hw:1,0
+
+# Install nginx
+sudo apt-get install -y nginx
+
+# Edit nginx configuration
+echo "Within the server { ... } block add these lines:"
+echo "	location /hls/ {"
+echo "		root /run/shm;"
+echo "	}"
+
+#	location /hls/ {
+#		root /run/shm;
+#	}
+sudo nano /etc/nginx/sites-available/default
+
+# Set Picam to start automatically
+echo "Before exit 0, add this line:
+echo "/home/pi/picam-1.4.6-binary/picam -o /run/shm/hls --alsadev hw:1,0"
+
+# /home/pi/picam-1.4.6-binary/picam -o /run/shm/hls --alsadev hw:1,0
+
+sudo nano /etc/rc.local
+
+echo "Find your local IP address."
+ip a
+
+sudo reboot
+```
+
+On another machine, test your stream.
+
+VLC can open video streams.  Kodi can open streams with the surveillance camera add-on.
+
+My address was:
+http://192.168.1.208/hls/index.m3u8
+
+https://github.com/iizukanao/picam
+
+
 * Universal Translator
 
 This project allows you to convert speech from one spoken language to another.  Record audio of talking, convert the audio to text, translate the text to another language, and have it read back to you in another language.
