@@ -34,11 +34,18 @@ RPiPW = resources + notes + code samples for a workshop introducing the Raspberr
 # [The Raspberry Pi](#the-raspberry-pi)
 <!-- Separate this section into more sections: buying and connecting -->
 
-The Raspberry Pi is a low-cost, low-power single board computer the size of a credit card.  With a low price point and advanced software, it is a great tool to teach youth electronics and programming.
+The Raspberry Pi is a low-cost, low-power single board computer the size of a
+credit card.  With a low price point and advanced software, it is a great tool
+to teach youth electronics and programming.
 
-The Pi is developed by the Raspberry Pi Foundation.  Their goal is ''to advance the education of adults and children, particularly in the field of computers, computer science and related subjects,'' according to their <a href="https://www.raspberrypi.org/about/">about us page</a>.
+The Pi is developed by the Raspberry Pi Foundation.  Their goal is ''to advance
+the education of adults and children, particularly in the field of computers,
+computer science and related subjects,'' according to their
+[about us page](https://www.raspberrypi.org/about/).
 
-Children buy $60 video games for expensive consoles each year.  What if they purchased a computer with that money instead?  They could take the same HDMI cable out of their video game system and plug it into a Raspberry Pi.
+Children buy $60 video games for expensive consoles each year.  What if they
+purchased a computer with that money instead?  They could take the same HDMI
+cable out of their video game system and plug it into a Raspberry Pi.
 
 <img src="https://www.element14.com/community/servlet/JiveServlet/showImage/102-80899-13-252356/Pi3+Breakout+Feb+29+2016.png"/>
 
@@ -46,6 +53,7 @@ Breakdown of various available models of the Raspberry Pi
 
 Release Date | Original Price | Model | GPIO Pins | CPU
 ------| ----- | ----- |-----------|---------
+Feb 2017 | $10 | Zero W | 40 | 1.0GHz ARMv6 (single core)
 Feb 2016 | $35 | 3 B | 40 | 1.2GHz ARMv8 64bit (quad core)
 Nov 2015 | $5 | Zero | 40 | 1.0GHz ARMv6 (single core)
 Feb 2015 | $35 | 2 B | 40 | 900MHz ARMv7 (quad core)
@@ -55,16 +63,35 @@ Apr 2014 | $30 | Compute | 200 | 700MHz ARMv6 (single core)
 Feb 2012 | $25 | 1 A | 26 | 700MHz ARMv6 (single core)
 Feb 2012 | $35 | 1 B | 26 | 700MHz ARMv6 (single core)
 
-There are other SBCs (Single Board Computers) available.  The Raspberry Pi is not the best, but the Raspberry Pi is one of the cheapest and most popular boards.  Other SBCs include <a href="https://www.crowdsupply.com/eoma68/micro-desktop">OEMA68</a>, <a href="http://www.parallella.org/board/">Parallella with 18 core processors</a>, <a href="https://www.olimex.com/Products/OlinuXino/">OLinuXino</a>, <a href="http://www.lemaker.org/">Banana Pi</a>, <a href="http://nextthing.co/">C.H.I.P. the $9 base modular computer</a>, <a href="http://beagleboard.org/">Beagleboards</a>, and <a href="http://cubieboard.org/">Cubieboards</a>.  With anything popular in the open source community, higher numbers of people working on a projects yields more projects, tutorials, and development.  I started with the journey into single board computers with the Raspberry Pi model 1 B.
+There are other SBCs (Single Board Computers) available.  The Raspberry Pi is
+not the best, but the Raspberry Pi is one of the cheapest and most popular
+boards.  Other SBCs include
+[OEMA68](https://www.crowdsupply.com/eoma68/micro-desktop),
+[Parallella with 18 core processors](http://www.parallella.org/board/),
+[OLinuXino](https://www.olimex.com/Products/OlinuXino/),
+[Banana Pi](http://www.lemaker.org/),
+[C.H.I.P. the $9 base modular computer](http://nextthing.co/),
+[Beagleboards](http://beagleboard.org/), and
+[Cubieboards](http://cubieboard.org/).  With anything popular in the open source
+community, higher numbers of people working on a projects yields more projects,
+tutorials, and development.  I started with the journey into single board
+computers with the Raspberry Pi model 1 B.
 
-Electricity efficiency: <a href="http://michaelbluejay.com/electricity/computers.html">A typical desktop computer without a monitor consumes 200 W 800 mA.  If you were to leave a full computer running all day for a year, you would be using 1752 kilowatt-hours or about $630 on your electric bill.</a>  A 5 W Raspberry Pi running all day for a year would use 43.8 kilowatt-hours or about $15.  This makes a large environmental difference for long-term projects like hosting a web server or opening your garage when your phone comes within range.
+Electricity efficiency: A typical desktop computer without a monitor consumes
+200 W 800 mA.  If you were to leave a full computer running all day for a year,
+you would be using 1752 kilowatt-hours or about $630 on your electric bill.  A 5
+W Raspberry Pi running all day for a year would use 43.8 kilowatt-hours or about
+$15.  This makes a large environmental difference for long-term projects like
+hosting a web server or opening your garage when your phone comes within range.
+[source](http://michaelbluejay.com/electricity/computers.html)
 
 
 
 
 # [Purchasing a Raspberry Pi](#purchasing-a-raspberry-pi)
 
-What about all of the extra things you need to make it work?  I made a shopping cart at the Cambridge, MA Micro Center page with everything I would buy for one.
+What about all of the extra things you need to make it work?  I made a shopping
+cart at the Cambridge, MA Micro Center page with everything I would buy for one.
 
   * $29.99 RS Raspberry Pi 3 Model B
   *  $8.99 Micro-USB Power Supply 5 volt 2.5 amp
@@ -76,75 +103,144 @@ What about all of the extra things you need to make it work?  I made a shopping 
   *  $4.50 Tax
   * $57.45 Grand Total
 
-Some of these items are commonly lying around already.  Cheaper prices can be found at other online stores, thrift stores, and garage sales.  Three things that I did not include are a case, and HDMI cable, and a screen with HDMI or DVI.  Optionally, Legos or a <a href="http://www.thingiverse.com/search?q=raspberry+pi&sa=">3D printer</a> can be used to build a case.  TVs are almost everywhere.
+Some of these items are commonly lying around already.  Cheaper prices can be
+found at other online stores, thrift stores, and garage sales.  Three things
+that I did not include are a case, and HDMI cable, and a screen with HDMI or
+DVI.  Optionally, Legos or a
+[3D printer](http://www.thingiverse.com/search?q=raspberry+pi&sa=) can be used
+to build a case.  TVs are almost everywhere.
 
-Another ready to go option is <a href="https://www.pi-top.com/">the pi-top for $300 or the pi-topCEED for $150</a> which are Raspberry Pi workstations that include monitors.
+Another ready to go option is
+[the pi-top for $300 or the pi-topCEED for $150](https://www.pi-top.com/) which
+are Raspberry Pi workstations that include monitors.
 
 
 
 
 # [Operating Systems for the Raspberry Pi](#operating-systems-for-the-raspberry-pi)
 
-There are many different operating systems available for the Raspberry Pi.  My personal favorite is <a href="http://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2">Arch for Arm</a> as it is the fastest operating system for the Pi that I am aware of.  For this tutorial, I will use Raspbian because it contains software to get started, has excellent community support, and most project tutorials use Raspbian as a starting point.
+There are many different operating systems available for the Raspberry Pi.  My
+personal favorite is
+[Arch for Arm](http://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2)
+as it is the fastest operating system for the Pi that I am aware of.  For this
+tutorial, I will use Raspbian because it contains software to get started, has
+excellent community support, and most project tutorials use Raspbian as a
+starting point.
 <br><br>
-Why GNU/Linux?  GNU/Linux is built on <a href="https://en.wikipedia.org/wiki/Free_and_open_source_software">free and open source software</a> and can be easily downloaded, modified, distributed, and used with few to no restrictions.  This is very beneficial for a programming environment.  GNU/Linux is also used by the most advanced science and technology institutions such as the International Space Station, CERN, US Navy, US DOD, FAA, USPS, Google, Novell, IBM, Cisco, and Amazon.
+Why GNU/Linux?  GNU/Linux is built on
+[free and open source software](https://en.wikipedia.org/wiki/Free_and_open_source_software)
+and can be easily downloaded, modified, distributed, and used with few to no
+restrictions.  This is very beneficial for a programming environment.  GNU/Linux
+is also used by the most advanced science and technology institutions such as
+the International Space Station, CERN, US Navy, US DOD, FAA, USPS, Google,
+Novell, IBM, Cisco, and Amazon.
 <br>
-Other operating systems to note are <a href="https://www.pi-top.com/product/pi-top-os">pi-topOS</a>, <a href="http://fedberry.org/">Fedberry</a>, <a href="http://wiki.openwrt.org/toh/raspberry_pi_foundation/raspberry_pi">OpenWRT</a>, <a href="https://www.riscosopen.org/content/downloads/raspberry-pi">RISC OS</a>, <a href="https://osmc.tv/">OSMC</a>, <a href="https://wiki.freebsd.org/FreeBSD/arm/Raspberry%20Pi">FreeBSD</a>, and many more.  You can even make your own operating system for the Raspberry Pi.
+Other operating systems to note are
+[pi-topOS](https://www.pi-top.com/product/pi-top-os),
+[Fedberry](http://fedberry.org/),
+[OpenWRT](http://wiki.openwrt.org/toh/raspberry_pi_foundation/raspberry_pi),
+[RISC OS](https://www.riscosopen.org/content/downloads/raspberry-pi),
+[OSMC](https://osmc.tv/),
+[FreeBSD](https://wiki.freebsd.org/FreeBSD/arm/Raspberry%20Pi), and many more.
+You can even make your own operating system for the Raspberry Pi.
 
 
 
 
 # [Installing Raspbian via NOOBS](#installing-raspbian-via-noobs)
 
-The Raspberry Pi usually does not come with an operating system or storage.  You run the operating system from a microSD.  If you have never installed or experimented with GNU/Linux before, use NOOBS.  It was made to be as easy as possible.  If you mess it up, hold shift while you boot and reinstall.
+The Raspberry Pi usually does not come with an operating system or storage.  You
+run the operating system from a microSD.  If you have never installed or
+experimented with GNU/Linux before, use NOOBS.  It was made to be as easy as
+possible.  If you mess it up, hold shift while you boot and reinstall.
 
-Video tutorial of installing NOOBS https://www.raspberrypi.org/help/noobs-setup/
+[Video tutorial of installing NOOBS](https://www.raspberrypi.org/help/noobs-setup/)
 
 1. Download this large zip file to your other computer: https://downloads.raspberrypi.org/NOOBS_latest
 
-2. You will need a class 10 microSD card greater than or equal to 8GB.  If you have other files on the microSD card you will be using, back those up to another location, then <a href="https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md">format the microSD card to FAT32</a>.  Extract all of the files directly to a microSD card.
+2. You will need a class 10 microSD card greater than or equal to 8GB.  If you
+have other files on the microSD card you will be using, back those up to another
+location, then
+[format the microSD card to FAT32](https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md).
+Extract all of the files directly to a microSD card.
 
-3. Put the microSD card into the Raspberry Pi and plug in your power supply.  The Raspberry Pi will light up.
+3. Put the microSD card into the Raspberry Pi and plug in your power supply.
+The Raspberry Pi will light up.
 
-4. A menu of operating systems appears.  Put a check next to Raspbian.  At the Bottom of the screen change the international options to your country.  I choose US.  There are many differences between a keyboard in the United States and one in Great Britain.  Click ''Install'' and wait a long while.
+4. A menu of operating systems appears.  Put a check next to Raspbian.  At the
+bottom of the screen change the international options to your country.  I choose
+US.  There are many differences between a keyboard in the United States and one
+in Great Britain.  Click ''Install'' and wait a long while.
 
 5. You have an Operating System!
 
-If copying files to a microSD card is too daunting of a task, preinstalled cards are also available for purchase.
+If copying files to a microSD card is too daunting of a task, preinstalled cards
+are also available for purchase.
 
 
 
 
 # [Software Repositories](#software-repositories)
 
-Every GNU/Linux distribution has a set of software that can be installed for free called a repository.  The App Store and Google Play store were based on the concept of a repository.  All of your software can be installed and updated from one central place.  To get a visual glipse of the repository, I like to use a program called ''synaptic''.
+Every GNU/Linux distribution has a set of software that can be installed for
+free called a repository.  The App Store and Google Play store were based on the
+concept of a repository.  All of your software can be installed and updated from
+one central place.  To get a visual glipse of the repository, I like to use a
+program called ''synaptic''.
 
-IMPORTANT: To open a terminal in Raspbian, click on the black rectangle in the upper left of the screen.<br>
+IMPORTANT: To open a terminal in Raspbian, click on the black rectangle in the
+upper left of the screen.<br>
 To install synaptic, run this command in a terminal:
 
 ```
 sudo apt-get install -y synaptic
 ```
-	
+
 Relevant XKCD:<br>
  <a href="https://xkcd.com/149/"><img src="https://imgs.xkcd.com/comics/sandwich.png"/></a>
 
-Open synaptic, click the update button to get the latest list of programs, and then page down to browse.  That is an incredibly large list of programs.  All of them are absolutely free.  Most of them are open source.  The search button at the top right allows you to search for keywords in the name and description.
+Open synaptic, click the update button to get the latest list of programs, and
+then page down to browse.  That is an incredibly large list of programs.  All of
+them are absolutely free.  Most of them are open source.  The search button at
+the top right allows you to search for keywords in the name and description.
 
 
 
 
 # [Introduction to Programming](#introduction-to-programming)
 
-I would love to teach everyone to program in a day.  That is not possible.  I can show you some cool things you can do with programming.  I can tell you how to learn more.  You will have to do more on your own, practice, find a project that you can work on during your spare time, search for solutions, read code and tutorials, communicate with other programmers, ask questions, and have fun making new things.
+I would love to teach everyone to program in a day.  That is not possible.  I
+can show you some cool things you can do with programming.  I can tell you how
+to learn more.  You will have to do more on your own, practice, find a project
+that you can work on during your spare time, search for solutions, read code and
+tutorials, communicate with other programmers, ask questions, and have fun
+making new things.
 
-Why should you use the Raspberry Pi for programming?  I see lots of web developers use these shiny, expensive laptops.  They design engaging interactive websites.  They put them out on the Internet and then the result does not work for the majority of computers.  They write it off and say, "Oh, well.  It works for me."  That attitude does not change the situation they face.  Many people cannot use their website.  Had they developed on a low spec Raspberry Pi, the result should work on any computer or phone.
+Why should you use the Raspberry Pi for programming?  I see lots of web
+developers use these shiny, expensive laptops.  They design engaging interactive
+websites.  They put them out on the Internet and then the result does not work
+for the majority of computers.  They write it off and say, "Oh, well.  It works
+for me."  That attitude does not change the situation they face.  Many people
+cannot use their website.  Had they developed on a low spec Raspberry Pi, the
+result should work on any computer or phone.
 
-I will be using Python for these examples.  Python is an easy-to-read, beginner programming language that can do almost anything with extra libraries.  Libraries expand the functionality of a language by adding more functions, APIs (application program interfaces), and features.
+I will be using Python for these examples.  Python is an easy-to-read, beginner
+programming language that can do almost anything with extra libraries.
+Libraries expand the functionality of a language by adding more functions, APIs
+(application program interfaces), and features.
 
-NOTE: While learning, try to debug and follow all errors.  The error should give line numbers.  Check that line, if it leads to another function, check that function.  Google the error if that does not help.  Replace the file with the original if all else fails.
+NOTE: While learning, try to debug and follow all errors.  The error should give
+line numbers.  Check that line, if it leads to another function, check that
+function.  Google the error if that does not help.  Replace the file with the
+original if all else fails.
 
-I will be using many terminal commands.  It is dangerous to take the word of a stranger on the Internet when dealing with terminal commands.  GNU/Linux has some built in documentation.  You will need the Internet to find most information and tutorials, but the built-in documentationation helps as a quick reference.  You can use the ''man'' command to look up information about a command.  To find information on using the ''ls'' command, try this in a terminal:
+I will be using many terminal commands.  It is dangerous to take the word of a
+stranger on the Internet when dealing with terminal commands.  GNU/Linux has
+some built in documentation.  You will need the Internet to find most
+information and tutorials, but the built-in documentationation helps as a quick
+reference.  You can use the ''man'' command to look up information about a
+command.  To find information on using the ''ls'' command, try this in a
+terminal:
 
 ```
 man ls
@@ -156,7 +252,8 @@ You can also read the manual for the manual with this command:
 man man
 ```
 
-Python has even more built in documentation than its man page.  Open the interactive Python prompt with this command:
+Python has even more built in documentation than its man page.  Open the
+interactive Python prompt with this command:
 
 ```
 python
@@ -180,7 +277,8 @@ Quit interactive Python with this function:
 quit()
 ```
 
-You can teach yourself the basics of using the command line with an interactive website at:
+You can teach yourself the basics of using the command line with an interactive
+website at:
 
 https://www.codecademy.com/learn/learn-the-command-line
 
@@ -188,20 +286,33 @@ You can teach yourself the basics of Python with an interactive website at:
 
 http://www.codecademy.com/tracks/python
 
-I highly recommend the codecademy free resources after this workshop.  Spend at least 15 minutes each day on codecademy when teaching yourself a new programming language.  Codecademy is the easiest way to learn the syntax of a programming language.  You can log in to save your progress using Facebook, Google, or make a new account.  That is how I started learning Python.  When I thought I was familiar enough with the Python syntax to make my own programs, I used google, stackoverflow.com, and other websites to make new programs of my own.
+I highly recommend the codecademy free resources after this workshop.  Spend at
+least 15 minutes each day on codecademy when teaching yourself a new programming
+language.  Codecademy is the easiest way to learn the syntax of a programming
+language.  You can log in to save your progress using Facebook, Google, or make
+a new account.  That is how I started learning Python.  When I thought I was
+familiar enough with the Python syntax to make my own programs, I used google,
+stackoverflow.com, and other websites to make new programs of my own.
 
-It is about a 13 hour course, but doing 2-4 hours will be enough to get you familiar with the basics of the language and the syntax.  You can use google-fu and extra modules to script more after a few hours on codecademy.
+It is about a 13 hour course, but doing 2-4 hours will be enough to get you
+familiar with the basics of the language and the syntax.  You can use google-fu
+and extra modules to script more after a few hours on codecademy.
 
 
 
 # [Hello, world!](#hello-world)
 
-Hello, world! is traditionally the first program that anyone writes when tackling a new programming language.  It is a simple program that says, "Hello," to the world.
+Hello, world! is traditionally the first program that anyone writes when
+tackling a new programming language.  It is a simple program that says, "Hello,"
+to the world.
 
 Relevant XKCD:<br>
 <a href="https://xkcd.com/353/"><img src="https://imgs.xkcd.com/comics/python.png"/></a>
 
-NOTICE:  This comic is dated and uses the old way to use print.  Older versions of Python 2 used this format.  Later versions of Python 2 use the new way as well as the old way.  It is good to be aware of this, as many old examples still exist on the Internet.
+NOTICE:  This comic is dated and uses the old way to use print.  Older versions
+of Python 2 used this format.  Later versions of Python 2 use the new way as
+well as the old way.  It is good to be aware of this, as many old examples still
+ exist on the Internet.
 
 In a terminal, type this command:
 
@@ -209,19 +320,25 @@ In a terminal, type this command:
 python
 ```
 
-The cursor will now follow three greater than symbols >>>.  Type this command and we will be on our way:
+The cursor will now follow three greater than symbols >>>.  Type this command
+and we will be on our way:
 
 ```
 print("Hello, world!")
 ```
 
-If you read ''Hello, world!'' back from the computer, you succeeded.  Pat yourself on the back and feel good about writing your first line of Python code.  Quit interactive Python with this function:
+If you read ''Hello, world!'' back from the computer, you succeeded.  Pat
+yourself on the back and feel good about writing your first line of Python code.
+Quit interactive Python with this function:
 
 ```
 quit()
 ```
 
-We will do this same exercise in a different way.  Open up a text editor from the terminal using the following command line.  Leafpad and nano come installed with Raspbian.  Nano is a terminal application so we will use that.  We will also create a new file and give it a filename as we open it.
+We will do this same exercise in a different way.  Open up a text editor from
+the terminal using the following command line.  Leafpad and nano come installed
+with Raspbian.  Nano is a terminal application so we will use that.  We will
+also create a new file and give it a filename as we open it.
 
 ```
 nano hello.py
@@ -233,7 +350,8 @@ Write out the print function again.
 print("Hello, world!")
 ```
 
-Exit by holding CTRL and pressing X.  It asks if you want to save changes.  Press Y and enter. You have now saved your program as a text file.
+Exit by holding CTRL and pressing X.  It asks if you want to save changes.
+Press Y and enter. You have now saved your program as a text file.
 
 We will call this new text file into Python with this quick command:
 
@@ -243,14 +361,16 @@ python hello.py
 
 You wrote your first program!  Now, we will get to the good stuff.
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/hello.py">hello.py code</a>
+[hello.py code](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/hello.py)
 
 
 
 
 # [Infinite Loops](#infinite-loops)
 
-I believe that infinite loops are one of the most exciting concepts in computer science.  A ''normal'' programming book will hold out on this information until much later.  I like to give away some spoilers.
+I believe that infinite loops are one of the most exciting concepts in computer
+science.  A ''normal'' programming book will hold out on this information until
+much later.  I like to give away some spoilers.
 
 We can copy our hello.py file from earlier to a new file with this command:
 
@@ -277,15 +397,22 @@ while True:
 	print("Hello, world!")
 ```
 
-Exit by holding CTRL and pressing X.  It asks if you want to save changes.  Press Y and enter. You have now saved your program as a text file.
+Exit by holding CTRL and pressing X.  It asks if you want to save changes.
+Press Y and enter. You have now saved your program as a text file.
 
-When we run this file, it will not stop printing ''Hello, world!'' until we force the program to close.  To close the program, hold CTRL and press C.  You could also close the terminal window, but we will need it again in a second.  Run the new program with this command:
+When we run this file, it will not stop printing ''Hello, world!'' until we
+force the program to close.  To close the program, hold CTRL and press C.  You
+could also close the terminal window, but we will need it again in a second.
+Run the new program with this command:
 
 ```
 python helloloop.py
 ```
 
-Remember to close it by holding CTRL and pressing C once you have had enough!  That was your first loop!  Loops are great for when you want to repeat something without having to start it each time.  Our loop is much easier to write than the alternative:
+Remember to close it by holding CTRL and pressing C once you have had enough!
+That was your first loop!  Loops are great for when you want to repeat something
+without having to start it each time.  Our loop is much easier to write than the
+alternative:
 
 ```
 print("Hello, world!")
@@ -298,29 +425,46 @@ print("Hello, world!")
 print("Hello, world!")
 ```
 
-Programming may seem like a lot of typing at first, but it allows you to type less in the long run.
+Programming may seem like a lot of typing at first, but it allows you to type
+less in the long run.
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/helloloop.py">helloloop.py code</a>
+[helloloop.py code](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/helloloop.py)
 
 
 
 
 # [GPIO: General Purpose Input/Output](#gpio)
 
-If you have ever used an Arduino, you are already familiar with input/output pins.  These can be programmed and linked to other components to build custom circuits.  The Pi A & B have 26 pins.  The Pi A+, B+, 2 B, Zero, and 3 B have 40 pins.  The Pi Compute Module has 200 pins.
+If you have ever used an Arduino, you are already familiar with input/output
+pins.  These can be programmed and linked to other components to build custom
+circuits.  The Pi A & B have 26 pins.  The Pi A+, B+, 2 B, Zero, and 3 B have 40
+pins.  The Pi Compute Module has 200 pins.
 
 
 Models A & B | Models A+, B+, 2 B, Zero, and 3 B
 ------- | -------
 <img src="http://elinux.org/images/8/80/Pi-GPIO-header-26-sm.png"/> | <img src="http://elinux.org/images/5/5c/Pi-GPIO-header.png"/>
 
-These are programmable with Python.  I will do a simple demonstration of this and continue onward.  If circuitry and robotics is a passion of yours, dig in.
+These are programmable with Python.  I will do a simple demonstration of this
+and continue onward.  If circuitry and robotics is a passion of yours, dig in.
 
-I will use two wires and an LED light with two pins, one short and one long.  The Pi's third pin from the corner is a GROUND.  One wire will connect the LED's short pin to the Pi's GROUND. The other wire will connect the long pin to the pin labeled GPIO7 in the diagram above (the thirteenth pin down on the right).
+I will use two wires and an LED light with two pins, one short and one long.
+The Pi's third pin from the corner is a GROUND.  One wire will connect the LED's
+short pin to the Pi's GROUND. The other wire will connect the long pin to the
+pin labeled GPIO7 in the diagram above (the thirteenth pin down on the right).
 
-We will light up the bulb using two methods:  once with Python and once with bash.  Bash is a command line shell.  Getting to know bash is a great way for students to start digging into the most basic elements of programming, so I wanted to introduce it a little bit here.
+We will light up the bulb using two methods:  once with Python and once with
+bash.  Bash is a command line shell.  Getting to know bash is a great way for
+students to start digging into the most basic elements of programming, so I
+wanted to introduce it a little bit here.
 
-Setup the modules you will need by running the following on the command line.  Modules for Python expand the functionality of the programming language.  Some modules are associated with Python by default and many others are available to download.  All of your modules can be listed with the Python function ''help('modules')'' from within interactive Python.  In this example, we will use the RPIO module, which connects Python with the pins of the Pi, and the time module, which allows Python to track the passage of time.
+Setup the modules you will need by running the following on the command line.
+Modules for Python expand the functionality of the programming language.  Some
+modules are associated with Python by default and many others are available to
+download.  All of your modules can be listed with the Python function
+''help('modules')'' from within interactive Python.  In this example, we will
+use the RPIO module, which connects Python with the pins of the Pi, and the time
+module, which allows Python to track the passage of time.
 
 ```
 sudo apt-get update
@@ -334,7 +478,8 @@ We will write a Python script using nano again.  We will call the file LED7.
 nano LED7.py
 ```
 
-Once RPIO is installed, this module can be pulled into any Python script with ``import`` as shown here.
+Once RPIO is installed, this module can be pulled into any Python script with
+``import`` as shown here.
 
 ```
 import RPi.GPIO as GPIO
@@ -360,9 +505,11 @@ GPIO.output(led, 0)
 time.sleep(1)
 ```
 
-Exit by holding CTRL and pressing X.  It asks if you want to save changes.  Press Y and enter. You have now saved your program as a text file.
+Exit by holding CTRL and pressing X.  It asks if you want to save changes.
+Press Y and enter. You have now saved your program as a text file.
 
-Since Python is controlling hardware with this script, it will need root privileges.  Use this command to run the script:
+Since Python is controlling hardware with this script, it will need root
+privileges.  Use this command to run the script:
 
 ```
 sudo python3 LED7.py
@@ -370,7 +517,12 @@ sudo python3 LED7.py
 
 The light should turn on and off.
 
-Another way to approach this is to use bash.  Bash is the default shell for the command line.  This is possible because everything in the system is treated like a file, including hardware (like the pins) or other devices.  This usage of bash is more complex than the RPIO method in pythod, but it is also very precise. We will not focus on the code here, just be aware that it can be done if students want to manipulate any of the hardware from the command line.
+Another way to approach this is to use bash.  Bash is the default shell for the
+command line.  This is possible because everything in the system is treated like
+a file, including hardware (like the pins) or other devices.  This usage of bash
+is more complex than the RPIO method in pythod, but it is also very precise. We
+will not focus on the code here, just be aware that it can be done if students
+want to manipulate any of the hardware from the command line.
 
 ```
 sudo echo "7" > /sys/class/gpio/export
@@ -382,13 +534,16 @@ sudo echo "1" > /sys/class/gpio/gpio7/value
 sudo echo "0" > /sys/class/gpio/gpio7/value
 ```
 
-Echo is a self-explanatory command.  It repeats back what you give it.  The greater than symbol ''>'' sends the output of the previous command to overwrite a file.  In this case, the file is actually hardware instead of a document.  This is a unique aspect to Unix and GNU/Linux.
+Echo is a self-explanatory command.  It repeats back what you give it.  The
+greater than symbol ''>'' sends the output of the previous command to overwrite
+a file.  In this case, the file is actually hardware instead of a document.
+This is a unique aspect to Unix and GNU/Linux.
 
 If you replace the LED with a motor, the same code can control a robot!
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/GPIOscripts/LED7.py">LED7.py code</a>
+[LED7.py code](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/GPIOscripts/LED7.py)
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/GPIOscripts/LED7withbash.sh">LED7withbash.sh code</a>
+[LED7withbash.sh code](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/GPIOscripts/LED7withbash.sh)
 
 For more information about projects using the Raspberry Pi's GPIO, check out these links:
   * https://www.raspberrypi.org/learning/python-quick-reaction-game/worksheet/
@@ -402,39 +557,62 @@ For more information about projects using the Raspberry Pi's GPIO, check out the
 
 # [Python and pygame](#python-and-pygame)
 
-Raspbian comes bundled with some games written in Python.  I like to use these games as a starting point when teaching kids about programming in Python.  The programs are small enough that you can read them in one sitting, and they are very well commented.  Comments are lines that start with ''#'' and are ignored by the computer.
+Raspbian comes bundled with some games written in Python.  I like to use these
+games as a starting point when teaching kids about programming in Python.  The
+programs are small enough that you can read them in one sitting, and they are
+very well commented.  Comments are lines that start with ''#'' and are ignored
+by the computer.
 
-We will pick a game, demonstrate how it works, read code, make a change, and test. This is a great exercise to do with students. However, changing variables is a backwards way to learn a language.  Remember to visit <a href="http://www.codecademy.com/tracks/python">codecademy</a> to learn more.
+We will pick a game, demonstrate how it works, read code, make a change, and
+test. This is a great exercise to do with students. However, changing variables
+is a backwards way to learn a language.  Remember to visit
+[codecademy](http://www.codecademy.com/tracks/python) to learn more.
 
-Pygame is a module that can be used to write games and modify them. Python, the pygame module, and games written with pygame can be installed on GNU/Linux, Mac, and Windows.  You do not need a Raspberry Pi for this section.
+Pygame is a module that can be used to write games and modify them. Python, the
+pygame module, and games written with pygame can be installed on GNU/Linux, Mac,
+and Windows.  You do not need a Raspberry Pi for this section.
 
-I would suggest downloading Python version 2.7 to maximize compatibility with pygame.
+I would suggest downloading Python version 2.7 to maximize compatibility with
+pygame.
 
   * GNU/Linux Installation Instructions
 
-Python is probably already installed on your GNU/Linux system.  You can check that Python 2.7 is installed by running this command:
+Python is probably already installed on your GNU/Linux system.  You can check
+that Python 2.7 is installed by running this command:
 
 ```
 python -V
 ```
 
-Pygame is installed by default on Raspbian.  If you are on a debian based system, you can install pygame with this command:
+Pygame is installed by default on Raspbian.  If you are on a debian based
+system, you can install pygame with this command:
 
 ```
 sudo apt-get update && sudo apt-get install -y python-pygame
 ```
 
-Since pygame depends on Python, the correct version of Python would also be installed with this command.
+Since pygame depends on Python, the correct version of Python would also be
+installed with this command.
 
   * Mac Installation Instructions
 
-Download <a href="https://www.python.org/ftp/python/2.7.10/python-2.7.10-macosx10.5.pkg">Python</a> and <a href="http://pygame.org/ftp/pygame-1.9.1release-python.org-32bit-py2.7-macosx10.3.dmg">pygame</a>.  Install Python and then install pygame.  Note: I am purposefully linking to an older release of Python 2.7.
+Download
+[Python](https://www.python.org/ftp/python/2.7.10/python-2.7.10-macosx10.5.pkg)
+and
+[pygame](http://pygame.org/ftp/pygame-1.9.1release-python.org-32bit-py2.7-macosx10.3.dmg).
+Install Python and then install pygame.  Note: I am purposefully linking to an
+older release of Python 2.7.
 
   * Windows Installation Instructions
 
-The easiest way to install Python (and many other common programs) for Windows is through <a href="https://ninite.com/python/">ninite.  Ninite</a> is a website that allows you to install many programs at once.  The ninite download program can be left on your system and used as an updater in the future.
+The easiest way to install Python (and many other common programs) for Windows
+is through [ninite.  Ninite](https://ninite.com/python/) is a website that
+allows you to install many programs at once.  The ninite download program can be
+left on your system and used as an updater in the future.
 
-We also need the <a href="http://pygame.org/ftp/pygame-1.9.1.win32-py2.7.msi">pygame module</a>.  Install Python and then install pygame.
+We also need the
+[pygame module](http://pygame.org/ftp/pygame-1.9.1.win32-py2.7.msi).  Install
+Python and then install pygame.
 
 <br>
 
@@ -444,58 +622,99 @@ http://inventwithpython.com/makinggames_src.zip
 
 <br>
 
-These games written with pygame originated from the <a href="http://inventwithpython.com">Invent with Python website.</a>  You can get a <a href="http://inventwithpython.com/makinggames.pdf">free book that accompanies the games.</a>
+These games written with pygame originated from the
+[Invent with Python website](http://inventwithpython.com).  You can get a
+[free book that accompanies the games](http://inventwithpython.com/makinggames.pdf).
 
-There are hundreds of free games that you can modify from <a href="www.pygame.org">the pygame webpage.</a>
+There are hundreds of free games that you can modify from
+[the pygame webpage](www.pygame.org">the pygame webpage).
 
-Check out the <a href="www.pygame.org/wiki/tutorials">pygame tutorials</a> for more information.
+Check out the [pygame tutorials](www.pygame.org/wiki/tutorials) for more
+information.
 
 Beginner:
 Download Al's games from http://inventwithpython.com/makinggames_src.zip
-Unzip them and play a bit. Then, open a file that ends in .py in a text editor or IDLE, change variables, save it, and test it out by playing the game again.
+Unzip them and play a bit. Then, open a file that ends in .py in a text editor
+or IDLE, change variables, save it, and test it out by playing the game again.
 
 Intermediate:
-Change a game from inventwithpython, http://www.pygame.org/, or https://pyweek.org/ into something that looks completely different from the original with different game mechanics.  Since you're making bigger changes, save your work with a new file name.
+Change a game from inventwithpython, http://www.pygame.org/, or
+https://pyweek.org/ into something that looks completely different from the
+original with different game mechanics.  Since you're making bigger changes,
+save your work with a new file name.
 
 A simple example of this is TheGameThatMarioBeat2.py based on code from wormy.py
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/TheGameThatMarioBeat2.py">The Game That Mario Beat 2</a>
+[The Game That Mario Beat 2](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/TheGameThatMarioBeat2.py)
 
 Mastery:
-Build your own game starting with a blank document using python and pygame using the internal documentation for python and pygame and the python and pygame websites.
+Build your own game starting with a blank document using python and pygame using
+the internal documentation for python and pygame and the python and pygame
+websites.
 
-* <a href="https://pyweek.org/e/fat_math_three/">Fat Math Three</a> is a well made, choose-your-own-adventure with a math game mechanic made for PyWeek.
-* <a href="http://www.emhsoft.com/singularity/">Endgame: Singularity</a> is a simulation game in written with python, pygame, and numpy that explores the perspective of an AI.  <a href="https://github.com/singularity/singularity">Source code</a> is on github.
-* <a href="https://thenewboston.com/videos.php?cat=120">Video tutorial series from TheNewBoston</a>
+* [Fat Math Three](https://pyweek.org/e/fat_math_three/) is a well made,
+  choose-your-own-adventure with a math game mechanic made for PyWeek.
+* [Endgame: Singularity](http://www.emhsoft.com/singularity/) is a simulation
+  game in written with python, pygame, and numpy that explores the perspective
+  of an AI.  [Source code](https://github.com/singularity/singularity) is on
+  github.
+* [Video tutorial series from TheNewBoston](https://thenewboston.com/videos.php?cat=120)
 
 
 
 
 # [Photo Editing](#photo-editing)
 
-To add your own images to games, you need to use a photo editor.  <a href="https://www.gimp.org/">GIMP (the GNU Image Manipulation Program)</a> is free and open source and works on the Raspberry Pi 3, GNU/Linux, Mac, and Windows.
+To add your own images to games, you need to use a photo editor.
+[GIMP (the GNU Image Manipulation Program)](https://www.gimp.org/) is free and
+open source and works on the Raspberry Pi 3, GNU/Linux, Mac, and Windows.
 
-The default layout has three windows (tools, image, and layers) and can be confusing to young kids.  On the menu bar, choose Window and "Single-Window Mode" to make it easier to navigate.
+The default layout has three windows (tools, image, and layers) and can be
+confusing to young kids.  On the menu bar, choose Window and "Single-Window
+Mode" to make it easier to navigate.
 
 Beginner:
-To familiarize yourself with it, take an image from PyGame or Ren'Py and make some changes to it.  Export it into the same format and test the python script to make sure it works.
+To familiarize yourself with it, take an image from PyGame or Ren'Py and make
+some changes to it.  Export it into the same format and test the python script
+to make sure it works.
 
 Intermediate:
-Use a picture from the Internet.  If you are planning on using the image for a public project, make sure you have the right to reuse the image.  Bring the image into GIMP.  In the layers panel, right click on the image layer and choose "Add Alpha Channel" which adds the ability to have a transparent background.  Crop the character, sprite, or object so that everything else is a checkerboard pattern.  Save it as a png file.  Try using this png with python in a pygame activity.  You could also take a photo of yourself with a camera, open the photo with GIMP, crop your body or face so that the background is transparent, save the image, and test with python.
+Use a picture from the Internet.  If you are planning on using the image for a
+public project, make sure you have the right to reuse the image.  Bring the
+image into GIMP.  In the layers panel, right click on the image layer and choose
+"Add Alpha Channel" which adds the ability to have a transparent background.
+Crop the character, sprite, or object so that everything else is a checkerboard
+pattern.  Save it as a png file.  Try using this png with python in a pygame
+activity.  You could also take a photo of yourself with a camera, open the photo
+with GIMP, crop your body or face so that the background is transparent, save
+the image, and test with python.
 
 
 # [Minecraft: Pi Edition](#minecraft-pi-edition)
 
-Minecraft is the best selling game of all time.  Mojang (the original developer of Minecraft) wrote a version specifically for the Raspberry Pi.  Mojang gave it alway for free in hopes of teaching youth programming.  Python and java modules accompany the game.  Minecraft: Pi Edition and the python and java modules are already installed on Raspbian.
+Minecraft is the best selling game of all time.  Mojang (the original developer
+of Minecraft) wrote a version specifically for the Raspberry Pi.  Mojang gave it
+alway for free in hopes of teaching youth programming.  Python and java modules
+accompany the game.  Minecraft: Pi Edition and the python and java modules are
+already installed on Raspbian.
 
-NOTE: Minecraft: Pi Edition only works for the Raspberry Pi's CPU architecture ARM.  Since the game itself is not open source, it cannot be recompiled for other computers.  To work with Minecraft: Pi Edition on a 32 or 64 bit CPU architecture, you have to emulate a Raspberry Pi with something like QEMU (more on that in the projects section).
+NOTE: Minecraft: Pi Edition only works for the Raspberry Pi's CPU architecture
+ARM.  Since the game itself is not open source, it cannot be recompiled for
+other computers.  To work with Minecraft: Pi Edition on a 32 or 64 bit CPU
+architecture, you have to emulate a Raspberry Pi with something like QEMU (more
+on that in the projects section).
 
 Start up Minecraft: Pi Edition.
 
-NOTE: Do not make the game full-screen.  Children tend to do this first thing.  The mouse will not work optimally, and it is not meant to be full-screen.  It is meant to take up some of the screen while you code next to it.
+NOTE: Do not make the game full-screen.  Children tend to do this first thing.
+The mouse will not work optimally, and it is not meant to be full-screen.  It is
+meant to take up some of the screen while you code next to it.
 
-Create a world and start to play.  Notice the three cartesian coordinates in the top left corner of the screen.  These coordinates give numbers to the x, y, and z axis of the game world.
+Create a world and start to play.  Notice the three cartesian coordinates in the
+top left corner of the screen.  These coordinates give numbers to the x, y, and
+z axis of the game world.
 
-Open up leafpad to code in a text file, or type ''python'' into the terminal to code in an interactive Python shell, and we will write a program for Minecraft.
+Open up leafpad to code in a text file, or type ''python'' into the terminal to
+code in an interactive Python shell, and we will write a program for Minecraft.
 
 ```
 # import the modules
@@ -508,7 +727,8 @@ mc = minecraft.Minecraft.create()
 # mc is a object we can call to control the world.  Let's say, ''Hello!''
 mc.postToChat("Hello, Minecraft World!")
 
-# Now add a block.  You could read the coordinates in the top left, and choose numbers near those.
+# Now add a block.  You could read the coordinates in the top left, and choose
+# numbers near those.
 mc.setBlock(-7, 10,0 , block.STONE)
 
 # Try to spell a word in the sky.  It is very easy with copy and paste.
@@ -527,23 +747,27 @@ mc.setBlock(-7, 6, 4, block.STONE)
 # I spelled the letter M.  Try to write your name and impress your friends.
 ```
 
-If you typed this into a file, save it as minecrafthack.py and run it with ''python minecrafthack.py''
+If you typed this into a file, save it as minecrafthack.py and run it with
+''python minecrafthack.py''
 
-Something is not right.  We will have to fix it.  See if you can fix my capital M.
+Something is not right.  We will have to fix it.  See if you can fix my capital
+M.
 
 See if you can write your entire name.
 
-There are other projects that can be found elsewhere like the interactive photo booth, giant clock, and more.
+There are other projects that can be found elsewhere like the interactive photo
+booth, giant clock, and more.
 
-<a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/minecrafthack.py">minecrafthack.py code</a>
+[minecrafthack.py](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/blob/master/PythonScripts/minecrafthack.py)
 
 This is only the beginning of what can be done.  Check out these links for more Minecraft projects with the pi.
-* <a href="https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet/">Raspberry Pi webpage about Minecraft: Pi Edition</a>
-* <a href="http://www.stuffaboutcode.com/p/minecraft-api-reference.html">Minecraft Pi api reference</a>  
-* <a href="http://www.stuffaboutcode.com/p/minecraft.html">An overview about Minecraft Pi programming with links</a>
-* <a href="http://www.stuffaboutcode.com/2013/06/programming-minecraft-with-bukkit.html">How to connect Python to regular Minecraft using bukkit server</a>
-* <a href="http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.html">How to connect Python to regular Minecraft using canary server</a>
-* <a href="https://github.com/raspberrypilearning/getting-started-with-minecraft-pi">Getting started with Minecraft: Pi</a>
+
+* [Raspberry Pi page about Minecraft: Pi Edition](https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet/)
+* [Minecraft Pi api reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
+* [An overview about Minecraft Pi programming with links](http://www.stuffaboutcode.com/p/minecraft.html)
+* [How to connect Python to regular Minecraft using bukkit server](http://www.stuffaboutcode.com/2013/06/programming-minecraft-with-bukkit.html)
+* [How to connect Python to regular Minecraft using canary server](http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.html)
+* [Getting started with Minecraft: Pi](https://github.com/raspberrypilearning/getting-started-with-minecraft-pi)
 * <a href="https://github.com/martinohanlon/minecraft-clock">Working clock project for Minecraft Pi</a>
 * <a href="https://github.com/martinohanlon">Other projects from that programmer/author Martin</a>
 * <a href="http://pi.minecraft.net/">Minecraft: Pi Edition home page - the api has been updated since then</a>
