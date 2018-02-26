@@ -2,7 +2,7 @@
 
 RPiPW = resources + notes + code samples for a workshop introducing the Raspberry Pi as a beginner's programming environment
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br>Copyright © Michael McMahon 2015-2016.  Except where otherwise specified, the text on <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/">Raspberry Pi Programming Workshop</a> by Michael McMahon is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br>Copyright © Michael McMahon 2015-2018.  Except where otherwise specified, the text on <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/">Raspberry Pi Programming Workshop</a> by Michael McMahon is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)</a>.
 
 
 ## [Table of Contents](#toc)
@@ -53,6 +53,7 @@ Breakdown of various available models of the Raspberry Pi
 
 Release Date | Original Price | Model | GPIO Pins | CPU
 ------| ----- | ----- |-----------|---------
+Jan 2018 | $10 | Zero WH | 40 | 1.0GHz ARMv6 (single core)
 Feb 2017 | $10 | Zero W | 40 | 1.0GHz ARMv6 (single core)
 Feb 2016 | $35 | 3 B | 40 | 1.2GHz ARMv8 64bit (quad core)
 Nov 2015 | $5 | Zero | 40 | 1.0GHz ARMv6 (single core)
