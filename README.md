@@ -96,7 +96,7 @@ hosting a web server or opening your garage when your phone comes within range.
 
 
 
-## [Purchasing a Raspberry Pi](#purchasing-a-raspberry-pi)
+## Purchasing a Raspberry Pi
 
 What about all of the extra things you need to make it work?  I made a shopping
 cart at the Cambridge, MA Micro Center page with everything I would buy for one.
@@ -305,7 +305,7 @@ and extra modules to script more after a few hours on codecademy.
 
 
 
-## [Hello, world!](#hello-world)
+## Hello, world!
 
 Hello, world! is traditionally the first program that anyone writes when
 tackling a new programming language.  It is a simple program that says, "Hello,"
@@ -561,7 +561,7 @@ For more information about projects using the Raspberry Pi's GPIO, check out the
 
 
 
-# [Python and pygame](#python-and-pygame)
+# Python and pygame
 
 Raspbian comes bundled with some games written in Python.  I like to use these
 games as a starting point when teaching kids about programming in Python.  The
@@ -668,7 +668,7 @@ websites.
 
 
 
-## [Photo Editing](#photo-editing)
+## Photo Editing
 
 To add your own images to games, you need to use a photo editor.
 [GIMP (the GNU Image Manipulation Program)](https://www.gimp.org/) is free and
@@ -695,7 +695,7 @@ with GIMP, crop your body or face so that the background is transparent, save
 the image, and test with python.
 
 
-## [Minecraft: Pi Edition](#minecraft-pi-edition)
+## Minecraft: Pi Edition
 
 Minecraft is the best selling game of all time.  Mojang (the original developer
 of Minecraft) wrote a version specifically for the Raspberry Pi.  Mojang gave it
@@ -784,7 +784,7 @@ Minecraft projects with the pi.
 
 
 
-## [Looping GPIO with Minecraft](#looping-gpio-with-minecraft)
+## Looping GPIO with Minecraft
 
 Programming Python, loops, GPIO, and Minecraft is all cool, but can we combine
 them?  Yes.  Here are two example scripts:
@@ -796,7 +796,7 @@ them?  Yes.  Here are two example scripts:
 
 
 
-## [Processing](#processing)
+## Processing
 
 Processing is a great introductory programming language that can make generative
 art, interactive art, and drawing.  https://processing.org/
@@ -868,7 +868,7 @@ which differs from many of the other licenses discussed around the Raspberry Pi.
 
 
 
-## [Computer Vision: opencv-python and simplecv](#computer-vision-opencv-python-and-simplecv)
+## Computer Vision: opencv-python and simplecv
 
 I will not demonstrate Computer Vision, but I have to mention it.  ''opencv''
 allows you to program the sense of sight.  Analyze photos, video, or live feeds
@@ -882,7 +882,7 @@ To learn more, check out the
 
 
 
-## [Taking The Raspberry Pi Further](#taking-the-raspberry-pi-further)
+## Taking The Raspberry Pi Further
 
 Programming on the Raspberry Pi is one of my favorite activities, but I
 understand that not everyone is as passionate about code as I am.  There are
@@ -893,7 +893,7 @@ use the Raspberry Pi in creative ways.
 
 
 
-## [Projects](#projects)
+## Projects
 
 - Raspberry Pirate Radio
 
@@ -1303,7 +1303,7 @@ simple grammar mistake is a great first move.
 
 
 
-## [Problems and Solutions That Worked for Me](#problems-and-solutions-that-worked-for-me)
+## Problems and Solutions That Worked for Me
 
 This section is not a comprehensive troubleshooter for a Raspberry Pi, but it
 gives some examples of the problem solving skills that will be beneficial to
@@ -1424,7 +1424,7 @@ sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 
 
 
-## [Raspberry Pi Giveaway](#raspberry-pi-giveaway)
+## Raspberry Pi Giveaway
 
 We will pick an almost random number using Python.  Everyone gets a number 0 -
 n.
@@ -1443,7 +1443,7 @@ If you did not win, you can buy the one I did this presentation with at cost.
 
 
 
-## [Encode QR Code](#qr-code-generation)
+## Encode QR Code
 
 We can encode a QR code offline on the Raspberry Pi using qrencode.
 
@@ -1468,7 +1468,7 @@ For more ideas on using qrencode, check out this
 
 
 
-## [Resources](#resources)
+## Resources
 <!-- replace amazon links with DRM-free ebook links. More at https://ssearch.oreilly.com/?q=raspberry+pi and https://ssearch.oreilly.com/?q=linux more at more at https://ssearch.oreilly.com/?q=python -->
 This section contains websites and books for everything you ever wanted to know
 about the Raspberry Pi, GNU/Linux, Python, Processing, and Computer Vision.
@@ -1532,19 +1532,23 @@ Raspberry Pi Books:
 - [Linux for Makers: Understanding the Operating System That Runs Raspberry Pi and Other Maker SBCs By Aaron Newcomb](http://shop.oreilly.com/product/0636920031338.do)
 - [Pay-What-You-Want RPi: Measure, Record, Explore By Malcolm Maclean](https://leanpub.com/RPiMRE)
 
-Python and Programming Links:
+Programming Links:
 
-- [Codecademy's Python track](http://www.codecademy.com/tracks/python)
-- [LearnPython.org](http://www.learnpython.org)
-- [Python Subreddit](http://www.reddit.com/r/python)
 - [Learn Programming Subreddit](http://www.reddit.com/r/learnprogramming)
 - [Daily Programmer Subreddit](http://www.reddit.com/r/dailyprogrammer)
 - [Programming Challenges](http://www.reddit.com/r/programmingchallenges)
+- [Free programming books from O'Reilly](http://www.oreilly.com/programming/free/)
+- [Free resources from O'Reilly](http://www.oreilly.com/free/)
+
+Python Links:
+
+- [Codecademy's Python track](http://www.codecademy.com/tracks/python)
+- [DataCamp's Python Track](https://www.datacamp.com/onboarding/learn?from=home&technology=python)
+- [LearnPython.org](http://www.learnpython.org)
+- [Python Subreddit](http://www.reddit.com/r/python)
 - [pyNES allows you to write original Nintendo games in Python](http://gutomaia.net/pyNES/)
 - [Invent With Python](http://inventwithpython.com/index.html)
 - [Python 3 Documentation](https://docs.python.org/3/download.html)
-- [Free programming books from O'Reilly](http://www.oreilly.com/programming/free/)
-- [Free resources from O'Reilly](http://www.oreilly.com/free/)
 
 Python Books:
 
