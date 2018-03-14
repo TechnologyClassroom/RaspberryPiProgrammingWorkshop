@@ -1,37 +1,43 @@
 # [Raspberry Pi Programming Workshop](#raspberrypiprogrammingworkshop)
 
-RPiPW = resources + notes + code samples for a workshop introducing the Raspberry Pi as a beginner's programming environment
+RPiPW = resources + notes + code samples for a workshop introducing the
+Raspberry Pi as a beginner's programming environment
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br>Copyright © Michael McMahon 2015-2018.  Except where otherwise specified, the text on <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/">Raspberry Pi Programming Workshop</a> by Michael McMahon is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)</a>.
-
-
-## [Table of Contents](#toc)
-
-* [The Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#the-raspberry-pi) 
-  * [Purchasing a Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#purchasing-a-raspberry-pi) 
-  * [Operating Systems for the Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#operating-systems-for-the-raspberry-pi) 
-  * [Installing Raspbian via NOOBS](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#installing-raspbian-via-noobs) 
-  * [Software Repositories](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#software-repositories) 
-* [Introduction to Programming](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#introduction-to-programming) 
-  * [Hello, world!](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#hello-world) 
-  * [Infinite Loops](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#infinite-loops) 
-  * [GPIO: General Purpose Input/Output](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#gpio) 
-  * [Python and pygame](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#python-and-pygame) 
-  * [Photo Editing](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#photo-editing) 
-  * [Minecraft: Pi Edition](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#minecraft-pi-edition) 
-  * [Looping GPIO with Minecraft](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#looping-gpio-with-minecraft) 
-  * [Processing](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#processing) 
-  * [Computer Vision: opencv-python and SimpleCV](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#computer-vision-opencv-python-and-simplecv) 
-* [Taking The Raspberry Pi Further](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#taking-the-raspberry-pi-further) 
-  * [Projects](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#projects) 
-  * [Problems and Solutions That Worked for Me](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#problems-and-solutions-that-worked-for-me) 
-  * [Raspberry Pi Giveaway](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#raspberry-pi-giveaway) 
-  * [Resources](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources)
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br>
+Copyright © Michael McMahon 2015-2018.  Except where otherwise specified, the
+text on
+[Raspberry Pi Programming Workshop](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/)
+by Michael McMahon is licensed under the
+[Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 
+## Table of Contents
+
+- [The Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#the-raspberry-pi) 
+  - [Purchasing a Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#purchasing-a-raspberry-pi) 
+  - [Operating Systems for the Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#operating-systems-for-the-raspberry-pi) 
+  - [Installing Raspbian via NOOBS](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#installing-raspbian-via-noobs) 
+  - [Software Repositories](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#software-repositories) 
+- [Introduction to Programming](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#introduction-to-programming) 
+  - [Hello, world!](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#hello-world) 
+  - [Infinite Loops](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#infinite-loops) 
+  - [GPIO: General Purpose Input/Output](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#gpio) 
+  - [Python and pygame](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#python-and-pygame) 
+  - [Photo Editing](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#photo-editing) 
+  - [Minecraft: Pi Edition](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#minecraft-pi-edition) 
+  - [Looping GPIO with Minecraft](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#looping-gpio-with-minecraft) 
+  - [Processing](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#processing) 
+  - [Computer Vision: opencv-python and SimpleCV](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#computer-vision-opencv-python-and-simplecv) 
+- [Taking The Raspberry Pi Further](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#taking-the-raspberry-pi-further) 
+  - [Projects](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#projects) 
+  - [Problems and Solutions That Worked for Me](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#problems-and-solutions-that-worked-for-me) 
+  - [Raspberry Pi Giveaway](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#raspberry-pi-giveaway) 
+  - [Resources](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources)
 
 
-## [The Raspberry Pi](#the-raspberry-pi)
+
+
+## The Raspberry Pi
 <!-- Separate this section into more sections: buying and connecting -->
 
 The Raspberry Pi is a low-cost, low-power single board computer the size of a
@@ -53,6 +59,7 @@ Breakdown of various available models of the Raspberry Pi
 
 Release Date | Original Price | Model | GPIO Pins | CPU
 ------| ----- | ----- |-----------|---------
+Mar 2018 | $35 | 3 B+ | 40 | 1.4 GHz ARMv8 64 bit (quad core)
 Jan 2018 | $10 | Zero WH | 40 | 1.0GHz ARMv6 (single core)
 Feb 2017 | $10 | Zero W | 40 | 1.0GHz ARMv6 (single core)
 Feb 2016 | $35 | 3 B | 40 | 1.2GHz ARMv8 64bit (quad core)
@@ -94,15 +101,15 @@ hosting a web server or opening your garage when your phone comes within range.
 What about all of the extra things you need to make it work?  I made a shopping
 cart at the Cambridge, MA Micro Center page with everything I would buy for one.
 
-  * $29.99 RS Raspberry Pi 3 Model B
-  *  $8.99 Micro-USB Power Supply 5 volt 2.5 amp
-  *  $3.99 Inland Wired Optical Mouse
-  *  $3.99 Inland Wired Keyboard
-  *  $5.99 Micro Center 16GB micro SDHC Class 10 Flash Media Card
-  
-  * $52.95 Subtotal
-  *  $4.50 Tax
-  * $57.45 Grand Total
+- $29.99 RS Raspberry Pi 3 Model B
+-  $8.99 Micro-USB Power Supply 5 volt 2.5 amp
+-  $3.99 Inland Wired Optical Mouse
+-  $3.99 Inland Wired Keyboard
+-  $5.99 Micro Center 16GB micro SDHC Class 10 Flash Media Card
+
+- $52.95 Subtotal
+-  $4.50 Tax
+- $57.45 Grand Total
 
 Some of these items are commonly lying around already.  Cheaper prices can be
 found at other online stores, thrift stores, and garage sales.  Three things
@@ -118,7 +125,7 @@ are Raspberry Pi workstations that include monitors.
 
 
 
-## [Operating Systems for the Raspberry Pi](#operating-systems-for-the-raspberry-pi)
+## Operating Systems for the Raspberry Pi
 
 There are many different operating systems available for the Raspberry Pi.  My
 personal favorite is
@@ -148,7 +155,7 @@ You can even make your own operating system for the Raspberry Pi.
 
 
 
-## [Installing Raspbian via NOOBS](#installing-raspbian-via-noobs)
+## Installing Raspbian via NOOBS
 
 The Raspberry Pi usually does not come with an operating system or storage.  You
 run the operating system from a microSD.  If you have never installed or
@@ -157,22 +164,19 @@ possible.  If you mess it up, hold shift while you boot and reinstall.
 
 [Video tutorial of installing NOOBS](https://www.raspberrypi.org/help/noobs-setup/)
 
-1. Download this large zip file to your other computer: https://downloads.raspberrypi.org/NOOBS_latest
-
+1. Download this large zip file to your other computer:
+   https://downloads.raspberrypi.org/NOOBS_latest
 2. You will need a class 10 microSD card greater than or equal to 8GB.  If you
-have other files on the microSD card you will be using, back those up to another
-location, then
-[format the microSD card to FAT32](https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md).
-Extract all of the files directly to a microSD card.
-
+   have other files on the microSD card you will be using, back those up to
+   another location, then
+   [format the microSD card to FAT32](https://www.raspberrypi.org/documentation/installation/sdxc_formatting.md).
+   Extract all of the files directly to a microSD card.
 3. Put the microSD card into the Raspberry Pi and plug in your power supply.
-The Raspberry Pi will light up.
-
+   The Raspberry Pi will light up.
 4. A menu of operating systems appears.  Put a check next to Raspbian.  At the
-bottom of the screen change the international options to your country.  I choose
-US.  There are many differences between a keyboard in the United States and one
-in Great Britain.  Click ''Install'' and wait a long while.
-
+   bottom of the screen change the international options to your country.  I
+   choose US.  There are many differences between a keyboard in the United
+   States and one in Great Britain.  Click ''Install'' and wait a long while.
 5. You have an Operating System!
 
 If copying files to a microSD card is too daunting of a task, preinstalled cards
@@ -181,7 +185,7 @@ are also available for purchase.
 
 
 
-## [Software Repositories](#software-repositories)
+## Software Repositories
 
 Every GNU/Linux distribution has a set of software that can be installed for
 free called a repository.  The App Store and Google Play store were based on the
@@ -198,7 +202,7 @@ sudo apt-get install -y synaptic
 ```
 
 Relevant XKCD:<br>
- <a href="https://xkcd.com/149/"><img src="https://imgs.xkcd.com/comics/sandwich.png"/></a>
+<a href="https://xkcd.com/149/"><img src="https://imgs.xkcd.com/comics/sandwich.png"/></a>
 
 Open synaptic, click the update button to get the latest list of programs, and
 then page down to browse.  That is an incredibly large list of programs.  All of
@@ -208,7 +212,7 @@ the top right allows you to search for keywords in the name and description.
 
 
 
-## [Introduction to Programming](#introduction-to-programming)
+## Introduction to Programming
 
 I would love to teach everyone to program in a day.  That is not possible.  I
 can show you some cool things you can do with programming.  I can tell you how
@@ -367,7 +371,7 @@ You wrote your first program!  Now, we will get to the good stuff.
 
 
 
-## [Infinite Loops](#infinite-loops)
+## Infinite Loops
 
 I believe that infinite loops are one of the most exciting concepts in computer
 science.  A ''normal'' programming book will hold out on this information until
@@ -434,7 +438,7 @@ less in the long run.
 
 
 
-## [GPIO: General Purpose Input/Output](#gpio)
+## GPIO: General Purpose Input/Output
 
 If you have ever used an Arduino, you are already familiar with input/output
 pins.  These can be programmed and linked to other components to build custom
@@ -548,11 +552,11 @@ If you replace the LED with a motor, the same code can control a robot!
 
 For more information about projects using the Raspberry Pi's GPIO, check out these links:
 
-  * https://www.raspberrypi.org/learning/python-quick-reaction-game/worksheet/
-  * https://pythonhosted.org/RPIO/
-  * https://pypi.python.org/pypi/RPi.GPIO
-  * http://elinux.org/RPi_Tutorial_Easy_GPIO_Hardware_%26_Software
-  * http://log.liminastudio.com/writing/tutorials/tutorial-how-to-use-your-raspberry-pi-like-an-arduino
+- https://www.raspberrypi.org/learning/python-quick-reaction-game/worksheet/
+- https://pythonhosted.org/RPIO/
+- https://pypi.python.org/pypi/RPi.GPIO
+- http://elinux.org/RPi_Tutorial_Easy_GPIO_Hardware_%26_Software
+- http://log.liminastudio.com/writing/tutorials/tutorial-how-to-use-your-raspberry-pi-like-an-arduino
 
 
 
@@ -577,7 +581,7 @@ and Windows.  You do not need a Raspberry Pi for this section.
 I would suggest downloading Python version 2.7 to maximize compatibility with
 pygame.
 
-  * GNU/Linux Installation Instructions
+- GNU/Linux Installation Instructions
 
 Python is probably already installed on your GNU/Linux system.  You can check
 that Python 2.7 is installed by running this command:
@@ -596,7 +600,7 @@ sudo apt-get update && sudo apt-get install -y python-pygame
 Since pygame depends on Python, the correct version of Python would also be
 installed with this command.
 
-  * Mac Installation Instructions
+- Mac Installation Instructions
 
 Download
 [Python](https://www.python.org/ftp/python/2.7.10/python-2.7.10-macosx10.5.pkg)
@@ -605,7 +609,7 @@ and
 Install Python and then install pygame.  Note: I am purposefully linking to an
 older release of Python 2.7.
 
-  * Windows Installation Instructions
+- Windows Installation Instructions
 
 The easiest way to install Python (and many other common programs) for Windows
 is through [ninite.  Ninite](https://ninite.com/python/) is a website that
@@ -653,13 +657,13 @@ Build your own game starting with a blank document using python and pygame using
 the internal documentation for python and pygame and the python and pygame
 websites.
 
-* [Fat Math Three](https://pyweek.org/e/fat_math_three/) is a well made,
+- [Fat Math Three](https://pyweek.org/e/fat_math_three/) is a well made,
   choose-your-own-adventure with a math game mechanic made for PyWeek.
-* [Endgame: Singularity](http://www.emhsoft.com/singularity/) is a simulation
+- [Endgame: Singularity](http://www.emhsoft.com/singularity/) is a simulation
   game in written with python, pygame, and numpy that explores the perspective
   of an AI.  [Source code](https://github.com/singularity/singularity) is on
   github.
-* [Video tutorial series from TheNewBoston](https://thenewboston.com/videos.php?cat=120)
+- [Video tutorial series from TheNewBoston](https://thenewboston.com/videos.php?cat=120)
 
 
 
@@ -765,17 +769,17 @@ booth, giant clock, and more.
 This is only the beginning of what can be done.  Check out these links for more
 Minecraft projects with the pi.
 
-* [Raspberry Pi page about Minecraft: Pi Edition](https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet/)
-* [Minecraft Pi api reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
-* [An overview about Minecraft Pi programming with links](http://www.stuffaboutcode.com/p/minecraft.html)
-* [How to connect Python to regular Minecraft using bukkit server](http://www.stuffaboutcode.com/2013/06/programming-minecraft-with-bukkit.html)
-* [How to connect Python to regular Minecraft using canary server](http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.html)
-* [Getting started with Minecraft: Pi](https://github.com/raspberrypilearning/getting-started-with-minecraft-pi)
-* [Working clock project for Minecraft Pi](https://github.com/martinohanlon/minecraft-clock)
-* [Other projects from that programmer/author Martin](https://github.com/martinohanlon)
-* [Minecraft: Pi Edition home page - the api has been updated since then](http://pi.minecraft.net/)
-* [Book - Adventures in Minecraft](http://www.amazon.com/Adventures-Minecraft-David-Whale/dp/111894691X/)
-* [Book - Learn to Program with Minecraft: Transform Your World with the Power of Python](http://www.amazon.com/Learn-Program-Minecraft-Transform-Python/dp/1593276702/)
+- [Raspberry Pi page about Minecraft: Pi Edition](https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet/)
+- [Minecraft Pi api reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
+- [An overview about Minecraft Pi programming with links](http://www.stuffaboutcode.com/p/minecraft.html)
+- [How to connect Python to regular Minecraft using bukkit server](http://www.stuffaboutcode.com/2013/06/programming-minecraft-with-bukkit.html)
+- [How to connect Python to regular Minecraft using canary server](http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.html)
+- [Getting started with Minecraft: Pi](https://github.com/raspberrypilearning/getting-started-with-minecraft-pi)
+- [Working clock project for Minecraft Pi](https://github.com/martinohanlon/minecraft-clock)
+- [Other projects from that programmer/author Martin](https://github.com/martinohanlon)
+- [Minecraft: Pi Edition home page - the api has been updated since then](http://pi.minecraft.net/)
+- [Book - Adventures in Minecraft](http://www.amazon.com/Adventures-Minecraft-David-Whale/dp/111894691X/)
+- [Book - Learn to Program with Minecraft: Transform Your World with the Power of Python](http://www.amazon.com/Learn-Program-Minecraft-Transform-Python/dp/1593276702/)
 
 
 
@@ -822,7 +826,7 @@ sudo aptitude remove libgles1-mesa libgles2-mesa
 
 These are scripts I have made or modified using Processing:
 
-* [JitterTriangles](https://github.com/TechnologyClassroom/Processing/blob/master/JitterTriangles/JitterTriangles.pde)
+- [JitterTriangles](https://github.com/TechnologyClassroom/Processing/blob/master/JitterTriangles/JitterTriangles.pde)
 
 ![Screenshot](https://github.com/TechnologyClassroom/Processing/blob/master/Images/JitterTriangles-29822.png?raw=true "Screenshot")
 
@@ -832,7 +836,7 @@ the result becomes more unique and beautiful.  Run for an hour to multiple days.
 Hold 's' to save images.
 
 
-* <a href="https://github.com/TechnologyClassroom/Processing/blob/master/JitterRotate/JitterRotate.pde">JitterRotate</a>
+- [JitterRotate](https://github.com/TechnologyClassroom/Processing/blob/master/JitterRotate/JitterRotate.pde)
 
 ![Screenshot](https://github.com/TechnologyClassroom/Processing/blob/master/Images/JitterRotate-0531.png?raw=true "Screenshot")
 
@@ -841,7 +845,7 @@ randomly moving triangles of random sizes, colors, rotation, and transparency.
 This sketch only takes about 30 seconds to peak.  Hold 's' to save images.
 
 
-* [PaintWithShapes](https://github.com/TechnologyClassroom/Processing/blob/master/PaintWithShapes/PaintWithShapes.pde)
+- [PaintWithShapes](https://github.com/TechnologyClassroom/Processing/blob/master/PaintWithShapes/PaintWithShapes.pde)
 
 ![Screenshot](https://github.com/TechnologyClassroom/Processing/blob/master/Images/PaintWithShapes.png?raw=true "Screenshot")
 
@@ -891,7 +895,7 @@ use the Raspberry Pi in creative ways.
 
 ## [Projects](#projects)
 
-* Raspberry Pirate Radio
+- Raspberry Pirate Radio
 
 Have you ever wanted to run your own radio station?  You can turn your Raspberry
 Pi into an FM radio transmitter using one wire and a Python script.
@@ -911,7 +915,7 @@ http://lifehacker.com/start-a-pirate-radio-station-with-a-raspberry-pi-and-a-153
 
 http://myhowtosandprojects.blogspot.com/2014/04/raspberry-pi-make-your-own-pirate-radio.html
 
-* Build a robot
+- Build a robot
 
 If you can power a light with GPIO pins, you can just as easily connect it to a
 motor.  Add more motors and you have a robot.
@@ -920,7 +924,7 @@ http://diyhacking.com/raspberry-pi-robot/
 
 [Book - Make a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors By Wolfram Donat](http://shop.oreilly.com/product/0636920031994.do)
 
-* Create your own web server
+- Create your own web server
 
 What better way to learn web design than creating your own web server?  You can
 turn a Raspberry Pi into an entire web stack.  ''LAMP'' stacks are very popular
@@ -932,7 +936,7 @@ interact with Python.
 https://wiki.archlinux.org/index.php/Nginx
 
 
-* Create your own Baby Monitor
+- Create your own Baby Monitor
 
 Most of the "smart" baby monitors on the market are always on devices connected
 to the Internet that you do not control.  I built my own with
@@ -1015,7 +1019,7 @@ http://192.168.1.208/hls/index.m3u8
 https://github.com/iizukanao/picam
 
 
-* Universal Translator
+- Universal Translator
 
 This project allows you to convert speech from one spoken language to another.
 Record audio of talking, convert the audio to text, translate the text to
@@ -1026,7 +1030,7 @@ http://www.daveconroy.com/turn-raspberry-pi-translator-speech-recognition-playba
 https://github.com/dconroy/PiTranslate
 
 
-* Connect Raspberry Pis to automate your home
+- Connect Raspberry Pis to automate your home
 
 The ''Internet of Things'' (IoT) is a way to connect everything together through
 the Internet.  Purchasing IoT devices and appliances can be COSTLY unless you do
@@ -1040,7 +1044,7 @@ http://www.informationweek.com/software/enterprise-applications/10-raspberry-pi-
 
 https://www.raspberrypi.org/blog/tag/internet-of-things/
 
-* Build your own camera
+- Build your own camera
 
 The Raspberry Pi foundation has designed two camera modules that can be easily
 connected to the Raspberry Pi.  They are the camera and the infrared modules.
@@ -1051,7 +1055,7 @@ connected to the Raspberry Pi.  They are the camera and the infrared modules.
 
 [RPi Camera help](https://www.raspberrypi.org/help/camera-module-setup/)
 
-* Emulating a Raspberry Pi on your Computer with QEMU and Windows
+- Emulating a Raspberry Pi on your Computer with QEMU and Windows
 
 [Emulating a Raspberry Pi on your Computer with QEMU and Windows](http://www.pcsteps.com/1199-raspberry-pi-emulation-for-windows-qemu/)
 
@@ -1061,7 +1065,7 @@ Pi on a computer is that the img file can be modified directly.  A custom img
 with updated software and all of your programs can then be copied to your SD
 card.
 
-* Build a Retro Game system
+- Build a Retro Game system
 
 The RetroPie project aims to turn a Raspberry Pi into a game system.  It
 includes an interface called emulationstation and can emulate many of the game
@@ -1095,7 +1099,7 @@ case using 3D printed cases and a tiny screen.
 
 [Micro Arcade Cabinet](https://www.youtube.com/watch?v=5npkz0xY1fo)
 
-* Build your own ''cloud'' server
+- Build your own ''cloud'' server
 
 The term cloud has been confusing the majority of computer users since its
 creation.  It simply means you are putting your private data on someone else's
@@ -1105,14 +1109,14 @@ own cloud!  I will suggest Freedom Box.  It acts as a cloud and more.
 
 [FreedomBox Foundation](https://freedomboxfoundation.org/)
 
-* Talk with all of your friends at once
+- Talk with all of your friends at once
 
 You can run a server on your Raspberry Pi called mumble that will allow your
 friends to all connect and talk to each other at once.
 
 [Mumble Server forum post](https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=8615)
 
-  * Design your own case
+- Design your own case
 
 If you have access to a 3D printer or some spare legos, you can make your own
 cases.  You can use any 3D modeling software to design your own 3D shapes to
@@ -1123,7 +1127,7 @@ made:
 
 [Thingiverse 3D models Raspberry Pi Results](http://www.thingiverse.com/search?q=raspberry+pi&sa=)
 
-* Try a program out in space
+- Try a program out in space
 
 The AstroPi project put some Raspberry Pi computers on the International Space
 Station.  You can build a duplicated device using a 3D printer, a Raspberry Pi,
@@ -1141,7 +1145,7 @@ https://twitter.com/astro_pi_vis
 
 https://vimeo.com/157627149
 
-* Control your stereo over wifi
+- Control your stereo over wifi
 
 How cool would it be to use your phone to control the stereo?  You can do that
 with the Raspberry Pi.  Put all of your music on a storage device.  Connect your
@@ -1197,7 +1201,7 @@ tail -n 30 /var/log/mpd/mpd.log
 http://elinux.org/Rpi_Music_Player_Daemon
 
 
-* Build a media center
+- Build a media center
 
 Kodi is a powerful media center that can be installed on your Raspberry Pi.  You
 can view your video files from a hard drive or stream files from the web.  I
@@ -1207,14 +1211,14 @@ with an Internet connection.
 [OSMC]("https://osmc.tv/")
 
 
-* Build your own tablet
+- Build your own tablet
 
 The Raspberry Pi has released a 7 inch touch screen.  Connect the cables to the
 Pi, add power, and you have a tablet.
 
 https://www.raspberrypi.org/products/raspberry-pi-touch-display/
 
-* Virtual Network Computing (VNC)
+- Virtual Network Computing (VNC)
 
 VNC can be used with nearly all computer systems including GNU/Linux, iOS, Mac,
 and Windows.  It is a way to share control of a computer across a network or the
@@ -1243,21 +1247,21 @@ ifconfig | grep inet
 https://www.raspberrypi.org/documentation/remote-access/vnc/
 
 
-* Build a surveillance system
+- Build a surveillance system
 
 Build your own motion detection cameras and have them email you when someone
 walks near your car.  Create a camera that emails you a picture of your desk
 every hour.  The possibilities are endless.
 
 
-* What should I wear today?
+- What should I wear today?
 
 Create a system to check the temperature and humidity outside.  Based on that
 information, the Raspberry Pi could email you what you should wear to stay warm
 throughout the year.
 
 
-* Create interactive installation art
+- Create interactive installation art
 
 Many artists have included Raspberry Pis into their work.  One of the most
 tranquil of such projects is called ''Lichen Ohms Seriatim'' located in
@@ -1271,7 +1275,7 @@ https://www.raspberrypi.org/blog/lichen-beacons/
 http://www.ludions.com/projects/lichens/
 
 
-* Build a supercomputer
+- Build a supercomputer
 
 You can create a [beowulf system](https://en.wikipedia.org/wiki/Beowulf_cluster)
 by connecting a bunch of computers together using network cables, GNU/Linux, and
@@ -1288,7 +1292,7 @@ http://www.zdnet.com/article/build-your-own-supercomputer-out-of-raspberry-pi-bo
 [Pi Zero OTG Cluster](http://blog.alexellis.io/pizero-otg-swarm/)
 
 
-* Participate with an open source project
+- Participate with an open source project
 
 Another great way to get more experience is to find a python script on github,
 make a github account, and fork the project.  To fork a project, you can take
@@ -1308,7 +1312,7 @@ had not been worked out.  Compromises, workarounds, and hacks had to be
 implemented to accomplish some goals.  Many of these problems have been solved
 with the new line of Raspberry Pis including the A+, B+, 2 B, Zero, and 3 B.
 
-* Low resolution video
+- Low resolution video
 
 This happens with kids ofen.  The quick solution is to reboot.  Click on the
 menu in the top left > Logout > Reboot.
@@ -1318,7 +1322,7 @@ HDMI.  If you change the order of operations to HDMI and then power, the boot
 process will automatically identify the video source and give provide optimal
 resolution.
 
-* Wireless Drivers
+- Wireless Drivers
 
 Wireless adapters do not always work.  This is because the hardware manufacturer
 has closed source, proprietary drivers.  Some brands work very well and others
@@ -1328,7 +1332,7 @@ Atheros chipsets are nearly always compatible.  The packaging rarely says the
 name of the chipset so you always have to
 [look it up](https://wikidevi.com/wiki/List_of_Wi-Fi_Device_IDs_in_Linux).
 
-* Peripheral power / Powered USB Hub
+- Peripheral power / Powered USB Hub
 
 The B has two USB ports.  I need to plug in a keyboard, a mouse, and a wifi
 adapter.  I could plug in the keyboard and mouse at the same time and use it
@@ -1345,7 +1349,7 @@ was using much more power then before.  I was very surprised when I tried the B+
 with four USB slots.  On the B+, I plugged in keyboard, mouse, and wifi directly
 in and it worked perfectly.
 
-* Corrupted SD Cards
+- Corrupted SD Cards
 
 The operating system traditionally uses either a SD card or a microSD card.  The
 firmware of the first production run ruined many SD cards.  The firmware can be
@@ -1358,7 +1362,7 @@ the root.  I modified the boot configuration to boot from /dev/sdb2 instead of
 /dev/sda2.  I then used dd to copy the Raspbian img to a flash drive.  That one
 still works.
 
-* Audio pops
+- Audio pops
 
 One of the projects I made turned my Raspberry Pi model B into an mp3 player for
 my hi-fi stereo.  I could control it with my iPhone over the network.
@@ -1371,7 +1375,7 @@ interface on Raspbian.  I solved this problem by installing PulseAudio.  I
 configured pulse to remain always on.  This solved my problem.  The Raspberry Pi
 B+ and 2 B fixed this problem.
 
-* No HDMI Video Output
+- No HDMI Video Output
 
 I did a programming workshop using my model B.  I introduced what we were doing
 on a TV with the Pi.  Later that day, I took it back out and I could not get any
@@ -1381,7 +1385,7 @@ researched ways to troubleshoot the HDMI, they took off the case, and got it to
 work.  This was reproducible.  That official case has since been replaced with
 legos.
 
-* No hardware clock
+- No hardware clock
 
 Desktop computers typically have a coin sized battery attached to the
 motherboard to keep the clock running on the BIOS.  When the Rapsberry Pi gets
@@ -1396,7 +1400,7 @@ sudo date -s "14 APR 2053 15:34:00"
 ```
 
 
-* Language defaults
+- Language defaults
 
 When installing from NOOBS and even if the language is correctly set at the
 bottom, sometimes the language and keyboard is still incorrect with Raspbian.
@@ -1471,159 +1475,159 @@ about the Raspberry Pi, GNU/Linux, Python, Processing, and Computer Vision.
 
 Raspberry Pi Links:
 
-* [RPi Hub on eLinux](http://elinux.org/RPi_Hub)
-* [Official Raspberry Pi website](http://www.raspberrypi.org/)
-* [Raspberry Pi Subreddit](http://www.reddit.com/r/raspberry_pi/)
-* [Raspberry Pi projects from Make Magazine](http://makezine.com/category/technology/raspberry-pi/?post_type=projects)
-* [Ask questions on RPi Stack Exchange](http://raspberrypi.stackexchange.com/)
-* [RPi channel on Instructables](http://www.instructables.com/tag/type-id/category-technology/channel-raspberry-pi/)
-* [RPi tags on Instructables](http://www.instructables.com/tag/type-id/?sort=none&q=raspberry+pi)
-* [RPi contest on Instructables](http://www.instructables.com/contest/RaspberryPi/)
-* [RasPi.TV blog](http://raspi.tv)
-* [Raspberry Pi Spy](http://www.raspberrypi-spy.co.uk)
-* [RPi tags on LifeHacker](http://lifehacker.com/tag/raspberry-pi)
-* [RPi tags on Hackaday](http://hackaday.com/tag/raspberry-pi/)
-* [Raspberry Pi news on Google News](http://news.google.com/news?gl=us&pz=1&ned=us&hl=en&q=raspberry+pi)
-* [RPi Beginner channel on Youtube](http://www.youtube.com/user/RaspberryPiBeginners/videos)
-* [RPi playlist on Youtube](http://www.youtube.com/playlist?list=PLI2skf6QZ_a3aAhRn1g_lknX-NHgmp14X)
-* [RaspberryPiliz channel on Youtube](http://www.youtube.com/user/raspberrypiliz/videos)
-* [Raspberry Pi Pod Podcast](http://www.recantha.co.uk/blog/)
-* [RasPiFeed](http://raspifeed.com/)
-* [Pi Cases Subreddit](https://www.reddit.com/r/picases)
-* [Projects from Raspberry Pi.org](https://www.raspberrypi.org/resources/make/)
-* [Program beats with Sonic Pi](http://sonic-pi.net/)
-* [Programming music with Supercollider and Overtone on the Pi](http://sam.aaron.name/2012/11/02/supercollider-on-pi.html)
-* [Node-RED "a visual tool for wiring the Internet of Things"](http://nodered.org/)
-* [Free Video Presentation: Using Raspberry Pi and Arduino to survive a zombie apocalypse By Simon Monk](https://www.oreilly.com/ideas/using-your-maker-skills-to-survive-a-zombie-apocalypse)
-* [Wolfram cloud based programming language and Mathematica have free versions included on Raspbian.](http://www.wolfram.com/raspberry-pi/)
+- [RPi Hub on eLinux](http://elinux.org/RPi_Hub)
+- [Official Raspberry Pi website](http://www.raspberrypi.org/)
+- [Raspberry Pi Subreddit](http://www.reddit.com/r/raspberry_pi/)
+- [Raspberry Pi projects from Make Magazine](http://makezine.com/category/technology/raspberry-pi/?post_type=projects)
+- [Ask questions on RPi Stack Exchange](http://raspberrypi.stackexchange.com/)
+- [RPi channel on Instructables](http://www.instructables.com/tag/type-id/category-technology/channel-raspberry-pi/)
+- [RPi tags on Instructables](http://www.instructables.com/tag/type-id/?sort=none&q=raspberry+pi)
+- [RPi contest on Instructables](http://www.instructables.com/contest/RaspberryPi/)
+- [RasPi.TV blog](http://raspi.tv)
+- [Raspberry Pi Spy](http://www.raspberrypi-spy.co.uk)
+- [RPi tags on LifeHacker](http://lifehacker.com/tag/raspberry-pi)
+- [RPi tags on Hackaday](http://hackaday.com/tag/raspberry-pi/)
+- [Raspberry Pi news on Google News](http://news.google.com/news?gl=us&pz=1&ned=us&hl=en&q=raspberry+pi)
+- [RPi Beginner channel on Youtube](http://www.youtube.com/user/RaspberryPiBeginners/videos)
+- [RPi playlist on Youtube](http://www.youtube.com/playlist?list=PLI2skf6QZ_a3aAhRn1g_lknX-NHgmp14X)
+- [RaspberryPiliz channel on Youtube](http://www.youtube.com/user/raspberrypiliz/videos)
+- [Raspberry Pi Pod Podcast](http://www.recantha.co.uk/blog/)
+- [RasPiFeed](http://raspifeed.com/)
+- [Pi Cases Subreddit](https://www.reddit.com/r/picases)
+- [Projects from Raspberry Pi.org](https://www.raspberrypi.org/resources/make/)
+- [Program beats with Sonic Pi](http://sonic-pi.net/)
+- [Programming music with Supercollider and Overtone on the Pi](http://sam.aaron.name/2012/11/02/supercollider-on-pi.html)
+- [Node-RED "a visual tool for wiring the Internet of Things"](http://nodered.org/)
+- [Free Video Presentation: Using Raspberry Pi and Arduino to survive a zombie apocalypse By Simon Monk](https://www.oreilly.com/ideas/using-your-maker-skills-to-survive-a-zombie-apocalypse)
+- [Wolfram cloud based programming language and Mathematica have free versions included on Raspbian.](http://www.wolfram.com/raspberry-pi/)
   For more information, see the
   [wolfram reference](http://reference.wolfram.com/language/).
   
 Raspberry Pi Books:
 
-* [MagPi Magazine - Free digital magazines](https://www.raspberrypi.org/magpi/issues/)
-* [Raspberry Pi Geek Magazine](http://www.raspberry-pi-geek.com/)
-* [Make: Getting Started with Raspberry Pi: Electronic Projects with the Low-Cost Pocket-Sized Computer](http://www.amazon.com/Make-Raspberry-Electronic-Projects-Pocket-Sized/dp/1457186128/)
-* [Make: Getting Started with Raspberry Pi](http://www.amazon.com/Getting-Started-Raspberry-Pi-Electronic/dp/1457186128/)
-* [Make: a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors](http://www.amazon.com/Make-Raspberry-Pi-Controlled-Robot-Building/dp/1457186039)
-* [Adventures in Minecraft](http://www.amazon.com/Adventures-Minecraft-David-Whale/dp/111894691X/)
-* [Learn to Program with Minecraft: Transform Your World with the Power of Python](http://www.amazon.com/Learn-Program-Minecraft-Transform-Python/dp/1593276702/)
-* [FREE Raspberry Pi User Guide](http://www.cs.unca.edu/~bruce/Fall14/360/RPiUsersGuide.pdf)
-* [FREE Raspberry Pi: Measure, Record, Explore.](https://leanpub.com/RPiMRE)
-* [Programming the Raspberry Pi, Second Edition: Getting Started with Python](http://www.amazon.com/gp/product/1259587401/)
-* [Make: Getting Started with Raspberry Pi: Electronic Projects with Python, Scratch, and Linux](http://www.amazon.com/Make-Raspberry-Electronic-Projects-Pocket-Sized/dp/1457186128/)
-* [Make: Action: Movement, Light, and Sound with Arduino and Raspberry Pi](http://www.amazon.com/Make-Action-Movement-Arduino-Raspberry/dp/1457187795/)
-* [Raspberry Pi Cookbook](http://www.amazon.com/Raspberry-Pi-Cookbook-Simon-Monk/dp/1449365221/)
-* [Learning Python with Raspberry Pi](http://www.amazon.com/Learning-Python-Raspberry-Alex-Bradbury/dp/1118717058/)
-* [Programming the Raspberry Pi, Second Edition: Getting Started with Python](http://www.amazon.com/Programming-Raspberry-Pi-Second-Edition/dp/1259587401/)
-* [Make a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors By Wolfram Donat](http://shop.oreilly.com/product/0636920031994.do)
-* [Make: Action - Movement, Light, and Sound with Arduino and Raspberry Pi By Simon Monk](http://shop.oreilly.com/product/0636920031901.do)
-* [Raspberry Pi For Kids For Dummies By Richard Wentk](http://shop.oreilly.com/product/9781119049517.do)
-* [Raspberry Pi Server Essentials By Piotr J. Kula](http://shop.oreilly.com/product/9781783284696.do)
-* [Raspberry Pi Projects for Kids, 2nd Edition By Daniel Bates](http://shop.oreilly.com/product/9781785281525.do)
-* [Getting Started With Raspberry Pi, 3rd Edition: An Introduction to the Fastest-Selling Computer in the World By Shawn Wallace, Matt Richardson](http://shop.oreilly.com/product/0636920031253.do)
-* [Raspberry Pi User Guide By Gareth Halfacree, Eben Upton](http://shop.oreilly.com/product/9781118464465.do)
-* [Raspberry Pi Hacks: Tips & Tools for Making Things with the Inexpensive Linux Computer By Ruth Suehle, Tom Callaway](http://shop.oreilly.com/product/0636920029083.do)
-* [Free Video Presentation: Intro to Raspberry Pi: be prepared to be inspired to make awesome things By Ed Snajder](http://www.oreilly.com/pub/e/2650)
-* [Linux for Makers: Understanding the Operating System That Runs Raspberry Pi and Other Maker SBCs By Aaron Newcomb](http://shop.oreilly.com/product/0636920031338.do)
-* [Pay-What-You-Want RPi: Measure, Record, Explore By Malcolm Maclean](https://leanpub.com/RPiMRE)
+- [MagPi Magazine - Free digital magazines](https://www.raspberrypi.org/magpi/issues/)
+- [Raspberry Pi Geek Magazine](http://www.raspberry-pi-geek.com/)
+- [Make: Getting Started with Raspberry Pi: Electronic Projects with the Low-Cost Pocket-Sized Computer](http://www.amazon.com/Make-Raspberry-Electronic-Projects-Pocket-Sized/dp/1457186128/)
+- [Make: Getting Started with Raspberry Pi](http://www.amazon.com/Getting-Started-Raspberry-Pi-Electronic/dp/1457186128/)
+- [Make: a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors](http://www.amazon.com/Make-Raspberry-Pi-Controlled-Robot-Building/dp/1457186039)
+- [Adventures in Minecraft](http://www.amazon.com/Adventures-Minecraft-David-Whale/dp/111894691X/)
+- [Learn to Program with Minecraft: Transform Your World with the Power of Python](http://www.amazon.com/Learn-Program-Minecraft-Transform-Python/dp/1593276702/)
+- [FREE Raspberry Pi User Guide](http://www.cs.unca.edu/~bruce/Fall14/360/RPiUsersGuide.pdf)
+- [FREE Raspberry Pi: Measure, Record, Explore.](https://leanpub.com/RPiMRE)
+- [Programming the Raspberry Pi, Second Edition: Getting Started with Python](http://www.amazon.com/gp/product/1259587401/)
+- [Make: Getting Started with Raspberry Pi: Electronic Projects with Python, Scratch, and Linux](http://www.amazon.com/Make-Raspberry-Electronic-Projects-Pocket-Sized/dp/1457186128/)
+- [Make: Action: Movement, Light, and Sound with Arduino and Raspberry Pi](http://www.amazon.com/Make-Action-Movement-Arduino-Raspberry/dp/1457187795/)
+- [Raspberry Pi Cookbook](http://www.amazon.com/Raspberry-Pi-Cookbook-Simon-Monk/dp/1449365221/)
+- [Learning Python with Raspberry Pi](http://www.amazon.com/Learning-Python-Raspberry-Alex-Bradbury/dp/1118717058/)
+- [Programming the Raspberry Pi, Second Edition: Getting Started with Python](http://www.amazon.com/Programming-Raspberry-Pi-Second-Edition/dp/1259587401/)
+- [Make a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors By Wolfram Donat](http://shop.oreilly.com/product/0636920031994.do)
+- [Make: Action - Movement, Light, and Sound with Arduino and Raspberry Pi By Simon Monk](http://shop.oreilly.com/product/0636920031901.do)
+- [Raspberry Pi For Kids For Dummies By Richard Wentk](http://shop.oreilly.com/product/9781119049517.do)
+- [Raspberry Pi Server Essentials By Piotr J. Kula](http://shop.oreilly.com/product/9781783284696.do)
+- [Raspberry Pi Projects for Kids, 2nd Edition By Daniel Bates](http://shop.oreilly.com/product/9781785281525.do)
+- [Getting Started With Raspberry Pi, 3rd Edition: An Introduction to the Fastest-Selling Computer in the World By Shawn Wallace, Matt Richardson](http://shop.oreilly.com/product/0636920031253.do)
+- [Raspberry Pi User Guide By Gareth Halfacree, Eben Upton](http://shop.oreilly.com/product/9781118464465.do)
+- [Raspberry Pi Hacks: Tips & Tools for Making Things with the Inexpensive Linux Computer By Ruth Suehle, Tom Callaway](http://shop.oreilly.com/product/0636920029083.do)
+- [Free Video Presentation: Intro to Raspberry Pi: be prepared to be inspired to make awesome things By Ed Snajder](http://www.oreilly.com/pub/e/2650)
+- [Linux for Makers: Understanding the Operating System That Runs Raspberry Pi and Other Maker SBCs By Aaron Newcomb](http://shop.oreilly.com/product/0636920031338.do)
+- [Pay-What-You-Want RPi: Measure, Record, Explore By Malcolm Maclean](https://leanpub.com/RPiMRE)
 
 Python and Programming Links:
 
-* [Codecademy's Python track](http://www.codecademy.com/tracks/python)
-* [LearnPython.org](http://www.learnpython.org)
-* [Python Subreddit](http://www.reddit.com/r/python)
-* [Learn Programming Subreddit](http://www.reddit.com/r/learnprogramming)
-* [Daily Programmer Subreddit](http://www.reddit.com/r/dailyprogrammer)
-* [Programming Challenges](http://www.reddit.com/r/programmingchallenges)
-* [pyNES allows you to write original Nintendo games in Python](http://gutomaia.net/pyNES/)
-* [Invent With Python](http://inventwithpython.com/index.html)
-* [Python 3 Documentation](https://docs.python.org/3/download.html)
-* [Free programming books from O'Reilly](http://www.oreilly.com/programming/free/)
-* [Free resources from O'Reilly](http://www.oreilly.com/free/)
+- [Codecademy's Python track](http://www.codecademy.com/tracks/python)
+- [LearnPython.org](http://www.learnpython.org)
+- [Python Subreddit](http://www.reddit.com/r/python)
+- [Learn Programming Subreddit](http://www.reddit.com/r/learnprogramming)
+- [Daily Programmer Subreddit](http://www.reddit.com/r/dailyprogrammer)
+- [Programming Challenges](http://www.reddit.com/r/programmingchallenges)
+- [pyNES allows you to write original Nintendo games in Python](http://gutomaia.net/pyNES/)
+- [Invent With Python](http://inventwithpython.com/index.html)
+- [Python 3 Documentation](https://docs.python.org/3/download.html)
+- [Free programming books from O'Reilly](http://www.oreilly.com/programming/free/)
+- [Free resources from O'Reilly](http://www.oreilly.com/free/)
 
 Python Books:
 
-* [FREE Make Games with Python MagPi ebook](https://www.raspberrypi.org/magpi/issues/essentials-games-vol1/)
-* [FREE Programming Book](http://straightedgelinux.com/blog/python/html/index.html)
-* [FREE Programming Book epub and examples](http://straightedgelinux.com/blog/python/)
-* [FREE Functional Programming in Python By David Mertz](http://www.oreilly.com/programming/free/functional-programming-python.csp?cmp=em-prog-free-na-lgen_safari_20160929)
-* [List of free Python books online](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python)
-* [FREE Snake Wrangling for Kids](http://www.briggs.net.nz/snake-wrangling-for-kids.html)
-* [Python for Kids: A Playful Introduction to Programming](http://www.amazon.com/gp/product/1593274076/)
-* [Teach Your Kids to Code: A Parent-Friendly Guide to Python Programming](http://www.amazon.com/Teach-Your-Kids-Code-Parent-Friendly/dp/1593276141/)
-* [Python Programming for the Absolute Beginner](http://www.amazon.com/gp/product/1435455002/)
-* [Hello World! Computer Programming for Kids and Other Beginners](http://www.amazon.com/gp/product/1933988495/)
-* [Invent Your Own Computer Games with Python By Al Sweigart](http://shop.oreilly.com/product/9781593277956.do)
-* [Python For Kids For Dummies By Brendan Scott](http://shop.oreilly.com/product/9781119093107.do)
-* [Instant Pygame for Python Game Development How-to By Ivan Idris](http://shop.oreilly.com/product/9781782162865.do)
+- [FREE Make Games with Python MagPi ebook](https://www.raspberrypi.org/magpi/issues/essentials-games-vol1/)
+- [FREE Programming Book](http://straightedgelinux.com/blog/python/html/index.html)
+- [FREE Programming Book epub and examples](http://straightedgelinux.com/blog/python/)
+- [FREE Functional Programming in Python By David Mertz](http://www.oreilly.com/programming/free/functional-programming-python.csp?cmp=em-prog-free-na-lgen_safari_20160929)
+- [List of free Python books online](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python)
+- [FREE Snake Wrangling for Kids](http://www.briggs.net.nz/snake-wrangling-for-kids.html)
+- [Python for Kids: A Playful Introduction to Programming](http://www.amazon.com/gp/product/1593274076/)
+- [Teach Your Kids to Code: A Parent-Friendly Guide to Python Programming](http://www.amazon.com/Teach-Your-Kids-Code-Parent-Friendly/dp/1593276141/)
+- [Python Programming for the Absolute Beginner](http://www.amazon.com/gp/product/1435455002/)
+- [Hello World! Computer Programming for Kids and Other Beginners](http://www.amazon.com/gp/product/1933988495/)
+- [Invent Your Own Computer Games with Python By Al Sweigart](http://shop.oreilly.com/product/9781593277956.do)
+- [Python For Kids For Dummies By Brendan Scott](http://shop.oreilly.com/product/9781119093107.do)
+- [Instant Pygame for Python Game Development How-to By Ivan Idris](http://shop.oreilly.com/product/9781782162865.do)
 
 Processing Links:
 
-* [Processing Raspberry Pi Wiki](https://github.com/processing/processing/wiki/Raspberry-Pi)
-* [Processing home page - includes download links and documentation](https://processing.org/)
-* [Online interactive p5.js tutorial through Processing.org.](http://hello.processing.org/)
+- [Processing Raspberry Pi Wiki](https://github.com/processing/processing/wiki/Raspberry-Pi)
+- [Processing home page - includes download links and documentation](https://processing.org/)
+- [Online interactive p5.js tutorial through Processing.org.](http://hello.processing.org/)
   If you want more Daniel Sheffman, check out
   [his programming videos on youtube](https://www.youtube.com/user/shiffman/videos)
   and
   [his extensive p5.js vimeo playlist](https://vimeo.com/channels/learningp5js).
-* [Processing subreddit](http://www.reddit.com/r/dailyprogrammer) 
-* [Online interactive p5.js tutorial through Khan Academy](https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code)
-* [Gallery of examples from Hello.Processing](http://hello.processing.org/gallery/)
-* [Installing Processing on the Raspberry Pi](http://cagewebdev.com/index.php/raspberry-pi-running-processing-on-your-raspi/)
-* [OpenProcessing is an online gallery of Processing sketches and code](http://www.openprocessing.org/)
-* [Free MOOC Creative Coding from Future Learn that uses a Processing Curriculum](https://www.futurelearn.com/courses/creative-coding/)
-* [Configuring Processing with the Python language.](https://github.com/jdf/processing.py#python-mode-for-processing)
+- [Processing subreddit](http://www.reddit.com/r/dailyprogrammer) 
+- [Online interactive p5.js tutorial through Khan Academy](https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code)
+- [Gallery of examples from Hello.Processing](http://hello.processing.org/gallery/)
+- [Installing Processing on the Raspberry Pi](http://cagewebdev.com/index.php/raspberry-pi-running-processing-on-your-raspi/)
+- [OpenProcessing is an online gallery of Processing sketches and code](http://www.openprocessing.org/)
+- [Free MOOC Creative Coding from Future Learn that uses a Processing Curriculum](https://www.futurelearn.com/courses/creative-coding/)
+- [Configuring Processing with the Python language.](https://github.com/jdf/processing.py#python-mode-for-processing)
 
 Processing Books and videos for purchase:
 
-* [Make: Getting Started with Processing - A Hands-On Introduction to Making Interactive Graphics By Casey Reas, Ben Fry](http://shop.oreilly.com/product/0636920031406.do)
-* [Make: Getting Started with Processing.py - Making Interactive Graphics with Python's Processing Mode By Allison Parrish, Ben Fry, Casey Reas](http://shop.oreilly.com/product/0636920031703.do)
-* [Make: Getting Started with p5.js - Making Interactive Graphics in JavaScript and Processing By Lauren McCarthy, Casey Reas, Ben Fry](http://shop.oreilly.com/product/0636920032076.do)
-* [The SparkFun Guide to Processing: Create Interactive Art with Code By Derek Runberg](http://shop.oreilly.com/product/9781593276126.do)
-* [Learning Processing, 2nd Edition: A Beginner's Guide to Programming Images, Animation, and Interaction By Daniel Shiffman](http://shop.oreilly.com/product/9780123944436.do)
-* [Processing 2: Creative Coding Hotshot By Nikolaus Gradwohl](http://shop.oreilly.com/product/9781782166726.do)
-* [Processing 2: Creative Programming Cookbook By Jan Vantomme](http://shop.oreilly.com/product/9781849517942.do)
-* [Free Nature of Code By Daniel Shiffman](http://natureofcode.com/book/)
-* [Video: Processing and Arduino in Tandem: Creating Your Own Digital Art Tools By Joseph Gray](http://shop.oreilly.com/product/0636920013310.do)
-* [Video: Processing and Arduino in Tandem: Video Mixer By Joseph Gray](http://shop.oreilly.com/product/0636920018353.do)
-* [Video: Processing and Arduino in Tandem: Audio Visualizer By Joseph Gray](http://shop.oreilly.com/product/0636920018377.do)
+- [Make: Getting Started with Processing - A Hands-On Introduction to Making Interactive Graphics By Casey Reas, Ben Fry](http://shop.oreilly.com/product/0636920031406.do)
+- [Make: Getting Started with Processing.py - Making Interactive Graphics with Python's Processing Mode By Allison Parrish, Ben Fry, Casey Reas](http://shop.oreilly.com/product/0636920031703.do)
+- [Make: Getting Started with p5.js - Making Interactive Graphics in JavaScript and Processing By Lauren McCarthy, Casey Reas, Ben Fry](http://shop.oreilly.com/product/0636920032076.do)
+- [The SparkFun Guide to Processing: Create Interactive Art with Code By Derek Runberg](http://shop.oreilly.com/product/9781593276126.do)
+- [Learning Processing, 2nd Edition: A Beginner's Guide to Programming Images, Animation, and Interaction By Daniel Shiffman](http://shop.oreilly.com/product/9780123944436.do)
+- [Processing 2: Creative Coding Hotshot By Nikolaus Gradwohl](http://shop.oreilly.com/product/9781782166726.do)
+- [Processing 2: Creative Programming Cookbook By Jan Vantomme](http://shop.oreilly.com/product/9781849517942.do)
+- [Free Nature of Code By Daniel Shiffman](http://natureofcode.com/book/)
+- [Video: Processing and Arduino in Tandem: Creating Your Own Digital Art Tools By Joseph Gray](http://shop.oreilly.com/product/0636920013310.do)
+- [Video: Processing and Arduino in Tandem: Video Mixer By Joseph Gray](http://shop.oreilly.com/product/0636920018353.do)
+- [Video: Processing and Arduino in Tandem: Audio Visualizer By Joseph Gray](http://shop.oreilly.com/product/0636920018377.do)
 
 Computer Vision Links:
 
-* [simplcv](http://simplecv.org/)
-* [OpenCV](http://opencv.org/)
-* [opencv-python tutorials](http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
-* [Free PDF book: Programming Computer Vision with Python](http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf)
-* [Free Video Presentation: Training Intelligent Camera Systems with Python and OpenCV By Joseph Howse](http://www.oreilly.com/pub/e/3077)
+- [simplcv](http://simplecv.org/)
+- [OpenCV](http://opencv.org/)
+- [opencv-python tutorials](http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+- [Free PDF book: Programming Computer Vision with Python](http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf)
+- [Free Video Presentation: Training Intelligent Camera Systems with Python and OpenCV By Joseph Howse](http://www.oreilly.com/pub/e/3077)
 
 Computer Vision Books:
 
-* [Pay-What-You-Want Instant Raspberry Pi Computer Vision By Ashwin Pajankar](https://leanpub.com/InstantRPiCV)
-* [Practical Computer Vision with SimpleCV: The Simple Way to Make Technology See By Kurt Demaagd, Anthony Oliver, Nathan Oostendorp, Katherine Scott](http://shop.oreilly.com/product/0636920024057.do)
-* [OpenCV for Secret Agents By Joseph Howse](http://shop.oreilly.com/product/9781783287376.do)
-* [Learning OpenCV 3 Computer Vision with Python, 2nd Edition By Joe Minichino, Joseph Howse](http://shop.oreilly.com/product/9781785283840.do)
-* [OpenCV Computer Vision with Python By Joseph Howse](http://shop.oreilly.com/product/9781782163923.do)
-* [OpenCV with Python By Example By Prateek Joshi](http://shop.oreilly.com/product/9781785283932.do)
-* [Learning OpenCV 3: Computer Vision in C++ with the OpenCV Library By Adrian Kaehler, Gary Bradski](http://shop.oreilly.com/product/0636920044765.do)
-* [OpenCV 3.0 Computer Vision with Java By Daniel Lelis Baggio](http://shop.oreilly.com/product/9781783283972.do)
-* [Learning Image Processing with OpenCV By Gloria Bueno Garcia, Oscar Deniz Suarez, Jose Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia Vallez Enano](http://shop.oreilly.com/product/9781783287659.do)
-* [Learning OpenCV: Computer Vision with the OpenCV Library By Gary Bradski, Adrian Kaehler](http://shop.oreilly.com/product/9780596516130.do)
-* [Instant OpenCV Starter By Jayneil Dalal, Sohil Patel](http://shop.oreilly.com/product/9781782168812.do)
-* [OpenCV 3 Blueprints By Joseph Howse, Steven Puttemans, Quan Hua, Utkarsh Sinha](http://shop.oreilly.com/product/9781784399757.do)
-* [OpenCV with Python Blueprints By Michael Beyeler](http://shop.oreilly.com/product/9781785282690.do)
-* [OpenCV 2 Computer Vision Application Programming Cookbook By Robert Laganiere](http://shop.oreilly.com/product/9781849513241.do)
-* [OpenCV By Example By Prateek Joshi, David Millan Escriva, Vinicius Godoy](http://shop.oreilly.com/product/9781785280948.do)
-* [OpenCV Computer Vision Application Programming Cookbook Second Edition By Robert Laganiere](http://shop.oreilly.com/product/9781782161486.do)
-* [OpenCV Essentials By Oscar Deniz Suarez, Mª del Milagro Fernandez Carrobles, Noelia Vallez Enano, Gloria Bueno Garcia, Ismael Serrano Gracia, Julio Alberto Paton Incertis, Jesus Salido Tercero](http://shop.oreilly.com/product/9781783984244.do)
-* [OpenCV Computer Vision Application Programming By Sebastian Montabone](http://shop.oreilly.com/product/110000051.do)
-* [Mastering OpenCV with Practical Computer Vision Projects By Shervin Emami, Khvedchenia Levgen, Naureen Mahmood, Jason Saragih, Roy Shilkrot, David Millan Escriva, Daniel Lelis Baggio](http://shop.oreilly.com/product/9781849517829.do)
-* [Android Application Programming with OpenCV 3 By Joseph Howse](http://shop.oreilly.com/product/9781785285387.do)
-* [Android Application Programming with OpenCV By Joseph Howse](http://shop.oreilly.com/product/9781849695206.do)
-* [OpenCV Android Programming By Example By Amgad Muhammad](http://shop.oreilly.com/product/9781783550593.do)
-* [Mastering OpenCV Android Application Programming By Salil Kapur, Nisarg Thakkar](http://shop.oreilly.com/product/9781783988204.do)
-* [Instant OpenCV for iOS By Alexander Shishkov, Kirill Kornyakov](http://shop.oreilly.com/product/9781782163848.do)
-* [Arduino Computer Vision Programming By Ozen Ozkaya, Giray Yillikci](http://shop.oreilly.com/product/9781783552627.do)
+- [Pay-What-You-Want Instant Raspberry Pi Computer Vision By Ashwin Pajankar](https://leanpub.com/InstantRPiCV)
+- [Practical Computer Vision with SimpleCV: The Simple Way to Make Technology See By Kurt Demaagd, Anthony Oliver, Nathan Oostendorp, Katherine Scott](http://shop.oreilly.com/product/0636920024057.do)
+- [OpenCV for Secret Agents By Joseph Howse](http://shop.oreilly.com/product/9781783287376.do)
+- [Learning OpenCV 3 Computer Vision with Python, 2nd Edition By Joe Minichino, Joseph Howse](http://shop.oreilly.com/product/9781785283840.do)
+- [OpenCV Computer Vision with Python By Joseph Howse](http://shop.oreilly.com/product/9781782163923.do)
+- [OpenCV with Python By Example By Prateek Joshi](http://shop.oreilly.com/product/9781785283932.do)
+- [Learning OpenCV 3: Computer Vision in C++ with the OpenCV Library By Adrian Kaehler, Gary Bradski](http://shop.oreilly.com/product/0636920044765.do)
+- [OpenCV 3.0 Computer Vision with Java By Daniel Lelis Baggio](http://shop.oreilly.com/product/9781783283972.do)
+- [Learning Image Processing with OpenCV By Gloria Bueno Garcia, Oscar Deniz Suarez, Jose Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia Vallez Enano](http://shop.oreilly.com/product/9781783287659.do)
+- [Learning OpenCV: Computer Vision with the OpenCV Library By Gary Bradski, Adrian Kaehler](http://shop.oreilly.com/product/9780596516130.do)
+- [Instant OpenCV Starter By Jayneil Dalal, Sohil Patel](http://shop.oreilly.com/product/9781782168812.do)
+- [OpenCV 3 Blueprints By Joseph Howse, Steven Puttemans, Quan Hua, Utkarsh Sinha](http://shop.oreilly.com/product/9781784399757.do)
+- [OpenCV with Python Blueprints By Michael Beyeler](http://shop.oreilly.com/product/9781785282690.do)
+- [OpenCV 2 Computer Vision Application Programming Cookbook By Robert Laganiere](http://shop.oreilly.com/product/9781849513241.do)
+- [OpenCV By Example By Prateek Joshi, David Millan Escriva, Vinicius Godoy](http://shop.oreilly.com/product/9781785280948.do)
+- [OpenCV Computer Vision Application Programming Cookbook Second Edition By Robert Laganiere](http://shop.oreilly.com/product/9781782161486.do)
+- [OpenCV Essentials By Oscar Deniz Suarez, Mª del Milagro Fernandez Carrobles, Noelia Vallez Enano, Gloria Bueno Garcia, Ismael Serrano Gracia, Julio Alberto Paton Incertis, Jesus Salido Tercero](http://shop.oreilly.com/product/9781783984244.do)
+- [OpenCV Computer Vision Application Programming By Sebastian Montabone](http://shop.oreilly.com/product/110000051.do)
+- [Mastering OpenCV with Practical Computer Vision Projects By Shervin Emami, Khvedchenia Levgen, Naureen Mahmood, Jason Saragih, Roy Shilkrot, David Millan Escriva, Daniel Lelis Baggio](http://shop.oreilly.com/product/9781849517829.do)
+- [Android Application Programming with OpenCV 3 By Joseph Howse](http://shop.oreilly.com/product/9781785285387.do)
+- [Android Application Programming with OpenCV By Joseph Howse](http://shop.oreilly.com/product/9781849695206.do)
+- [OpenCV Android Programming By Example By Amgad Muhammad](http://shop.oreilly.com/product/9781783550593.do)
+- [Mastering OpenCV Android Application Programming By Salil Kapur, Nisarg Thakkar](http://shop.oreilly.com/product/9781783988204.do)
+- [Instant OpenCV for iOS By Alexander Shishkov, Kirill Kornyakov](http://shop.oreilly.com/product/9781782163848.do)
+- [Arduino Computer Vision Programming By Ozen Ozkaya, Giray Yillikci](http://shop.oreilly.com/product/9781783552627.do)
 
 
 
@@ -1639,4 +1643,9 @@ it and follow your imagination.
 
 [back to top](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#raspberrypiprogrammingworkshop)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br>Copyright © Michael McMahon 2015-2016.  Except where otherwise specified, the text on <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/">Raspberry Pi Programming Workshop</a> by Michael McMahon is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br>
+Copyright © Michael McMahon 2015-2018.  Except where otherwise specified, the
+text on
+[RaspberryPiProgrammingWorkshop](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/)
+by Michael McMahon is licensed under the
+[Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
