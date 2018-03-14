@@ -633,9 +633,9 @@ These games written with pygame originated from the
 [free book that accompanies the games](http://inventwithpython.com/makinggames.pdf).
 
 There are hundreds of free games that you can modify from
-[the pygame webpage](www.pygame.org">the pygame webpage).
+[the pygame webpage](http://www.pygame.org).
 
-Check out the [pygame tutorials](www.pygame.org/wiki/tutorials) for more
+Check out the [pygame tutorials](http://www.pygame.org/wiki/tutorials) for more
 information.
 
 Beginner:
@@ -1114,7 +1114,7 @@ own cloud!  I will suggest Freedom Box.  It acts as a cloud and more.
 You can run a server on your Raspberry Pi called mumble that will allow your
 friends to all connect and talk to each other at once.
 
-[Mumble Server forum post](https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=8615)
+[Mumble Server forum post](https://www.raspberrypi.org/forums/viewtopic.php?t=8615)
 
 - Design your own case
 
@@ -1208,7 +1208,7 @@ can view your video files from a hard drive or stream files from the web.  I
 have had the most success with OSMC which can be installed directly from NOOBS
 with an Internet connection.
 
-[OSMC]("https://osmc.tv/")
+[OSMC](https://osmc.tv/)
 
 
 - Build your own tablet
@@ -1283,7 +1283,7 @@ software to make them act as one.
 
 http://www.zdnet.com/article/build-your-own-supercomputer-out-of-raspberry-pi-boards/
 
-[33 Raspberry Pi Cluster](http://coen.boisestate.edu/ece/raspberry-pi/)
+[33 Raspberry Pi Cluster](http://coen.boisestate.edu/ece/research-areas/raspberry-pi/)
 
 [64 Raspberry Pi Cluster](http://www.southampton.ac.uk/mediacentre/features/raspberry_pi_supercomputer.shtml)
 
@@ -1507,9 +1507,8 @@ Raspberry Pi Books:
 
 - [MagPi Magazine - Free digital magazines](https://www.raspberrypi.org/magpi/issues/)
 - [Raspberry Pi Geek Magazine](http://www.raspberry-pi-geek.com/)
-- [Make: Getting Started with Raspberry Pi: Electronic Projects with the Low-Cost Pocket-Sized Computer](http://www.amazon.com/Make-Raspberry-Electronic-Projects-Pocket-Sized/dp/1457186128/)
-- [Make: Getting Started with Raspberry Pi](http://www.amazon.com/Getting-Started-Raspberry-Pi-Electronic/dp/1457186128/)
-- [Make: a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors](http://www.amazon.com/Make-Raspberry-Pi-Controlled-Robot-Building/dp/1457186039)
+- [Make: Getting Started with Raspberry Pi](https://www.amazon.com/Getting-Started-Raspberry-Introduction-Fastest-Selling/dp/1680452460/)
+- [Make: a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors](https://www.amazon.com/Make-Raspberry-Pi-Controlled-Robot-Building/dp/1457186039)
 - [Adventures in Minecraft](http://www.amazon.com/Adventures-Minecraft-David-Whale/dp/111894691X/)
 - [Learn to Program with Minecraft: Transform Your World with the Power of Python](http://www.amazon.com/Learn-Program-Minecraft-Transform-Python/dp/1593276702/)
 - [FREE Raspberry Pi User Guide](http://www.cs.unca.edu/~bruce/Fall14/360/RPiUsersGuide.pdf)
@@ -1518,8 +1517,8 @@ Raspberry Pi Books:
 - [Make: Getting Started with Raspberry Pi: Electronic Projects with Python, Scratch, and Linux](http://www.amazon.com/Make-Raspberry-Electronic-Projects-Pocket-Sized/dp/1457186128/)
 - [Make: Action: Movement, Light, and Sound with Arduino and Raspberry Pi](http://www.amazon.com/Make-Action-Movement-Arduino-Raspberry/dp/1457187795/)
 - [Raspberry Pi Cookbook](http://www.amazon.com/Raspberry-Pi-Cookbook-Simon-Monk/dp/1449365221/)
-- [Learning Python with Raspberry Pi](http://www.amazon.com/Learning-Python-Raspberry-Alex-Bradbury/dp/1118717058/)
-- [Programming the Raspberry Pi, Second Edition: Getting Started with Python](http://www.amazon.com/Programming-Raspberry-Pi-Second-Edition/dp/1259587401/)
+- [Learning Python with Raspberry Pi](https://www.amazon.com/Learning-Python-Raspberry-Alex-Bradbury/dp/1118717058)
+- [Programming the Raspberry Pi, Second Edition: Getting Started with Python](https://www.amazon.com/Programming-Raspberry-Pi-Second-Edition/dp/1259587401/)
 - [Make a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors By Wolfram Donat](http://shop.oreilly.com/product/0636920031994.do)
 - [Make: Action - Movement, Light, and Sound with Arduino and Raspberry Pi By Simon Monk](http://shop.oreilly.com/product/0636920031901.do)
 - [Raspberry Pi For Kids For Dummies By Richard Wentk](http://shop.oreilly.com/product/9781119049517.do)
@@ -1560,8 +1559,8 @@ Python Books:
 - [FREE Snake Wrangling for Kids](http://www.briggs.net.nz/snake-wrangling-for-kids.html)
 - [Python for Kids: A Playful Introduction to Programming](http://www.amazon.com/gp/product/1593274076/)
 - [Teach Your Kids to Code: A Parent-Friendly Guide to Python Programming](http://www.amazon.com/Teach-Your-Kids-Code-Parent-Friendly/dp/1593276141/)
-- [Python Programming for the Absolute Beginner](http://www.amazon.com/gp/product/1435455002/)
-- [Hello World! Computer Programming for Kids and Other Beginners](http://www.amazon.com/gp/product/1933988495/)
+- [Python Programming for the Absolute Beginner](https://www.amazon.com/gp/product/1435455002/)
+- [Hello World! Computer Programming for Kids and Other Beginners](https://www.amazon.com/gp/product/1933988495/)
 - [Invent Your Own Computer Games with Python By Al Sweigart](http://shop.oreilly.com/product/9781593277956.do)
 - [Python For Kids For Dummies By Brendan Scott](http://shop.oreilly.com/product/9781119093107.do)
 - [Instant Pygame for Python Game Development How-to By Ivan Idris](http://shop.oreilly.com/product/9781782162865.do)
