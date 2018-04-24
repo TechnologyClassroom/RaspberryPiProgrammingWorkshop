@@ -895,7 +895,7 @@ use the Raspberry Pi in creative ways.
 
 ## Projects
 
-- Raspberry Pirate Radio
+### Raspberry Pirate Radio
 
 Have you ever wanted to run your own radio station?  You can turn your Raspberry
 Pi into an FM radio transmitter using one wire and a Python script.
@@ -915,7 +915,7 @@ http://lifehacker.com/start-a-pirate-radio-station-with-a-raspberry-pi-and-a-153
 
 http://myhowtosandprojects.blogspot.com/2014/04/raspberry-pi-make-your-own-pirate-radio.html
 
-- Build a robot
+### Build a robot
 
 If you can power a light with GPIO pins, you can just as easily connect it to a
 motor.  Add more motors and you have a robot.
@@ -924,7 +924,7 @@ http://diyhacking.com/raspberry-pi-robot/
 
 [Book - Make a Raspberry Pi-Controlled Robot: Building a Rover with Python, Linux, Motors, and Sensors By Wolfram Donat](http://shop.oreilly.com/product/0636920031994.do)
 
-- Create your own web server
+### Create your own web server
 
 What better way to learn web design than creating your own web server?  You can
 turn a Raspberry Pi into an entire web stack.  ''LAMP'' stacks are very popular
@@ -936,7 +936,7 @@ interact with Python.
 https://wiki.archlinux.org/index.php/Nginx
 
 
-- Create your own Baby Monitor
+### Create your own Baby Monitor
 
 Most of the "smart" baby monitors on the market are always on devices connected
 to the Internet that you do not control.  I built my own with
@@ -1019,7 +1019,7 @@ http://192.168.1.208/hls/index.m3u8
 https://github.com/iizukanao/picam
 
 
-- Universal Translator
+### Universal Translator
 
 This project allows you to convert speech from one spoken language to another.
 Record audio of talking, convert the audio to text, translate the text to
@@ -1030,7 +1030,7 @@ http://www.daveconroy.com/turn-raspberry-pi-translator-speech-recognition-playba
 https://github.com/dconroy/PiTranslate
 
 
-- Connect Raspberry Pis to automate your home
+### Connect Raspberry Pis to automate your home
 
 The ''Internet of Things'' (IoT) is a way to connect everything together through
 the Internet.  Purchasing IoT devices and appliances can be COSTLY unless you do
@@ -1044,7 +1044,7 @@ http://www.informationweek.com/software/enterprise-applications/10-raspberry-pi-
 
 https://www.raspberrypi.org/blog/tag/internet-of-things/
 
-- Build your own camera
+### Build your own camera
 
 The Raspberry Pi foundation has designed two camera modules that can be easily
 connected to the Raspberry Pi.  They are the camera and the infrared modules.
@@ -1065,7 +1065,7 @@ Pi on a computer is that the img file can be modified directly.  A custom img
 with updated software and all of your programs can then be copied to your SD
 card.
 
-- Build a Retro Game system
+### Build a Retro Game system
 
 The RetroPie project aims to turn a Raspberry Pi into a game system.  It
 includes an interface called emulationstation and can emulate many of the game
@@ -1099,7 +1099,7 @@ case using 3D printed cases and a tiny screen.
 
 [Micro Arcade Cabinet](https://www.youtube.com/watch?v=5npkz0xY1fo)
 
-- Build your own ''cloud'' server
+### Build your own ''cloud'' server
 
 The term cloud has been confusing the majority of computer users since its
 creation.  It simply means you are putting your private data on someone else's
@@ -1109,14 +1109,14 @@ own cloud!  I will suggest Freedom Box.  It acts as a cloud and more.
 
 [FreedomBox Foundation](https://freedomboxfoundation.org/)
 
-- Talk with all of your friends at once
+### Talk with all of your friends at once
 
 You can run a server on your Raspberry Pi called mumble that will allow your
 friends to all connect and talk to each other at once.
 
 [Mumble Server forum post](https://www.raspberrypi.org/forums/viewtopic.php?t=8615)
 
-- Design your own case
+### Design your own case
 
 If you have access to a 3D printer or some spare legos, you can make your own
 cases.  You can use any 3D modeling software to design your own 3D shapes to
@@ -1127,7 +1127,7 @@ made:
 
 [Thingiverse 3D models Raspberry Pi Results](http://www.thingiverse.com/search?q=raspberry+pi&sa=)
 
-- Try a program out in space
+### Try a program out in space
 
 The AstroPi project put some Raspberry Pi computers on the International Space
 Station.  You can build a duplicated device using a 3D printer, a Raspberry Pi,
@@ -1145,7 +1145,7 @@ https://twitter.com/astro_pi_vis
 
 https://vimeo.com/157627149
 
-- Control your stereo over wifi
+### Control your stereo over wifi
 
 How cool would it be to use your phone to control the stereo?  You can do that
 with the Raspberry Pi.  Put all of your music on a storage device.  Connect your
@@ -1201,7 +1201,7 @@ tail -n 30 /var/log/mpd/mpd.log
 http://elinux.org/Rpi_Music_Player_Daemon
 
 
-- Build a media center
+### Build a media center
 
 Kodi is a powerful media center that can be installed on your Raspberry Pi.  You
 can view your video files from a hard drive or stream files from the web.  I
@@ -1211,14 +1211,14 @@ with an Internet connection.
 [OSMC](https://osmc.tv/)
 
 
-- Build your own tablet
+### Build your own tablet
 
 The Raspberry Pi has released a 7 inch touch screen.  Connect the cables to the
 Pi, add power, and you have a tablet.
 
 https://www.raspberrypi.org/products/raspberry-pi-touch-display/
 
-- Virtual Network Computing (VNC)
+### Virtual Network Computing (VNC)
 
 VNC can be used with nearly all computer systems including GNU/Linux, iOS, Mac,
 and Windows.  It is a way to share control of a computer across a network or the
@@ -1247,21 +1247,21 @@ ifconfig | grep inet
 https://www.raspberrypi.org/documentation/remote-access/vnc/
 
 
-- Build a surveillance system
+### Build a surveillance system
 
 Build your own motion detection cameras and have them email you when someone
 walks near your car.  Create a camera that emails you a picture of your desk
 every hour.  The possibilities are endless.
 
 
-- What should I wear today?
+### What should I wear today?
 
 Create a system to check the temperature and humidity outside.  Based on that
 information, the Raspberry Pi could email you what you should wear to stay warm
 throughout the year.
 
 
-- Create interactive installation art
+### Create interactive installation art
 
 Many artists have included Raspberry Pis into their work.  One of the most
 tranquil of such projects is called ''Lichen Ohms Seriatim'' located in
@@ -1275,7 +1275,7 @@ https://www.raspberrypi.org/blog/lichen-beacons/
 http://www.ludions.com/projects/lichens/
 
 
-- Build a supercomputer
+### Build a supercomputer
 
 You can create a [beowulf system](https://en.wikipedia.org/wiki/Beowulf_cluster)
 by connecting a bunch of computers together using network cables, GNU/Linux, and
@@ -1291,8 +1291,11 @@ http://www.zdnet.com/article/build-your-own-supercomputer-out-of-raspberry-pi-bo
 
 [Pi Zero OTG Cluster](http://blog.alexellis.io/pizero-otg-swarm/)
 
+[Dramble](https://www.pidramble.com/) is a 5 RPi Drupal cluster that can be used
+to teach ansible.
 
-- Participate with an open source project
+
+### Participate with an open source project
 
 Another great way to get more experience is to find a python script on github,
 make a github account, and fork the project.  To fork a project, you can take
