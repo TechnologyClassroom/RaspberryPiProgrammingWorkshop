@@ -1424,7 +1424,10 @@ English United States UTF-8):
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 ```
 
-- journalctl reads ```failed to execute /lib/udev/mtp-probe```
+- journalctl reads a problem with mtp-probe
+
+```journalctl -xb -p 5``` reads ```systemd-udevd[208]: failed to execute
+'/lib/udev/mtp-probe' 'mtp-probe /sys/devices/platform/soc/```
 
 Install libmtp-runtime.
 
