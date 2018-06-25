@@ -1424,6 +1424,16 @@ English United States UTF-8):
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 ```
 
+- journalctl reads ```failed to execute /lib/udev/mtp-probe```
+
+Install libmtp-runtime.
+
+```
+sudo apt install -y libmtp-runtime
+```
+
+From by The Good Doctor at https://crunchbang.org/forums/viewtopic.php?id=25200
+
 
 
 
