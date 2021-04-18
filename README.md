@@ -4,12 +4,14 @@ RPiPW = resources + notes + code samples for a workshop introducing the
 Raspberry Pi as a beginner's programming environment
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br>
-Copyright © Michael McMahon 2015-2018.  Except where otherwise specified, the
+Copyright © Michael McMahon 2015-2021.  Except where otherwise specified, the
 text on
 [Raspberry Pi Programming Workshop](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop/)
 by Michael McMahon is licensed under the
 [Creative Commons Attribution-ShareAlike License 4.0 (International) (CC-BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
+If you like what I am doing here and found some of this advice useful, consider
+supporting me through [LibrePay](https://liberapay.com/technologyclassroom/).
 
 ## Table of Contents
 
@@ -40,9 +42,9 @@ by Michael McMahon is licensed under the
 ## The Raspberry Pi
 <!-- Separate this section into more sections: buying and connecting -->
 
-The Raspberry Pi is a low-cost, low-power single board computer the size of a
-credit card.  With a low price point and advanced software, it is a great tool
-to teach youth electronics and programming.
+The Raspberry Pi is traditionally a low-cost, low-power single board computer
+the size of a credit card.  With a low price point and advanced software, it is
+a great tool to teach youth electronics and programming.
 
 The Pi is developed by the Raspberry Pi Foundation.  Their goal is ''to advance
 the education of adults and children, particularly in the field of computers,
@@ -53,12 +55,15 @@ Children buy $60 video games for expensive consoles each year.  What if they
 purchased a computer with that money instead?  They could take the same HDMI
 cable out of their video game system and plug it into a Raspberry Pi.
 
-<img src="https://www.element14.com/community/servlet/JiveServlet/showImage/102-80899-13-252356/Pi3+Breakout+Feb+29+2016.png"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Raspberry_Pi_4_Model_B_-_Top.jpg/800px-Raspberry_Pi_4_Model_B_-_Top.jpg"/>
+<a href="https://en.wikipedia.org/wiki/File:Raspberry_Pi_4_Model_B_-_Top.jpg">Image source Miiicihiaieil  Hieinizilieir / Wikimedia Commons / CC BY-SA 4.0</a>
 
-Breakdown of various available models of the Raspberry Pi
+Breakdown of various available models of the Raspberry Pi Computers
 
 Release Date | Original Price | Model | GPIO Pins | CPU
 ------| ----- | ----- |-----------|---------
+Nov 2020 | $70 | 400 | N/A | 1.5 GHz ARMv8 64 bit (quad core)
+Jun 2019 | $35-$75 | 4 B | 40 | 1.5 GHz ARMv8 64 bit (quad core)
 Nov 2018 | $25 | 3 A+ | 40 | 1.4 GHz ARMv8 64 bit (quad core)
 Mar 2018 | $35 | 3 B+ | 40 | 1.4 GHz ARMv8 64 bit (quad core)
 Jan 2018 | $10 | Zero WH | 40 | 1.0GHz ARMv6 (single core)
@@ -67,7 +72,7 @@ Feb 2016 | $35 | 3 B | 40 | 1.2GHz ARMv8 64bit (quad core)
 Nov 2015 | $5 | Zero | 40 | 1.0GHz ARMv6 (single core)
 Feb 2015 | $35 | 2 B | 40 | 900MHz ARMv7 (quad core)
 Nov 2014 | $20 | 1 A+ | 40 | 700MHz ARMv6 (single core)
-July 2014 | $25 | 1 B+ | 40 | 700MHz ARMv6 (single core)
+Jul 2014 | $25 | 1 B+ | 40 | 700MHz ARMv6 (single core)
 Apr 2014 | $30 | Compute | 200 | 700MHz ARMv6 (single core)
 Feb 2012 | $25 | 1 A | 26 | 700MHz ARMv6 (single core)
 Feb 2012 | $35 | 1 B | 26 | 700MHz ARMv6 (single core)
@@ -75,12 +80,13 @@ Feb 2012 | $35 | 1 B | 26 | 700MHz ARMv6 (single core)
 There are other SBCs (Single Board Computers) available.  The Raspberry Pi is
 not the best, but the Raspberry Pi is one of the cheapest and most popular
 boards.  Other SBCs include
+[Pine64 ROCKPro64](https://www.pine64.org/rockpro64/),
+[OLinuXino](https://www.olimex.com/Products/OlinuXino/),
+[Beagleboards](http://beagleboard.org/),
 [OEMA68](https://www.crowdsupply.com/eoma68/micro-desktop),
 [Parallella with 18 core processors](http://www.parallella.org/board/),
-[OLinuXino](https://www.olimex.com/Products/OlinuXino/),
 [Banana Pi](http://www.lemaker.org/),
-[C.H.I.P. the $9 base modular computer](http://nextthing.co/),
-[Beagleboards](http://beagleboard.org/), and
+[C.H.I.P. the $9 base modular computer](http://nextthing.co/), and
 [Cubieboards](http://cubieboard.org/).  With anything popular in the open source
 community, higher numbers of people working on a projects yields more projects,
 tutorials, and development.  I started with the journey into single board
@@ -94,10 +100,26 @@ $15.  This makes a large environmental difference for long-term projects like
 hosting a web server or opening your garage when your phone comes within range.
 [source](http://michaelbluejay.com/electricity/computers.html)
 
+### Microcontrollers
+
+Microcontrollers are also a great education device for youth.  You can program
+a microcontroller with a computer, but you cannot program a computer with only
+a microcontroller.
+
+The Raspberry Pi Pico is a $4 microcontroller board from Raspberry Pi released
+in 2021.  This is an excellent price for a microcontroller, but this adds some
+additional confusing to the education space which already had enough
+difficulty differenciating between computers and microcontrollers before this.
+You cannot say anymore that Raspberry Pis are computers and Arduinos are
+microcontrollers.
 
 
 
-## Purchasing a Raspberry Pi
+## Purchasing a Raspberry Pi Computer
+
+I would recommend starting with the latest B model as it mostly uses standard
+ports and requires less dongles.  If you are trying to fit a computer in a
+really small space, start with one of the 0 models.
 
 What about all of the extra things you need to make it work?  I made a shopping
 cart at the Cambridge, MA Micro Center page with everything I would buy for one.
@@ -128,29 +150,19 @@ are Raspberry Pi workstations that include monitors.
 
 ## Operating Systems for the Raspberry Pi
 
-There are many different operating systems available for the Raspberry Pi.  My
-personal favorite is
-[Arch for Arm](http://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2)
-as it is the fastest operating system for the Pi that I am aware of.  For this
-tutorial, I will use Raspbian because it contains software to get started, has
-excellent community support, and most project tutorials use Raspbian as a
-starting point.
+There are many different operating systems available for the Raspberry Pi.  For
+this tutorial, I will use Raspberry Pi OS because it contains software to get
+started, has excellent community support, and most project tutorials use
+Raspberry Pi OS as a starting point.
 <br><br>
 Why GNU/Linux?  GNU/Linux is built on
-[free and open source software](https://en.wikipedia.org/wiki/Free_and_open_source_software)
+[free software](https://www.gnu.org/philosophy/free-sw.en.html)
 and can be easily downloaded, modified, distributed, and used with few to no
 restrictions.  This is very beneficial for a programming environment.  GNU/Linux
 is also used by the most advanced science and technology institutions such as
 the International Space Station, CERN, US Navy, US DOD, FAA, USPS, Google,
 Novell, IBM, Cisco, and Amazon.
 <br>
-Other operating systems to note are
-[pi-topOS](https://www.pi-top.com/product/pi-top-os),
-[Fedberry](http://fedberry.org/),
-[OpenWRT](http://wiki.openwrt.org/toh/raspberry_pi_foundation/raspberry_pi),
-[RISC OS](https://www.riscosopen.org/content/downloads/raspberry-pi),
-[OSMC](https://osmc.tv/),
-[FreeBSD](https://wiki.freebsd.org/FreeBSD/arm/Raspberry%20Pi), and many more.
 You can even make your own operating system for the Raspberry Pi.
 
 
