@@ -16,7 +16,7 @@ supporting me through [LibrePay](https://liberapay.com/technologyclassroom/).
 ## Table of Contents
 
 - [The Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#the-raspberry-pi) 
-  - [Purchasing a Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#purchasing-a-raspberry-pi-computer) 
+  - [Purchasing a Raspberry Pi Computer](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#purchasing-a-raspberry-pi-computer) 
   - [Operating Systems for the Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#operating-systems-for-the-raspberry-pi) 
   - [Installing Raspbian via NOOBS](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#installing-raspbian-via-noobs) 
   - [Software Repositories](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#software-repositories) 
