@@ -1328,7 +1328,115 @@ had not been worked out.  Compromises, workarounds, and hacks had to be
 implemented to accomplish some goals.  Many of these problems have been solved
 with the new line of Raspberry Pis including the A+, B+, 2 B, Zero, and 3 B.
 
-- Low resolution video
+### No monitor
+
+If you have a Raspberry Pi and do not have a monitor there is a way!  Maybe you
+went on vacation and could not fit a monitor in your luggage.  Maybe you
+ordered some cables and are waiting for them to arrive.  Maybe you are working
+on a project that will never use a traditional monitor.  Do not fear!  There is
+a way!
+
+I am using a Debian based GNU/Linux machine for this section.  If you are using
+another operating system, the process will be different.
+
+I flashed the Raspberry Pi OS onto a MicroSD card for the RPi.  My sd card is
+sdc.  Your device might be different.
+
+```
+dd if=2021-03-04-raspios-buster-armhf.img of=/dev/sdc bs=4096 status=progress
+```
+
+I need to add wireless info and enabled ssh before first boot.
+
+Mount the boot/ partition.  My device is sdc.
+
+```
+sudo mount /dev/sdc1 /mnt
+```
+
+Add a blank file titled ssh to enable ssh.
+
+```
+sudo touch /mnt/ssh
+```
+
+Build an encrypted `wpa_supplicant` file.  Replace `Netgear` with your network name.
+
+```
+wpa_passphrase Netgear
+```
+
+Enter the network password and press the `Enter` key.
+
+The wpa_supplicant with encryption will appear.  Copy the contents into your
+`wpa_supplicant.conf` file and place it in the `boot/` directory of the mounted
+Raspberry Pi disk.  Remove the commented out line that includes the unencrypted
+password.
+
+```
+sudo nano /mnt/boot/wpa_supplicant.conf
+```
+
+Unmount `boot/`.
+
+```
+sudo umount /mnt
+```
+
+Sync.
+
+```
+sync
+```
+
+Eject.
+
+```
+sudo eject /dev/sdc
+```
+
+Place the sd card into the RPi.
+
+Scan the network before plugging the Raspberry Pi in.  For this step, I am
+using `nmap`.  Replace `192.168.0.0` with your local IP address.  Replace
+the number after the last period `.` with `0`.
+
+```
+nmap -sn 192.168.0.0/24
+```
+
+Scan again a few minutes after plugging in the RPi.
+
+```
+nmap -sn 192.168.0.0/24
+```
+
+Note: If you do not have a laptop with GNU/Linux, you can scan the network with
+your phone.  If you have administrator access to the router, you can also use
+the admin interface to look for differences in connected devices.
+
+The difference is your RPi's local IP address.  Connect to it using `ssh`.
+Replace `192.168.0.???` with the IP address of the Raspberry Pi.
+
+```
+ssh pi@192.168.0.???
+```
+
+Note: If you do not have GNU/Linux, you can use
+[ConnectBot from F-Droid on Android based mobile devices.](https://f-droid.org/en/packages/org.connectbot/)
+
+Default password is `raspberry`.
+
+Change the password.
+
+```
+passwd
+```
+
+Now, you can do just about any command line work with the Raspberry Pi without
+a monitor.
+
+### Low resolution video
 
 This happens with kids ofen.  The quick solution is to reboot.  Click on the
 menu in the top left > Logout > Reboot.
@@ -1338,7 +1446,7 @@ HDMI.  If you change the order of operations to HDMI and then power, the boot
 process will automatically identify the video source and give provide optimal
 resolution.
 
-- Wireless Drivers
+### Wireless Drivers
 
 Wireless adapters do not always work.  This is because the hardware manufacturer
 has closed source, proprietary drivers.  Some brands work very well and others
@@ -1348,7 +1456,7 @@ Atheros chipsets are nearly always compatible.  The packaging rarely says the
 name of the chipset so you always have to
 [look it up](https://wikidevi.com/wiki/List_of_Wi-Fi_Device_IDs_in_Linux).
 
-- Peripheral power / Powered USB Hub
+### Peripheral power / Powered USB Hub
 
 The B has two USB ports.  I need to plug in a keyboard, a mouse, and a wifi
 adapter.  I could plug in the keyboard and mouse at the same time and use it
@@ -1365,7 +1473,7 @@ was using much more power then before.  I was very surprised when I tried the B+
 with four USB slots.  On the B+, I plugged in keyboard, mouse, and wifi directly
 in and it worked perfectly.
 
-- Corrupted SD Cards
+### Corrupted SD Cards
 
 The operating system traditionally uses either a SD card or a microSD card.  The
 firmware of the first production run ruined many SD cards.  The firmware can be
@@ -1378,7 +1486,7 @@ the root.  I modified the boot configuration to boot from /dev/sdb2 instead of
 /dev/sda2.  I then used dd to copy the Raspbian img to a flash drive.  That one
 still works.
 
-- Audio pops
+### Audio pops
 
 One of the projects I made turned my Raspberry Pi model B into an mp3 player for
 my hi-fi stereo.  I could control it with my iPhone over the network.
@@ -1391,7 +1499,7 @@ interface on Raspbian.  I solved this problem by installing PulseAudio.  I
 configured pulse to remain always on.  This solved my problem.  The Raspberry Pi
 B+ and 2 B fixed this problem.
 
-- No HDMI Video Output
+### No HDMI Video Output
 
 I did a programming workshop using my model B.  I introduced what we were doing
 on a TV with the Pi.  Later that day, I took it back out and I could not get any
@@ -1401,7 +1509,7 @@ researched ways to troubleshoot the HDMI, they took off the case, and got it to
 work.  This was reproducible.  That official case has since been replaced with
 legos.
 
-- No hardware clock
+### No hardware clock
 
 Desktop computers typically have a coin sized battery attached to the
 motherboard to keep the clock running on the BIOS.  When the Rapsberry Pi gets
@@ -1415,8 +1523,7 @@ is correct.  An example of this code is:
 sudo date -s "14 APR 2053 15:34:00"
 ```
 
-
-- Language defaults
+### Language defaults
 
 When installing from NOOBS and even if the language is correctly set at the
 bottom, sometimes the language and keyboard is still incorrect with Raspbian.
@@ -1437,7 +1544,7 @@ English United States UTF-8):
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 ```
 
-- journalctl reads a problem with mtp-probe
+### journalctl reads a problem with mtp-probe
 
 ```journalctl -xb -p 5``` reads ```systemd-udevd[208]: failed to execute
 '/lib/udev/mtp-probe' 'mtp-probe /sys/devices/platform/soc/```
@@ -1451,19 +1558,23 @@ sudo apt install -y libmtp-runtime
 From by The Good Doctor at https://crunchbang.org/forums/viewtopic.php?id=25200
 
 
-
-
 ## Raspberry Pi Giveaway
 
-We will pick an almost random number using Python.  Everyone gets a number 0 -
-n.
+During a live presentation of this content, I like to give away a Raspberry Pi
+setup.
+
+We will pick an almost random number using Python.  Everyone gets a number 0
+through n minus 1.  n being the total number of people present.  n-1 because
+0 is a number.
+
+
 
 ```
-from random import randint
+from random import randrange
 
-n = 30 # 31 participants because 0 is a number.
+n = 30 # Total number of participants
 
-print(randint(0,n))
+print(randrange(0, int(n)))
 ```
 
 The winner gets a Raspberry Pi!
@@ -1476,7 +1587,7 @@ If you did not win, you can buy the one I did this presentation with at cost.
 
 We can encode a QR code offline on the Raspberry Pi using qrencode.
 
-To install qrencode on the pi run this command:
+To install `qrencode` on the pi run this command:
 
 ```
 sudo apt-get update && sudo apt-get install -y qrencode
