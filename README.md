@@ -1122,12 +1122,14 @@ own cloud!  I will suggest Freedom Box.  It acts as a cloud and more.
 
 [FreedomBox Foundation](https://freedomboxfoundation.org/)
 
+
 ### Talk with all of your friends at once
 
 You can run a server on your Raspberry Pi called mumble that will allow your
 friends to all connect and talk to each other at once.
 
 [Mumble Server forum post](https://www.raspberrypi.org/forums/viewtopic.php?t=8615)
+
 
 ### Design your own case
 
@@ -1139,6 +1141,7 @@ made:
 [8 Interesting DIY RPi Case Ideas](http://www.makeuseof.com/tag/8-interesting-diy-raspberry-pi-case-ideas/)
 
 [Thingiverse 3D models Raspberry Pi Results](http://www.thingiverse.com/search?q=raspberry+pi&sa=)
+
 
 ### Try a program out in space
 
@@ -1157,6 +1160,7 @@ https://twitter.com/astro_pi_ir
 https://twitter.com/astro_pi_vis
 
 https://vimeo.com/157627149
+
 
 ### Control your stereo over wifi
 
@@ -1230,6 +1234,7 @@ The Raspberry Pi has released a 7 inch touch screen.  Connect the cables to the
 Pi, add power, and you have a tablet.
 
 https://www.raspberrypi.org/products/raspberry-pi-touch-display/
+
 
 ### Virtual Network Computing (VNC)
 
@@ -1315,8 +1320,6 @@ make a github account, and fork the project.  To fork a project, you can take
 someone else's program, make changes, and make it your own; or you can make a
 change, and submit the change back to the original project.  Even changing a
 simple grammar mistake is a great first move.
-
-
 
 
 ## Problems and Solutions That Worked for Me
@@ -1567,7 +1570,13 @@ We will pick an almost random number using Python.  Everyone gets a number 0
 through n minus 1.  n being the total number of people present.  n-1 because
 0 is a number.
 
+Make a text file.
 
+```
+nano rpidrawing.py
+```
+
+Add this text to the file and modify as necessary.
 
 ```
 from random import randrange
@@ -1577,10 +1586,15 @@ n = 30 # Total number of participants
 print(randrange(0, int(n)))
 ```
 
+Run the script.
+
+```
+python3 rpidrawing.py
+```
+
 The winner gets a Raspberry Pi!
 
 If you did not win, you can buy the one I did this presentation with at cost.
-
 
 
 ## Encode QR Code
@@ -1604,8 +1618,6 @@ feh -F qrcode.png
 
 For more ideas on using qrencode, check out this
 [Linux Magazine link](http://www.linux-magazine.com/Online/Features/Generating-QR-Codes-in-Linux).
-
-
 
 
 ## Resources
