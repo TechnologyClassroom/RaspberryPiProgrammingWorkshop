@@ -455,11 +455,11 @@ less in the long run.
 
 If you have ever used an Arduino, you are already familiar with input/output
 pins.  These can be programmed and linked to other components to build custom
-circuits.  The Pi A & B have 26 pins.  The Pi A+, B+, 2 B, Zero, and 3 B have 40
+circuits.  The Pi A & B have 26 pins.  The Pi A+, B+, 2 B, Zero, 3 B, 3 B+, and 4 B have 40
 pins.  The Pi Compute Module has 200 pins.
 
 
-Models A & B | Models A+, B+, 2 B, Zero, and 3 B
+Models A & B | Models A+, B+, 2 B, Zero, 3 B, 3 B+, and 4 B
 ------- | -------
 <img src="http://elinux.org/images/8/80/Pi-GPIO-header-26-sm.png"/> | <img src="http://elinux.org/images/5/5c/Pi-GPIO-header.png"/>
 
