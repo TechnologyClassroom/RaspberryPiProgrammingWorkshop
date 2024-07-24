@@ -63,6 +63,7 @@ Breakdown of various available models of the Raspberry Pi Computers
 Release Date | Original Price | Model | GPIO Pins | CPU
 ------| ----- | ----- |-----------|---------
 Oct 2023 | $60-$80 | 5 | 40 | 2.4 GHz ARMv8 64 bit (quad core)
+Oct 2021 | $15 | Zero 2 W | 40 | 1.0 GHz ARMv8 64 bit (quad core)
 Nov 2020 | $70 | 400 | N/A | 1.5 GHz ARMv8 64 bit (quad core)
 Jun 2019 | $35-$75 | 4 B | 40 | 1.5 GHz ARMv8 64 bit (quad core)
 Nov 2018 | $25 | 3 A+ | 40 | 1.4 GHz ARMv8 64 bit (quad core)
