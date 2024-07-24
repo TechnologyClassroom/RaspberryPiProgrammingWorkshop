@@ -18,7 +18,7 @@ supporting me through [LibrePay](https://liberapay.com/technologyclassroom/).
 - [The Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#the-raspberry-pi) 
   - [Purchasing a Raspberry Pi Computer](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#purchasing-a-raspberry-pi-computer) 
   - [Operating Systems for the Raspberry Pi](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#operating-systems-for-the-raspberry-pi) 
-  - [Installing Raspbian via NOOBS](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#installing-raspbian-via-noobs) 
+  - [Installing Raspberry Pi OS via NOOBS](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#installing-raspbian-via-noobs) 
   - [Software Repositories](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#software-repositories) 
 - [Introduction to Programming](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#introduction-to-programming) 
   - [Hello, world!](https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#hello-world) 
@@ -180,7 +180,7 @@ You can even make your own operating system for the Raspberry Pi.
 
 
 
-## Installing Raspbian via NOOBS
+## Installing Raspberry Pi OS via NOOBS
 
 The Raspberry Pi usually does not come with an operating system or storage. You
 run the operating system from a microSD. If you have never installed or
@@ -198,7 +198,7 @@ possible. If you mess it up, hold shift while you boot and reinstall.
    Extract all of the files directly to a microSD card.
 3. Put the microSD card into the Raspberry Pi and plug in your power supply.
    The Raspberry Pi will light up.
-4. A menu of operating systems appears. Put a check next to Raspbian. At the
+4. A menu of operating systems appears. Put a check next to Raspberry Pi OS. At the
    bottom of the screen change the international options to your country. I
    choose US. There are many differences between a keyboard in the United
    States and one in Great Britain. Click ''Install'' and wait a long while.
@@ -218,7 +218,7 @@ concept of a repository. All of your software can be installed and updated from
 one central place. To get a visual glipse of the repository, I like to use a
 program called ''synaptic''.
 
-IMPORTANT: To open a terminal in Raspbian, click on the black rectangle in the
+IMPORTANT: To open a terminal in Raspberry Pi OS, click on the black rectangle in the
 upper left of the screen.<br>
 To install synaptic, run this command in a terminal:
 
@@ -366,8 +366,8 @@ quit()
 ```
 
 We will do this same exercise in a different way. Open up a text editor from
-the terminal using the following command line. Leafpad and nano come installed
-with Raspbian. Nano is a terminal application so we will use that. We will
+the terminal using the following command line. Nano come installed
+with Raspberry Pi OS. Nano is a terminal application so we will use that. We will
 also create a new file and give it a filename as we open it.
 
 ```
@@ -588,7 +588,7 @@ For more information about projects using the Raspberry Pi's GPIO, check out the
 
 # Python and pygame
 
-Raspbian comes bundled with some games written in Python. I like to use these
+Raspberry Pi OS comes bundled with some games written in Python. I like to use these
 games as a starting point when teaching kids about programming in Python. The
 programs are small enough that you can read them in one sitting, and they are
 very well commented. Comments are lines that start with ''#'' and are ignored
@@ -615,7 +615,7 @@ that Python 2.7 is installed by running this command:
 python -V
 ```
 
-Pygame is installed by default on Raspbian. If you are on a debian based
+Pygame is installed by default on Raspberry Pi OS. If you are on a debian based
 system, you can install pygame with this command:
 
 ```
@@ -730,7 +730,7 @@ Minecraft is the best selling game of all time. Mojang (the original developer
 of Minecraft before Microsoft bought them) wrote a version specifically for the
 Raspberry Pi. Mojang gave it alway for free in hopes of teaching youth
 programming. Python and java modules accompany the game. Minecraft: Pi Edition
-and the python and java modules are already installed on Raspbian.
+and the python and java modules are already installed on Raspberry Pi OS.
 
 NOTE: Minecraft: Pi Edition only works for the Raspberry Pi's CPU architecture
 ARM. Since the game itself is not open source, it cannot be recompiled for
@@ -848,7 +848,7 @@ sudo sh install-arm.sh
 ```
 
 If you want to use P3D, this command will fix a bug in the latest versions of
-Raspbian (at the time of this writing):
+Raspberry Pi OS (at the time of this writing):
 
 ```
 sudo aptitude remove libgles1-mesa libgles2-mesa
@@ -1476,15 +1476,17 @@ in and it worked perfectly.
 
 ### Corrupted SD Cards
 
+Note: This was an early issue with the first generation of Raspberry Pis.
+
 The operating system traditionally uses either a SD card or a microSD card. The
 firmware of the first production run ruined many SD cards. The firmware can be
 updated and it eventually got better. I had been running various GNU/Linux
 operating systems off of 16GB flash drives for many years at this point. After
 corrupting the same SD card many times, I gave up on the SD card. I had to use
 it to boot from, but I did not have to run the system off of it. Default
-Raspbian has two partitions in its .img file. One is a boot and the other is
+Raspberry Pi OS has two partitions in its .img file. One is a boot and the other is
 the root. I modified the boot configuration to boot from /dev/sdb2 instead of
-/dev/sda2. I then used dd to copy the Raspbian img to a flash drive. That one
+/dev/sda2. I then used dd to copy the Raspberry Pi OS img to a flash drive. That one
 still works.
 
 ### Audio pops
@@ -1498,7 +1500,7 @@ would be a loud pop between each track. Not only is this annoying, but it could
 damage my speakers. The problem was well known on the Internet and by the
 developers. The problem was that the power would turn off when not in use and
 then turn back on. The power could not be left on using ALSA the default audio
-interface on Raspbian. I solved this problem by installing PulseAudio. I
+interface on Raspberry Pi OS. I solved this problem by installing PulseAudio. I
 configured pulse to remain always on. This solved my problem. The Raspberry Pi
 B+ and 2 B fixed this problem.
 
@@ -1529,7 +1531,7 @@ sudo date -s "14 APR 2053 15:34:00"
 ### Language defaults
 
 When installing from NOOBS and even if the language is correctly set at the
-bottom, sometimes the language and keyboard is still incorrect with Raspbian.
+bottom, sometimes the language and keyboard is still incorrect with Raspberry Pi OS.
 There is a GUI tool that can help configure this at the Raspberry Pi menu >
 Preferences > Raspberry Pi Configuration > Localisation. I use Set Locale, Set
 Timezone, and Set Keyboard in that menu.
@@ -1651,7 +1653,7 @@ Raspberry Pi Links:
 - [Programming music with Supercollider and Overtone on the Pi](http://sam.aaron.name/2012/11/02/supercollider-on-pi.html)
 - [Node-RED "a visual tool for wiring the Internet of Things"](http://nodered.org/)
 - [Free Video Presentation: Using Raspberry Pi and Arduino to survive a zombie apocalypse By Simon Monk](https://www.oreilly.com/ideas/using-your-maker-skills-to-survive-a-zombie-apocalypse)
-- [Wolfram cloud based programming language and Mathematica have free versions included on Raspbian.](http://www.wolfram.com/raspberry-pi/)
+- [Wolfram cloud based programming language and Mathematica have free versions included on Raspberry Pi OS.](http://www.wolfram.com/raspberry-pi/)
   For more information, see the
   [wolfram reference](http://reference.wolfram.com/language/).
   
