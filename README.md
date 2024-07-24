@@ -497,9 +497,9 @@ use the RPIO module, which connects Python with the pins of the Pi, and the time
 module, which allows Python to track the passage of time.
 
 ```
-sudo apt-get update
+sudo apt update
 
-sudo apt-get install -y python-dev python-rpi.gpio
+sudo apt install -y python-dev python-rpi.gpio
 ```
 
 We will write a Python script using nano again. We will call the file LED7.
@@ -619,7 +619,7 @@ Pygame is installed by default on Raspbian. If you are on a debian based
 system, you can install pygame with this command:
 
 ```
-sudo apt-get update && sudo apt-get install -y python-pygame
+sudo apt update && sudo apt install -y python-pygame
 ```
 
 Since pygame depends on Python, the correct version of Python would also be
@@ -978,9 +978,9 @@ on your local area network (LAN).
 sudo raspi-config
 
 # Install dependencies
-sudo apt-get update
-sudo apt-get install -y libharfbuzz0b
-sudo apt-get install -y libfontconfig1
+sudo apt update
+sudo apt install -y libharfbuzz0b
+sudo apt install -y libfontconfig1
 
 # Create directories and symbolic links
 cat > make_dirs.sh <<'EOF'
@@ -1011,7 +1011,7 @@ cp picam-1.4.6-binary/picam ~/picam/
 #./picam --alsadev hw:1,0
 
 # Install nginx
-sudo apt-get install -y nginx
+sudo apt install -y nginx
 
 # Edit nginx configuration
 echo "Within the server { ... } block add these lines:"
@@ -1171,13 +1171,13 @@ an MPD app such as MPoD or MPDroid.
 ```
 # Update software repositories, remove unnecessary software, and install mpd.
 
-sudo apt-get update
+sudo apt update
 
-sudo apt-get remove -y pulseaudio wolfram-engine wolframscript scratch # Removing pulseaudio fixes the volume control problem. Removing wolfram and scratch speeds up upgrade time.
+sudo apt remove -y pulseaudio wolfram-engine wolframscript scratch # Removing pulseaudio fixes the volume control problem. Removing wolfram and scratch speeds up upgrade time.
 
-sudo apt-get upgrade -y
+sudo apt upgrade -y
 
-sudo apt-get install -y mpd mpc
+sudo apt install -y mpd mpc
 
 # Change ownership of mpd folders to user mpd and group audio.
 
@@ -1242,7 +1242,7 @@ Internet. Today, it is most commonly used for tech support from remote sites.
 VNC software can be installed with these commands:
 
 ```
-sudo apt-get install tightvncserver xtightvncviewer
+sudo apt install tightvncserver xtightvncviewer
 ```
 
 A VNC server can be started with this command:
@@ -1604,7 +1604,7 @@ We can encode a QR code offline on the Raspberry Pi using qrencode.
 To install `qrencode` on the pi run this command:
 
 ```
-sudo apt-get update && sudo apt-get install -y qrencode
+sudo apt update && sudo apt install -y qrencode
 ```
 
 We will encode a QR code of this website to a PNG and then display the QR code
