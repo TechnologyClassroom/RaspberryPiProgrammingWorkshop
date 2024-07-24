@@ -1085,7 +1085,7 @@ connected to the Raspberry Pi. They are the camera and the infrared modules.
 
 [RPi Camera help](https://www.raspberrypi.org/help/camera-module-setup/)
 
-- Emulating a Raspberry Pi on your Computer with QEMU and Windows
+### Emulating a Raspberry Pi on your Computer with QEMU and Windows
 
 [Emulating a Raspberry Pi on your Computer with QEMU and Windows](http://www.pcsteps.com/1199-raspberry-pi-emulation-for-windows-qemu/)
 
@@ -1097,33 +1097,14 @@ card.
 
 ### Build a Retro Game system
 
-The RetroPie project aims to turn a Raspberry Pi into a game system. It
-includes an interface called emulationstation and can emulate many of the game
-consoles from 1977 to 1998.
+[Lakka](https://www.lakka.tv/) is an official port of RetroArch for single-board
+computers such as the Raspberry Pi. RetroArch is a system that makes selecting
+and loading various games and game systems much easier than it was in the past.
+The Raspberry Pi can emulate many of the game consoles from 1977 to 1998.
+Performance varies based on model and RAM.
 
-To install RetroPie on top of default Raspbian run these commands:
-
-```
-sudo apt-get update
-
-git clone git://github.com/petrockblog/RetroPie-Setup
- 
-cd RetroPie-Setup
-
-sudo ./retropie_setup.sh
-```
-
-The games will need to be copied into the appropriate folder before the console
-will appear in the menu. Logout to the terminal and run this command:
-
-```
-emulationstation
-```
-
-A popular alternative to this project is to build a RetroPie into a handheld
+A popular alternative to this project is to build the Raspberry Pi into a handheld
 case using 3D printed cases and a tiny screen.
-
-[Official RetroPie Website](http://blog.petrockblock.com/retropie/)
 
 [3D printing project for a GameBoy style case](http://www.thingiverse.com/thing:382485)
 
@@ -1179,7 +1160,7 @@ https://twitter.com/astro_pi_vis
 https://vimeo.com/157627149
 
 
-### Control your stereo over wifi
+### Control your stereo over WiFi
 
 How cool would it be to use your phone to control the stereo? You can do that
 with the Raspberry Pi. Put all of your music on a storage device. Connect your
