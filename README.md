@@ -1562,6 +1562,21 @@ sudo apt install -y libmtp-runtime
 
 From by The Good Doctor at https://crunchbang.org/forums/viewtopic.php?id=25200
 
+### Disable WiFi and Bluetooth
+
+By editing the `/boot/config.txt` file, you can disable WiFi or Bluetooth at boot time.
+
+Adding this line will disable WiFi:
+
+```
+dtoverlay=disable-wifi
+```
+
+Adding this line will disable Bluetooth:
+
+```
+dtoverlay=disable-bt
+```
 
 ## Raspberry Pi Giveaway
 
