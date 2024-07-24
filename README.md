@@ -102,6 +102,12 @@ $15. This makes a large environmental difference for long-term projects like
 hosting a web server or opening your garage when your phone comes within range.
 [source](http://michaelbluejay.com/electricity/computers.html)
 
+The Raspberry Pi Zero uses the letters W and H to differentiate whether it
+includes WiFi and soldered GPIO pins. W and H affect the price and size. I would
+recommend including the H for educational environments unless you are planning
+on doing a soldering lab as part of the course. It is not difficult to solder the
+pins, but it is time-consuming.
+
 ### Microcontrollers
 
 Microcontrollers are also a great education device for youth. You can program
