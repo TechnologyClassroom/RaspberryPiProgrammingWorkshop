@@ -1331,20 +1331,24 @@ with the new line of Raspberry Pis including the A+, B+, 2 B, Zero, and 3 B.
 
 ### No monitor
 
+Note: This process changed with Raspberry Pi OS Bookworm and this section needs
+a revision. See <https://raspberrypi.stackexchange.com/questions/144850/> for
+details.
+
 If you have a Raspberry Pi and do not have a monitor there is a way! Maybe you
 went on vacation and could not fit a monitor in your luggage. Maybe you
 ordered some cables and are waiting for them to arrive. Maybe you are working
 on a project that will never use a traditional monitor. Do not fear! There is
 a way!
 
-I am using a Debian based GNU/Linux machine for this section. If you are using
+I am using a Debian-based GNU/Linux machine for this section. If you are using
 another operating system, the process will be different.
 
 I flashed the Raspberry Pi OS onto a MicroSD card for the RPi. My sd card is
 sdc. Your device might be different.
 
 ```
-dd if=2021-03-04-raspios-buster-armhf.img of=/dev/sdc bs=4096 status=progress
+sudo dd if=2021-03-04-raspios-buster-armhf.img of=/dev/sdc bs=4096 status=progress
 ```
 
 I need to add wireless info and enabled ssh before first boot.
@@ -1531,10 +1535,10 @@ sudo date -s "14 APR 2053 15:34:00"
 ### Language defaults
 
 When installing from NOOBS and even if the language is correctly set at the
-bottom, sometimes the language and keyboard is still incorrect with Raspberry Pi OS.
-There is a GUI tool that can help configure this at the Raspberry Pi menu >
-Preferences > Raspberry Pi Configuration > Localisation. I use Set Locale, Set
-Timezone, and Set Keyboard in that menu.
+bottom, sometimes the language and keyboard is still incorrect with Raspberry
+Pi OS. There is a GUI tool that can help configure this at the Raspberry Pi
+menu > Preferences > Raspberry Pi Configuration > Localisation. I use Set
+Locale, Set Timezone, and Set Keyboard in that menu.
 
 To check localization settings, open a terminal and run this command:
 
@@ -1630,7 +1634,7 @@ with these two commands:
 ```
 qrencode -o qrcode.png 'https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop'
 
-feh -F qrcode.png 
+feh -F qrcode.png
 ```
 
 For more ideas on using qrencode, check out this
@@ -1671,7 +1675,7 @@ Raspberry Pi Links:
 - [Wolfram cloud based programming language and Mathematica have free versions included on Raspberry Pi OS.](http://www.wolfram.com/raspberry-pi/)
   For more information, see the
   [wolfram reference](http://reference.wolfram.com/language/).
-  
+
 Raspberry Pi Books:
 
 - [MagPi Magazine - Free digital magazines](https://www.raspberrypi.org/magpi/issues/)
@@ -1743,7 +1747,7 @@ Processing Links:
   [his programming videos on youtube](https://www.youtube.com/user/shiffman/videos)
   and
   [his extensive p5.js vimeo playlist](https://vimeo.com/channels/learningp5js).
-- [Processing subreddit](http://www.reddit.com/r/dailyprogrammer) 
+- [Processing subreddit](http://www.reddit.com/r/dailyprogrammer)
 - [Online interactive p5.js tutorial through Khan Academy](https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code)
 - [Gallery of examples from Hello.Processing](http://hello.processing.org/gallery/)
 - [Installing Processing on the Raspberry Pi](http://cagewebdev.com/index.php/raspberry-pi-running-processing-on-your-raspi/)
