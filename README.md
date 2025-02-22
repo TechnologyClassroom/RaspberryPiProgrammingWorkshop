@@ -1568,6 +1568,8 @@ From by The Good Doctor at https://crunchbang.org/forums/viewtopic.php?id=25200
 
 ### Disable WiFi and Bluetooth
 
+Note: Bookworm changed this process.
+
 By editing the `/boot/config.txt` file, you can disable WiFi or Bluetooth at boot time.
 
 Adding this line will disable WiFi:
@@ -1581,6 +1583,59 @@ Adding this line will disable Bluetooth:
 ```
 dtoverlay=disable-bt
 ```
+
+### Getting an old shield to work with Bookworm
+
+At the time of this writing, the Raspberry Pi OS based on Debian Bookworm
+changed many of the processes that worked on all of the previous versions. I
+have an old shield from a company that went out of business that converts HDMI
+audio to whatever audio output I would like. Problem is that none of the
+documentation works anymore.
+
+I am specifically talking about the SUBTRONICS X600 hat.
+
+Their website is gone and I lost my paper manual, but luckily I found the link
+and [the page was archived by the Internet Archive](https://web.archive.org/web/20210225012948/https://www.suptronics.com/Xseries/x600.html).
+
+The gist is that you need to edit the `/boot/config.txt` file and it needs these uncommented lines:
+
+```
+hdmi_force_hotplug=1
+hdmi_group=2
+hdmi_mode=47
+hdmi_drive=2
+```
+
+Seems easy enough, but there are some problems with that now. That file now
+says to not edit that file and edit `/boot/firmware/config.txt` file instead.
+Seems easy enough, but that config file does not say anything about HDMI
+anymore. Now what?
+
+I found a hint that what I want is in `/boot/cmdline.txt` which also says not
+to edit it and to edit the `/boot/firmware/cmdline.txt` file instead. Seems
+easy enough, but there also is not anything about HDMI here either. Still it
+was correct advice.
+
+I appened all of the above lines to the single line of the
+`/boot/firmware/cmdline.txt` file so it looked like this:
+
+`blahblahblah hdmi_force_hotplug=1 hdmi_group=2 hdmi_mode=47 hdmi_drive=2`
+
+Saved that file. Rebooted and crossed my fingers. Still did not work
+immediately, but it booted.
+
+I am running this system headless so I could not follow the final step. How do
+I click on HDMI output without a monitor and a mouse. I can use `raspi-config`.
+
+```
+sudo raspi-config
+```
+
+I then selected `1 System Options`, `S2 Audio`, `70 vc4-hdmi`, and followed the
+prompts which lead me to reboot.
+
+Then quality audio worked out of my hat and my `mpd` system will be running the
+latest updates.
 
 ## Raspberry Pi Giveaway
 
