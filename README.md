@@ -1609,7 +1609,7 @@ hdmi_drive=2
 Seems easy enough, but there are some problems with that now. That file now
 says to not edit that file and edit `/boot/firmware/config.txt` file instead.
 Seems easy enough, but that config file does not say anything about HDMI
-anymore. Now what?
+anymore. I read that it is no longer the right place for this. Now what?
 
 I found a hint that what I want is in `/boot/cmdline.txt` which also says not
 to edit it and to edit the `/boot/firmware/cmdline.txt` file instead. Seems
@@ -1635,7 +1635,7 @@ I then selected `1 System Options`, `S2 Audio`, `70 vc4-hdmi`, and followed the
 prompts which lead me to reboot.
 
 Then quality audio worked out of my hat and my `mpd` system will be running the
-latest updates.
+latest software updates.
 
 ## Raspberry Pi Giveaway
 
